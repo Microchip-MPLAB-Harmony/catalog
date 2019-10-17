@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Manifest>
+  <RepoList url="github.com" path="/Microchip-MPLAB-Harmony/">
+    <Repo name="mhc" required="true">
+      <Description>https://github.com/Microchip-MPLAB-Harmony/mhc/blob/master/readme.md</Description>
+      <Licenses>
+        <License name="MPLAB Harmony License" path="mplab_harmony_license.md"/>
+      </Licenses>
+    </Repo>
+    <Repo name="dev_packs" required="true">
+      <Description>This repo contains copies of DFPs for supported devices families</Description>
+      <Licenses>
+        <License name="CMSIS License" path="arm/CMSIS/5.5.1/LICENSE.txt"/>
+        <License name="Microchip Device Family Pack License" path="Microchip/LICENSE.txt"/>
+      </Licenses>
+    </Repo>
+    <Repo name="csp" required="true">
+      <Description>https://github.com/Microchip-MPLAB-Harmony/csp/blob/master/readme.md</Description>
+      <Licenses>
+        <License name="MPLAB Harmony License" path="mplab_harmony_license.md"/>
+      </Licenses>
+      <Dependencies>
+        <Dependency>dev_packs</Dependency>
+      </Dependencies>
+    </Repo>
+    <Repo name="bsp">
+      <Description>https://github.com/Microchip-MPLAB-Harmony/bsp/blob/master/readme.md</Description>
+      <Licenses>
+        <License name="MPLAB Harmony License" path="mplab_harmony_license.md"/>
+      </Licenses>
+      <Dependencies>
+        <Dependency>csp</Dependency>
+      </Dependencies>
+    </Repo>
+    <Repo name="core">
+      <Description>https://github.com/Microchip-MPLAB-Harmony/core/blob/master/readme.md</Description>
+      <Licenses>
+        <License name="MPLAB Harmony License" path="mplab_harmony_license.md"/>
+      </Licenses>
+      <Dependencies>
+        <Dependency>csp</Dependency>
+        <Dependency>bsp</Dependency>
+        <Dependency>CMSIS-FreeRTOS</Dependency>
+      </Dependencies>
+    </Repo>
+    <Repo name="crypto">
+      <Description>https://github.com/Microchip-MPLAB-Harmony/crypto/blob/master/readme.md</Description>
+      <Licenses>
+        <License name="MPLAB Harmony License" path="mplab_harmony_license.md"/>
+      </Licenses>
+      <Dependencies>
+        <Dependency>core</Dependency>
+        <Dependency>bsp</Dependency>
+        <Dependency>wolfssl</Dependency>
+        <Dependency>zlib</Dependency>
+      </Dependencies>
+    </Repo>
+    <Repo name="gfx">
+      <Description>https://github.com/Microchip-MPLAB-Harmony/gfx/blob/master/readme.md</Description>
+      <Licenses>
+        <License name="MPLAB Harmony License" path="mplab_harmony_license.md"/>
+      </Licenses>
+      <Dependencies>
+        <Dependency>core</Dependency>
+        <Dependency>bsp</Dependency>
+      </Dependencies>
+    </Repo>
+    <Repo name="gfx_apps">
+      <Description>https://github.com/Microchip-MPLAB-Harmony/gfx_apps/blob/master/readme.md</Description>
+      <Licenses>
+        <License name="MPLAB Harmony License" path="mplab_harmony_license.md"/>
+      </Licenses>
+      <Dependencies>
+        <Dependency>gfx</Dependency>
+      </Dependencies>
+    </Repo>
+    <Repo name="net">
+      <Description>https://github.com/Microchip-MPLAB-Harmony/net/blob/master/readme.md</Description>
+      <Licenses>
+        <License name="MPLAB Harmony License" path="mplab_harmony_license.md"/>
+      </Licenses>
+      <Dependencies>
+        <Dependency>core</Dependency>
+        <Dependency>bsp</Dependency>
+      </Dependencies>
+    </Repo>
+    <Repo name="usb">
+      <Description>https://github.com/Microchip-MPLAB-Harmony/usb/blob/master/readme.md</Description>
+      <Licenses>
+        <License name="MPLAB Harmony License" path="mplab_harmony_license.md"/>
+      </Licenses>
+      <Dependencies>
+        <Dependency>core</Dependency>
+        <Dependency>bsp</Dependency>
+      </Dependencies>
+    </Repo>
+    <Repo name="audio">
+      <Description>https://github.com/Microchip-MPLAB-Harmony/audio/blob/master/readme.md</Description>
+      <Licenses>
+        <License name="MPLAB Harmony License" path="mplab_harmony_license.md"/>
+      </Licenses>
+      <Dependencies>
+        <Dependency>core</Dependency>
+        <Dependency>bsp</Dependency>
+        <Dependency>usb</Dependency>
+      </Dependencies>
+    </Repo>
+    <Repo name="bt">
+      <Description>https://github.com/Microchip-MPLAB-Harmony/bt/blob/master/readme.md</Description>
+      <Licenses>
+        <License name="MPLAB Harmony License" path="mplab_harmony_license.md"/>
+      </Licenses>
+      <Dependencies>
+        <Dependency>core</Dependency>
+        <Dependency>bsp</Dependency>
+        <Dependency>usb</Dependency>
+      </Dependencies>
+    </Repo>
+    <Repo name="motor_control">
+      <Description>https://github.com/Microchip-MPLAB-Harmony/motor_control/blob/master/readme.md</Description>
+      <Licenses>
+        <License name="MPLAB Harmony License" path="mplab_harmony_license.md"/>
+      </Licenses>
+      <Dependencies>
+        <Dependency>csp</Dependency>
+        <Dependency>dev_packs</Dependency>
+      </Dependencies>
+    </Repo>
+    <Repo name="micrium_ucos3">
+      <Description>https://github.com/Microchip-MPLAB-Harmony/micrium_ucos3/blob/master/readme.md</Description>
+      <Licenses>
+        <License name="MPLAB Harmony License" path="mplab_harmony_license.md"/>
+      </Licenses>
+      <Dependencies>
+        <Dependency>core</Dependency>
+      </Dependencies>
+    </Repo>
+    <Repo name="touch">
+      <Description>https://github.com/Microchip-MPLAB-Harmony/touch/blob/master/readme.md</Description>
+      <Licenses>
+        <License name="MPLAB Harmony License" path="mplab_harmony_license.md"/>
+      </Licenses>
+      <Dependencies>
+        <Dependency>csp</Dependency>
+      </Dependencies>
+    </Repo>
+    <Repo name="bootloader">
+      <Description>https://github.com/Microchip-MPLAB-Harmony/bootloader/blob/master/readme.md</Description>
+      <Licenses>
+        <License name="MPLAB Harmony License" path="mplab_harmony_license.md"/>
+      </Licenses>
+      <Dependencies>
+        <Dependency>csp</Dependency>
+        <Dependency>core</Dependency>
+        <Dependency>bsp</Dependency>
+      </Dependencies>
+    </Repo>
+
+    <!-- Third-parties -->
+    <Repo name="CMSIS-FreeRTOS">
+      <Description>https://github.com/Microchip-MPLAB-Harmony/CMSIS-FreeRTOS/blob/develop/README.md</Description>
+      <Licenses>
+        <License name="MIT License" path="License/license.txt"/>
+      </Licenses>
+      <!-- <Dependencies/> -->
+    </Repo>
+    <Repo name="zlib">
+      <Description>https://github.com/Microchip-MPLAB-Harmony/zlib/blob/master/README</Description>
+      <Licenses>
+        <License name="zlib" path="README"/>
+      </Licenses>
+      <!-- <Dependencies/> -->
+    </Repo>
+    <Repo name="wolfssl">
+      <Description>https://github.com/Microchip-MPLAB-Harmony/wolfssl/blob/master/README.md</Description>
+      <Licenses>
+        <License name="GNU GENERAL PUBLIC LICENSE v2" path="LICENSING"/>
+      </Licenses>
+      <!-- <Dependencies/> -->
+    </Repo>
+    <Repo name="wolfssh">
+      <Description>https://github.com/Microchip-MPLAB-Harmony/wolfssh/blob/master/README.md</Description>
+      <Licenses>
+        <License name="GNU GENERAL PUBLIC LICENSE v2" path="LICENSING"/>
+      </Licenses>
+      <!-- <Dependencies/> -->
+    </Repo>
+    <Repo name="wolfMQTT">
+      <Description>https://github.com/Microchip-MPLAB-Harmony/wolfMQTT/blob/master/README.md</Description>
+      <Licenses>
+        <License name="GNU GENERAL PUBLIC LICENSE v2" path="LICENSE"/>
+      </Licenses>
+      <!-- <Dependencies/> -->
+    </Repo>
+  </RepoList>
+</Manifest>
