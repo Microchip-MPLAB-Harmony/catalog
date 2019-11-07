@@ -144,6 +144,19 @@
         <Dependency>csp</Dependency>
       </Dependencies>
     </Repo>
+    <Repo name="wireless">
+      <Description>https://github.com/Microchip-MPLAB-Harmony/wireless/blob/master/readme.md</Description>
+      <Licenses>
+        <License name="MPLAB Harmony License" path="mplab_harmony_license.md"/>
+      </Licenses>
+      <Dependencies>
+        <Dependency>dev_packs</Dependency>
+        <Dependency>csp</Dependency>
+        <Dependency>core</Dependency>
+        <Dependency>bsp</Dependency>
+        <Dependency>net</Dependency>
+      </Dependencies>
+    </Repo>
     <Repo name="bootloader">
       <Description>https://github.com/Microchip-MPLAB-Harmony/bootloader/blob/master/readme.md</Description>
       <Licenses>
