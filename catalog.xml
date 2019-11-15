@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Manifest>
-  <RepoList url="github.com" path="/Microchip-MPLAB-Harmony/">
+  <RepoList url="github.com" path="/Microchip-MPLAB-Harmony/" raw_file_url_pattern="https://raw.githubusercontent.com/Microchip-MPLAB-Harmony/{REPO_NAME}/{BRANCH-NAME/TAG-NAME}/{FILE-NAME}">
     <Repo name="mhc" required="true">
       <Description>https://github.com/Microchip-MPLAB-Harmony/mhc/blob/master/readme.md</Description>
       <Licenses>
