@@ -82,6 +82,9 @@
       <Dependencies>
         <Dependency>core</Dependency>
         <Dependency>bsp</Dependency>
+        <Dependency>crypto</Dependency>
+        <Dependency>wolfssl</Dependency>
+        <Dependency>wolfMQTT</Dependency>
       </Dependencies>
     </Repo>
     <Repo name="usb">
