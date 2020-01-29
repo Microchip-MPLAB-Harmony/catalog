@@ -10,7 +10,7 @@
     <Repo name="dev_packs" required="true">
       <Description>This repo contains copies of DFPs for supported devices families</Description>
       <Licenses>
-        <License name="CMSIS License" path="arm/CMSIS/5.5.1/LICENSE.txt"/>
+        <License name="CMSIS License" path="arm/CMSIS/5.6.0/LICENSE.txt"/>
         <License name="Microchip Device Family Pack License" path="Microchip/LICENSE.txt"/>
       </Licenses>
     </Repo>
@@ -138,6 +138,15 @@
         <Dependency>core</Dependency>
       </Dependencies>
     </Repo>
+    <Repo name="expresslogic_threadx">
+      <Description>https://github.com/Microchip-MPLAB-Harmony/expresslogic_threadx/blob/master/readme.md</Description>
+      <Licenses>
+        <License name="MPLAB Harmony License" path="mplab_harmony_license.md"/>
+      </Licenses>
+      <Dependencies>
+        <Dependency>core</Dependency>
+      </Dependencies>
+    </Repo>
     <Repo name="touch">
       <Description>https://github.com/Microchip-MPLAB-Harmony/touch/blob/master/readme.md</Description>
       <Licenses>
@@ -191,6 +200,7 @@
       <Description>https://github.com/Microchip-MPLAB-Harmony/wolfssl/blob/master/README.md</Description>
       <Licenses>
         <License name="GNU GENERAL PUBLIC LICENSE v2" path="LICENSING"/>
+        <License name="Microchip/WolfSSL EULA" path="WolfSSL_EULicense_Microchip.md"/>
       </Licenses>
       <!-- <Dependencies/> -->
     </Repo>
