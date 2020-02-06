@@ -180,6 +180,15 @@
         <Dependency>bsp</Dependency>
       </Dependencies>
     </Repo>
+    <Repo name="cryptoauthlib_apps">
+      <Description>https://github.com/Microchip-MPLAB-Harmony/cryptoauthlib_apps/blob/master/readme.md</Description>
+      <Licenses>
+        <License name="MPLAB Harmony License" path="mplab_harmony_license.md"/>
+      </Licenses>
+      <Dependencies>
+        <Dependency>cryptoauthlib</Dependency>
+      </Dependencies>
+    </Repo>
 
     <!-- Third-parties -->
     <Repo name="CMSIS-FreeRTOS">
@@ -217,6 +226,17 @@
         <License name="GNU GENERAL PUBLIC LICENSE v2" path="LICENSE"/>
       </Licenses>
       <!-- <Dependencies/> -->
+    </Repo>
+  </RepoList>
+  <RepoList url="github.com" path="/MicrochipTech/" raw_file_url_pattern="https://raw.githubusercontent.com/MicrochipTech/{REPO_NAME}/{BRANCH-NAME/TAG-NAME}/{FILE-NAME}">
+    <Repo name="cryptoauthlib">
+      <Description>https://github.com/MicrochipTech/cryptoauthlib/blob/master/README.md</Description>
+      <Licenses>
+        <License name="Microchip CAL License" path="license.txt"/>
+      </Licenses>
+      <Dependencies>
+        <Dependency>csp</Dependency>
+      </Dependencies>
     </Repo>
   </RepoList>
 </Manifest>
