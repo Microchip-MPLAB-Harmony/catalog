@@ -169,8 +169,34 @@
         <Dependency>net</Dependency>
       </Dependencies>
     </Repo>
+    <Repo name="aws_cloud">
+      <Description>https://github.com/Microchip-MPLAB-Harmony/aws_cloud/blob/master/readme.md</Description>
+      <Licenses>
+        <License name="MPLAB Harmony License" path="mplab_harmony_license.md"/>
+      </Licenses>
+      <Dependencies>
+        <Dependency>dev_packs</Dependency>
+        <Dependency>csp</Dependency>
+        <Dependency>core</Dependency>
+        <Dependency>bsp</Dependency>
+        <Dependency>net</Dependency>
+        <Dependency>amazon-freertos</Dependency>
+        <Dependency>cryptoauthlib</Dependency>
+      </Dependencies>
+    </Repo>
     <Repo name="bootloader">
       <Description>https://github.com/Microchip-MPLAB-Harmony/bootloader/blob/master/readme.md</Description>
+      <Licenses>
+        <License name="MPLAB Harmony License" path="mplab_harmony_license.md"/>
+      </Licenses>
+      <Dependencies>
+        <Dependency>csp</Dependency>
+        <Dependency>core</Dependency>
+        <Dependency>bsp</Dependency>
+      </Dependencies>
+    </Repo>
+    <Repo name="aerospace">
+      <Description>https://github.com/Microchip-MPLAB-Harmony/aerospace/blob/master/readme.md</Description>
       <Licenses>
         <License name="MPLAB Harmony License" path="mplab_harmony_license.md"/>
       </Licenses>
@@ -187,17 +213,6 @@
       </Licenses>
       <Dependencies>
         <Dependency>cryptoauthlib</Dependency>
-      </Dependencies>
-    </Repo>
-    <Repo name="aerospace">
-      <Description>https://github.com/Microchip-MPLAB-Harmony/aerospace/blob/master/readme.md</Description>
-      <Licenses>
-        <License name="MPLAB Harmony License" path="mplab_harmony_license.md"/>
-      </Licenses>
-      <Dependencies>
-        <Dependency>csp</Dependency>
-        <Dependency>core</Dependency>
-        <Dependency>bsp</Dependency>
       </Dependencies>
     </Repo>
 
@@ -239,6 +254,7 @@
       <!-- <Dependencies/> -->
     </Repo>
   </RepoList>
+
   <RepoList url="github.com" path="/MicrochipTech/" raw_file_url_pattern="https://raw.githubusercontent.com/MicrochipTech/{REPO_NAME}/{BRANCH-NAME/TAG-NAME}/{FILE-NAME}">
     <Repo name="cryptoauthlib">
       <Description>https://github.com/MicrochipTech/cryptoauthlib/blob/master/README.md</Description>
@@ -248,6 +264,13 @@
       <Dependencies>
         <Dependency>csp</Dependency>
       </Dependencies>
+    </Repo>
+    <Repo name="amazon-freertos">
+      <Description>https://github.com/MicrochipTech/amazon-freertos/blob/master/README.md</Description>
+      <Licenses>
+        <License name="MIT License" path="LICENSE"/>
+      </Licenses>
+      <!-- <Dependencies/> -->
     </Repo>
   </RepoList>
 </Manifest>
