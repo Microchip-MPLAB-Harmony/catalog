@@ -218,8 +218,8 @@
     <Repo name="helix_mp3">
       <Description>This repo contains the source code for the open-source Helix MP3 Decoder Library</Description>
       <Licenses>
-        <License name="RealNetworks Community Source License (RCSL)" path="fixpnt/RCSL.txt"/>
-        <License name="RealNetworks Public Source License (RPSL)" path="fixpnt/RPSL.txt"/>
+        <License name="RealNetworks Community Source License" path="fixpnt/RCSL.txt"/>
+        <License name="RealNetworks Public Source License" path="fixpnt/RPSL.txt"/>
       </Licenses>
     </Repo>
 
