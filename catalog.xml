@@ -129,6 +129,15 @@
         <Dependency>dev_packs</Dependency>
       </Dependencies>
     </Repo>
+    <Repo name="x2c">
+      <Description>https://github.com/Microchip-MPLAB-Harmony/x2c/blob/master/readme.md</Description>
+      <Licenses>
+        <License name="MPLAB Harmony License" path="mplab_harmony_license.md"/>
+      </Licenses>
+      <Dependencies>
+        <Dependency>csp</Dependency>
+      </Dependencies>
+    </Repo>    
     <Repo name="micrium_ucos3">
       <Description>https://github.com/Microchip-MPLAB-Harmony/micrium_ucos3/blob/master/readme.md</Description>
       <Licenses>
