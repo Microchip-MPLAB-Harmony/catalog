@@ -224,6 +224,18 @@
         <License name="RealNetworks Public Source License" path="fixpnt/RPSL.txt"/>
       </Licenses>
     </Repo>
+    <Repo name="quick_docs" required="true">
+      <Description>https://github.com/Microchip-MPLAB-Harmony/quick_docs/blob/master/readme.md</Description>
+      <Licenses>
+        <License name="MPLAB Harmony License" path="mplab_harmony_license.md"/>
+      </Licenses>
+    </Repo>
+    <Repo name="reference_apps">
+      <Description>https://github.com/Microchip-MPLAB-Harmony/reference_apps/blob/master/readme.md</Description>
+      <Licenses>
+        <License name="MPLAB Harmony License" path="mplab_harmony_license.md"/>
+      </Licenses>
+    </Repo>
 
     <!-- Third-parties -->
     <Repo name="CMSIS-FreeRTOS">
