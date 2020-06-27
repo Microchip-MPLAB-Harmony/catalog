@@ -236,6 +236,12 @@
         <License name="MPLAB Harmony License" path="mplab_harmony_license.md"/>
       </Licenses>
     </Repo>
+    <Repo name="classb_sam_e5x_d5x">
+      <Description>https://github.com/Microchip-MPLAB-Harmony/classb_sam_e5x_d5x/blob/master/readme.md</Description>
+      <Licenses>
+        <License name="MPLAB Harmony License" path="mplab_harmony_license.md"/>
+      </Licenses>
+    </Repo>
 
     <!-- Third-parties -->
     <Repo name="CMSIS-FreeRTOS">
