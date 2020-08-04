@@ -194,6 +194,12 @@
         <License name="RealNetworks Public Source License" path="fixpnt/RPSL.txt"/>
       </Licenses>
     </Repo>
+    <Repo name="ethercat">
+      <Description>https://github.com/Microchip-MPLAB-Harmony/ethercat/blob/master/readme.md</Description>
+      <Licenses>
+        <License name="MPLAB Harmony License" path="mplab_harmony_license.md"/>
+      </Licenses>
+    </Repo>
     <Repo name="quick_docs" required="true">
       <Description>https://github.com/Microchip-MPLAB-Harmony/quick_docs/blob/master/readme.md</Description>
       <Licenses>
