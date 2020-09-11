@@ -10,7 +10,7 @@
     <Repo name="dev_packs" required="true">
       <Description>This repo contains copies of DFPs for supported devices families</Description>
       <Licenses>
-        <License name="CMSIS License" path="arm/CMSIS/5.6.0/LICENSE.txt"/>
+        <License name="CMSIS License" path="arm/CMSIS/LICENSE.txt"/>
         <License name="Microchip Device Family Pack License" path="Microchip/LICENSE.txt"/>
       </Licenses>
     </Repo>
@@ -19,7 +19,126 @@
       <Licenses>
         <License name="MPLAB Harmony License" path="mplab_harmony_license.md"/>
       </Licenses>
-
+    </Repo>
+    <Repo name="csp_apps_pic32mk">
+        <Description>https://github.com/Microchip-MPLAB-Harmony/csp_apps_pic32mk/blob/master/readme.md</Description>
+        <Licenses>
+        <License name="MPLAB Harmony License" path="mplab_harmony_license.md"/>
+        </Licenses>
+    </Repo>
+    <Repo name="csp_apps_pic32mx">
+        <Description>https://github.com/Microchip-MPLAB-Harmony/csp_apps_pic32mx/blob/master/readme.md</Description>
+        <Licenses>
+        <License name="MPLAB Harmony License" path="mplab_harmony_license.md"/>
+        </Licenses>
+    </Repo>
+    <Repo name="csp_apps_pic32mz_da">
+        <Description>https://github.com/Microchip-MPLAB-Harmony/csp_apps_pic32mz_da/blob/master/readme.md</Description>
+        <Licenses>
+        <License name="MPLAB Harmony License" path="mplab_harmony_license.md"/>
+        </Licenses>
+    </Repo>
+    <Repo name="csp_apps_pic32mz_ef">
+        <Description>https://github.com/Microchip-MPLAB-Harmony/csp_apps_pic32mz_ef/blob/master/readme.md</Description>
+        <Licenses>
+        <License name="MPLAB Harmony License" path="mplab_harmony_license.md"/>
+        </Licenses>
+    </Repo>
+    <Repo name="csp_apps_pic32mz_w1">
+        <Description>https://github.com/Microchip-MPLAB-Harmony/csp_apps_pic32mz_w1/blob/master/readme.md</Description>
+        <Licenses>
+        <License name="MPLAB Harmony License" path="mplab_harmony_license.md"/>
+        </Licenses>
+    </Repo>
+    <Repo name="csp_apps_sam_9x60">
+        <Description>https://github.com/Microchip-MPLAB-Harmony/csp_apps_sam_9x60/blob/master/readme.md</Description>
+        <Licenses>
+        <License name="MPLAB Harmony License" path="mplab_harmony_license.md"/>
+        </Licenses>
+    </Repo>
+    <Repo name="csp_apps_sam_a5d2">
+        <Description>https://github.com/Microchip-MPLAB-Harmony/csp_apps_sam_a5d2/blob/master/readme.md</Description>
+        <Licenses>
+        <License name="MPLAB Harmony License" path="mplab_harmony_license.md"/>
+        </Licenses>
+    </Repo>
+    <Repo name="csp_apps_sam_c20_c21">
+        <Description>https://github.com/Microchip-MPLAB-Harmony/csp_apps_sam_c20_c21/blob/master/readme.md</Description>
+        <Licenses>
+        <License name="MPLAB Harmony License" path="mplab_harmony_license.md"/>
+        </Licenses>
+    </Repo>
+    <Repo name="csp_apps_sam_d10">
+        <Description>https://github.com/Microchip-MPLAB-Harmony/csp_apps_sam_d10/blob/master/readme.md</Description>
+        <Licenses>
+        <License name="MPLAB Harmony License" path="mplab_harmony_license.md"/>
+        </Licenses>
+    </Repo>
+    <Repo name="csp_apps_sam_d11">
+        <Description>https://github.com/Microchip-MPLAB-Harmony/csp_apps_sam_d11/blob/master/readme.md</Description>
+        <Licenses>
+        <License name="MPLAB Harmony License" path="mplab_harmony_license.md"/>
+        </Licenses>
+    </Repo>
+    <Repo name="csp_apps_sam_d20">
+        <Description>https://github.com/Microchip-MPLAB-Harmony/csp_apps_sam_d20/blob/master/readme.md</Description>
+        <Licenses>
+        <License name="MPLAB Harmony License" path="mplab_harmony_license.md"/>
+        </Licenses>
+    </Repo>
+    <Repo name="csp_apps_sam_d21_da1">
+        <Description>https://github.com/Microchip-MPLAB-Harmony/csp_apps_sam_d21_da1/blob/master/readme.md</Description>
+        <Licenses>
+        <License name="MPLAB Harmony License" path="mplab_harmony_license.md"/>
+        </Licenses>
+    </Repo>
+    <Repo name="csp_apps_sam_d5x_e5x">
+        <Description>https://github.com/Microchip-MPLAB-Harmony/csp_apps_sam_d5x_e5x/blob/master/readme.md</Description>
+        <Licenses>
+        <License name="MPLAB Harmony License" path="mplab_harmony_license.md"/>
+        </Licenses>
+    </Repo>
+    <Repo name="csp_apps_sam_e70_s70_v70_v71">
+        <Description>https://github.com/Microchip-MPLAB-Harmony/csp_apps_sam_e70_s70_v70_v71/blob/master/readme.md</Description>
+        <Licenses>
+        <License name="MPLAB Harmony License" path="mplab_harmony_license.md"/>
+        </Licenses>
+    </Repo>
+    <Repo name="csp_apps_sam_g55">
+        <Description>https://github.com/Microchip-MPLAB-Harmony/csp_apps_sam_g55/blob/master/readme.md</Description>
+        <Licenses>
+        <License name="MPLAB Harmony License" path="mplab_harmony_license.md"/>
+        </Licenses>
+    </Repo>
+    <Repo name="csp_apps_sam_ha1">
+        <Description>https://github.com/Microchip-MPLAB-Harmony/csp_apps_sam_ha1/blob/master/readme.md</Description>
+        <Licenses>
+        <License name="MPLAB Harmony License" path="mplab_harmony_license.md"/>
+        </Licenses>
+    </Repo>
+    <Repo name="csp_apps_sam_l10_l11">
+        <Description>https://github.com/Microchip-MPLAB-Harmony/csp_apps_sam_l10_l11/blob/master/readme.md</Description>
+        <Licenses>
+        <License name="MPLAB Harmony License" path="mplab_harmony_license.md"/>
+        </Licenses>
+    </Repo>
+    <Repo name="csp_apps_sam_l21">
+        <Description>https://github.com/Microchip-MPLAB-Harmony/csp_apps_sam_l21/blob/master/readme.md</Description>
+        <Licenses>
+        <License name="MPLAB Harmony License" path="mplab_harmony_license.md"/>
+        </Licenses>
+    </Repo>
+    <Repo name="csp_apps_sam_l22">
+        <Description>https://github.com/Microchip-MPLAB-Harmony/csp_apps_sam_l22/blob/master/readme.md</Description>
+        <Licenses>
+        <License name="MPLAB Harmony License" path="mplab_harmony_license.md"/>
+        </Licenses>
+    </Repo>
+    <Repo name="csp_apps_sam_rh71">
+        <Description>https://github.com/Microchip-MPLAB-Harmony/csp_apps_sam_rh71/blob/master/readme.md</Description>
+        <Licenses>
+        <License name="MPLAB Harmony License" path="mplab_harmony_license.md"/>
+        </Licenses>
     </Repo>
     <Repo name="bsp">
       <Description>https://github.com/Microchip-MPLAB-Harmony/bsp/blob/master/readme.md</Description>
@@ -32,57 +151,159 @@
       <Description>https://github.com/Microchip-MPLAB-Harmony/core/blob/master/readme.md</Description>
       <Licenses>
         <License name="MPLAB Harmony License" path="mplab_harmony_license.md"/>
+        <License name="FatFS License" path="system/fs/fat_fs/readme_fatfs_license.md"/>
+        <License name="exFAT License" path="system/fs/fat_fs/readme_exfat_license.md"/>
       </Licenses>
-
+    </Repo>
+    <Repo name="core_apps_pic32mk">
+        <Description>https://github.com/Microchip-MPLAB-Harmony/core_apps_pic32mk/blob/master/readme.md</Description>
+        <Licenses>
+        <License name="MPLAB Harmony License" path="mplab_harmony_license.md"/>
+        </Licenses>
+    </Repo>
+    <Repo name="core_apps_pic32mx">
+        <Description>https://github.com/Microchip-MPLAB-Harmony/core_apps_pic32mx/blob/master/readme.md</Description>
+        <Licenses>
+        <License name="MPLAB Harmony License" path="mplab_harmony_license.md"/>
+        </Licenses>
+    </Repo>
+    <Repo name="core_apps_pic32mz_da">
+        <Description>https://github.com/Microchip-MPLAB-Harmony/core_apps_pic32mz_da/blob/master/readme.md</Description>
+        <Licenses>
+        <License name="MPLAB Harmony License" path="mplab_harmony_license.md"/>
+        </Licenses>
+    </Repo>
+    <Repo name="core_apps_pic32mz_ef">
+        <Description>https://github.com/Microchip-MPLAB-Harmony/core_apps_pic32mz_ef/blob/master/readme.md</Description>
+        <Licenses>
+        <License name="MPLAB Harmony License" path="mplab_harmony_license.md"/>
+        </Licenses>
+    </Repo>
+    <Repo name="core_apps_pic32mz_w1">
+        <Description>https://github.com/Microchip-MPLAB-Harmony/core_apps_pic32mz_w1/blob/master/readme.md</Description>
+        <Licenses>
+        <License name="MPLAB Harmony License" path="mplab_harmony_license.md"/>
+        </Licenses>
+    </Repo>
+    <Repo name="core_apps_sam_9x60">
+        <Description>https://github.com/Microchip-MPLAB-Harmony/core_apps_sam_9x60/blob/master/readme.md</Description>
+        <Licenses>
+        <License name="MPLAB Harmony License" path="mplab_harmony_license.md"/>
+        </Licenses>
+    </Repo>
+    <Repo name="core_apps_sam_a5d2">
+        <Description>https://github.com/Microchip-MPLAB-Harmony/core_apps_sam_a5d2/blob/master/readme.md</Description>
+        <Licenses>
+        <License name="MPLAB Harmony License" path="mplab_harmony_license.md"/>
+        </Licenses>
+    </Repo>
+    <Repo name="core_apps_sam_c20_c21">
+        <Description>https://github.com/Microchip-MPLAB-Harmony/core_apps_sam_c20_c21/blob/master/readme.md</Description>
+        <Licenses>
+        <License name="MPLAB Harmony License" path="mplab_harmony_license.md"/>
+        </Licenses>
+    </Repo>
+    <Repo name="core_apps_sam_d20">
+        <Description>https://github.com/Microchip-MPLAB-Harmony/core_apps_sam_d20/blob/master/readme.md</Description>
+        <Licenses>
+        <License name="MPLAB Harmony License" path="mplab_harmony_license.md"/>
+        </Licenses>
+    </Repo>
+    <Repo name="core_apps_sam_d21_da1">
+        <Description>https://github.com/Microchip-MPLAB-Harmony/core_apps_sam_d21_da1/blob/master/readme.md</Description>
+        <Licenses>
+        <License name="MPLAB Harmony License" path="mplab_harmony_license.md"/>
+        </Licenses>
+    </Repo>
+    <Repo name="core_apps_sam_d5x_e5x">
+        <Description>https://github.com/Microchip-MPLAB-Harmony/core_apps_sam_d5x_e5x/blob/master/readme.md</Description>
+        <Licenses>
+        <License name="MPLAB Harmony License" path="mplab_harmony_license.md"/>
+        </Licenses>
+    </Repo>
+    <Repo name="core_apps_sam_e70_s70_v70_v71">
+        <Description>https://github.com/Microchip-MPLAB-Harmony/core_apps_sam_e70_s70_v70_v71/blob/master/readme.md</Description>
+        <Licenses>
+        <License name="MPLAB Harmony License" path="mplab_harmony_license.md"/>
+        </Licenses>
+    </Repo>
+    <Repo name="core_apps_sam_g55">
+        <Description>https://github.com/Microchip-MPLAB-Harmony/core_apps_sam_g55/blob/master/readme.md</Description>
+        <Licenses>
+        <License name="MPLAB Harmony License" path="mplab_harmony_license.md"/>
+        </Licenses>
+    </Repo>
+    <Repo name="core_apps_sam_ha1">
+        <Description>https://github.com/Microchip-MPLAB-Harmony/core_apps_sam_ha1/blob/master/readme.md</Description>
+        <Licenses>
+        <License name="MPLAB Harmony License" path="mplab_harmony_license.md"/>
+        </Licenses>
+    </Repo>
+    <Repo name="core_apps_sam_l10_l11">
+        <Description>https://github.com/Microchip-MPLAB-Harmony/core_apps_sam_l10_l11/blob/master/readme.md</Description>
+        <Licenses>
+        <License name="MPLAB Harmony License" path="mplab_harmony_license.md"/>
+        </Licenses>
+    </Repo>
+    <Repo name="core_apps_sam_l21">
+        <Description>https://github.com/Microchip-MPLAB-Harmony/core_apps_sam_l21/blob/master/readme.md</Description>
+        <Licenses>
+        <License name="MPLAB Harmony License" path="mplab_harmony_license.md"/>
+        </Licenses>
+    </Repo>
+    <Repo name="core_apps_sam_l22">
+        <Description>https://github.com/Microchip-MPLAB-Harmony/core_apps_sam_l22/blob/master/readme.md</Description>
+        <Licenses>
+        <License name="MPLAB Harmony License" path="mplab_harmony_license.md"/>
+        </Licenses>
+    </Repo>
+    <Repo name="core_apps_sam_rh71">
+        <Description>https://github.com/Microchip-MPLAB-Harmony/core_apps_sam_rh71/blob/master/readme.md</Description>
+        <Licenses>
+        <License name="MPLAB Harmony License" path="mplab_harmony_license.md"/>
+        </Licenses>
     </Repo>
     <Repo name="crypto">
       <Description>https://github.com/Microchip-MPLAB-Harmony/crypto/blob/master/readme.md</Description>
       <Licenses>
         <License name="MPLAB Harmony License" path="mplab_harmony_license.md"/>
       </Licenses>
-
     </Repo>
     <Repo name="gfx">
       <Description>https://github.com/Microchip-MPLAB-Harmony/gfx/blob/master/readme.md</Description>
       <Licenses>
         <License name="MPLAB Harmony License" path="mplab_harmony_license.md"/>
       </Licenses>
-
     </Repo>
     <Repo name="gfx_apps">
       <Description>https://github.com/Microchip-MPLAB-Harmony/gfx_apps/blob/master/readme.md</Description>
       <Licenses>
         <License name="MPLAB Harmony License" path="mplab_harmony_license.md"/>
       </Licenses>
-
     </Repo>
     <Repo name="net">
       <Description>https://github.com/Microchip-MPLAB-Harmony/net/blob/master/readme.md</Description>
       <Licenses>
         <License name="MPLAB Harmony License" path="mplab_harmony_license.md"/>
       </Licenses>
-
     </Repo>
     <Repo name="usb">
       <Description>https://github.com/Microchip-MPLAB-Harmony/usb/blob/master/readme.md</Description>
       <Licenses>
         <License name="MPLAB Harmony License" path="mplab_harmony_license.md"/>
       </Licenses>
-
     </Repo>
     <Repo name="audio">
       <Description>https://github.com/Microchip-MPLAB-Harmony/audio/blob/master/readme.md</Description>
       <Licenses>
         <License name="MPLAB Harmony License" path="mplab_harmony_license.md"/>
       </Licenses>
-
     </Repo>
     <Repo name="bt">
       <Description>https://github.com/Microchip-MPLAB-Harmony/bt/blob/master/readme.md</Description>
       <Licenses>
         <License name="MPLAB Harmony License" path="mplab_harmony_license.md"/>
       </Licenses>
-
     </Repo>
     <Repo name="motor_control">
       <Description>https://github.com/Microchip-MPLAB-Harmony/motor_control/blob/master/readme.md</Description>
@@ -101,91 +322,78 @@
       <Licenses>
         <License name="MPLAB Harmony License" path="mplab_harmony_license.md"/>
       </Licenses>
-
     </Repo>
     <Repo name="expresslogic_threadx">
       <Description>https://github.com/Microchip-MPLAB-Harmony/expresslogic_threadx/blob/master/readme.md</Description>
       <Licenses>
         <License name="MPLAB Harmony License" path="mplab_harmony_license.md"/>
       </Licenses>
-
     </Repo>
     <Repo name="touch">
       <Description>https://github.com/Microchip-MPLAB-Harmony/touch/blob/master/readme.md</Description>
       <Licenses>
         <License name="MPLAB Harmony License" path="mplab_harmony_license.md"/>
       </Licenses>
-
     </Repo>
     <Repo name="wireless">
       <Description>https://github.com/Microchip-MPLAB-Harmony/wireless/blob/master/readme.md</Description>
       <Licenses>
         <License name="MPLAB Harmony License" path="mplab_harmony_license.md"/>
       </Licenses>
-
     </Repo>
     <Repo name="aws_cloud">
       <Description>https://github.com/Microchip-MPLAB-Harmony/aws_cloud/blob/master/readme.md</Description>
       <Licenses>
         <License name="MPLAB Harmony License" path="mplab_harmony_license.md"/>
       </Licenses>
-
     </Repo>
     <Repo name="bootloader">
       <Description>https://github.com/Microchip-MPLAB-Harmony/bootloader/blob/master/readme.md</Description>
       <Licenses>
         <License name="MPLAB Harmony License" path="mplab_harmony_license.md"/>
       </Licenses>
-
     </Repo>
     <Repo name="bootloader_apps_uart">
       <Description>https://github.com/Microchip-MPLAB-Harmony/bootloader_apps_uart/blob/master/readme.md</Description>
       <Licenses>
         <License name="MPLAB Harmony License" path="mplab_harmony_license.md"/>
       </Licenses>
-
     </Repo>
     <Repo name="bootloader_apps_i2c">
       <Description>https://github.com/Microchip-MPLAB-Harmony/bootloader_apps_i2c/blob/master/readme.md</Description>
       <Licenses>
         <License name="MPLAB Harmony License" path="mplab_harmony_license.md"/>
       </Licenses>
-
     </Repo>
     <Repo name="bootloader_apps_usb">
       <Description>https://github.com/Microchip-MPLAB-Harmony/bootloader_apps_usb/blob/master/readme.md</Description>
       <Licenses>
         <License name="MPLAB Harmony License" path="mplab_harmony_license.md"/>
       </Licenses>
-
     </Repo>
     <Repo name="bootloader_apps_ethernet">
       <Description>https://github.com/Microchip-MPLAB-Harmony/bootloader_apps_ethernet/blob/master/readme.md</Description>
       <Licenses>
         <License name="MPLAB Harmony License" path="mplab_harmony_license.md"/>
       </Licenses>
-
     </Repo>
     <Repo name="bootloader_apps_sdcard">
       <Description>https://github.com/Microchip-MPLAB-Harmony/bootloader_apps_sdcard/blob/master/readme.md</Description>
       <Licenses>
         <License name="MPLAB Harmony License" path="mplab_harmony_license.md"/>
       </Licenses>
-
     </Repo>
     <Repo name="aerospace">
       <Description>https://github.com/Microchip-MPLAB-Harmony/aerospace/blob/master/readme.md</Description>
       <Licenses>
         <License name="MPLAB Harmony License" path="mplab_harmony_license.md"/>
       </Licenses>
-
     </Repo>
     <Repo name="cryptoauthlib_apps">
       <Description>https://github.com/Microchip-MPLAB-Harmony/cryptoauthlib_apps/blob/master/readme.md</Description>
       <Licenses>
         <License name="MPLAB Harmony License" path="mplab_harmony_license.md"/>
       </Licenses>
-
     </Repo>
     <Repo name="helix_mp3">
       <Description>This repo contains the source code for the open-source Helix MP3 Decoder Library</Description>
@@ -225,14 +433,12 @@
       <Licenses>
         <License name="MIT License" path="License/license.txt"/>
       </Licenses>
-
     </Repo>
     <Repo name="zlib">
       <Description>https://github.com/Microchip-MPLAB-Harmony/zlib/blob/master/README</Description>
       <Licenses>
         <License name="zlib" path="README"/>
       </Licenses>
-
     </Repo>
     <Repo name="wolfssl">
       <Description>https://github.com/Microchip-MPLAB-Harmony/wolfssl/blob/master/README.md</Description>
@@ -240,14 +446,12 @@
         <License name="GNU GENERAL PUBLIC LICENSE v2" path="LICENSING"/>
         <License name="Microchip/WolfSSL EULA" path="WolfSSL_EULicense_Microchip.md"/>
       </Licenses>
-
     </Repo>
     <Repo name="wolfssh">
       <Description>https://github.com/Microchip-MPLAB-Harmony/wolfssh/blob/master/README.md</Description>
       <Licenses>
         <License name="GNU GENERAL PUBLIC LICENSE v2" path="LICENSING"/>
       </Licenses>
-
     </Repo>
     <Repo name="wolfMQTT">
       <Description>https://github.com/Microchip-MPLAB-Harmony/wolfMQTT/blob/master/README.md</Description>
@@ -264,14 +468,12 @@
       <Licenses>
         <License name="Microchip CAL License" path="license.txt"/>
       </Licenses>
-
     </Repo>
     <Repo name="amazon-freertos">
       <Description>https://github.com/MicrochipTech/amazon-freertos/blob/master/README.md</Description>
       <Licenses>
         <License name="MIT License" path="LICENSE"/>
       </Licenses>
-
     </Repo>
   </RepoList>
 </Manifest>
