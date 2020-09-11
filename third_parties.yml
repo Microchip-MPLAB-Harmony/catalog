@@ -1,0 +1,41 @@
+#
+# This file must be updated only by Microchip employees
+#
+catalog:
+    format-version: "1.0.0"
+    name: "Microchip MPLAB Harmony 3 - Third Parties"
+
+    host:
+        url: "github.com"
+        path: "/Microchip-MPLAB-Harmony/"
+        raw_file_url_pattern: "https://raw.githubusercontent.com/Microchip-MPLAB-Harmony/{REPO_NAME}/{BRANCH-NAME/TAG-NAME}/{FILE-NAME}"
+
+        packages:
+            - name: "CMSIS-FreeRTOS"
+              description: "https://github.com/Microchip-MPLAB-Harmony/CMSIS-FreeRTOS/blob/develop/README.md"
+              licenses:
+                  - {name: "MIT license", path: "license/license.txt"}
+
+            - name: "zlib"
+              description: "https://github.com/Microchip-MPLAB-Harmony/zlib/blob/master/README"
+              licenses:
+                  - {name: "zlib", path: "README"}
+
+            - name: "wolfssl"
+              description: "https://github.com/Microchip-MPLAB-Harmony/wolfssl/blob/master/README.md"
+              licenses:
+                  - { name: "GNU GENERAL PUBLIC LICENSE v2", path: "LICENSING"}
+                  - { name: "Microchip/WolfSSL EULA", path: "WolfSSL_EULicense_Microchip.md"}
+
+            - name: "wolfssh"
+              description: "https://github.com/Microchip-MPLAB-Harmony/wolfssh/blob/master/README.md"
+              licenses:
+                  - { name: "GNU GENERAL PUBLIC LICENSE v2", path: "LICENSING"}
+                  - { name: "Microchip/WolfSSL EULA", path: "WolfSSL_EULicense_Microchip.md"}
+
+            - name: "wolfMQTT"
+              description: "https://github.com/Microchip-MPLAB-Harmony/wolfMQTT/blob/master/README.md"
+              licenses:
+                  - { name: "GNU GENERAL PUBLIC LICENSE v2", path: "LICENSING"}
+                  - { name: "Microchip/WolfSSL EULA", path: "WolfSSL_EULicense_Microchip.md"}
+
