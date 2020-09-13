@@ -39,3 +39,7 @@ catalog:
                   - { name: "GNU GENERAL PUBLIC LICENSE v2", path: "LICENSING"}
                   - { name: "Microchip/WolfSSL EULA", path: "WolfSSL_EULicense_Microchip.md"}
 
+            - name: "threadx"
+              description: "https://github.com/Microchip-MPLAB-Harmony/threadx/blob/master/README.md"
+              licenses:
+                  - { name: "Microsoft Software License", path: "LICENSE.txt"}

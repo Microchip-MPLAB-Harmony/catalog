@@ -422,6 +422,8 @@ catalog:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
 
             - name: "azure-rtos-threadx"
+              type: "application"
+              parent: "threadx"
               description: "https://github.com/Microchip-MPLAB-Harmony/azure-rtos-threadx/blob/master/readme.md"
               licenses:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}

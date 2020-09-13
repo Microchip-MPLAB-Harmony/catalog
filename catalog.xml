@@ -145,7 +145,6 @@
       <Licenses>
         <License name="MPLAB Harmony License" path="mplab_harmony_license.md"/>
       </Licenses>
-
     </Repo>
     <Repo name="core">
       <Description>https://github.com/Microchip-MPLAB-Harmony/core/blob/master/readme.md</Description>
@@ -323,8 +322,8 @@
         <License name="MPLAB Harmony License" path="mplab_harmony_license.md"/>
       </Licenses>
     </Repo>
-    <Repo name="expresslogic_threadx">
-      <Description>https://github.com/Microchip-MPLAB-Harmony/expresslogic_threadx/blob/master/readme.md</Description>
+    <Repo name="azure-rtos-threadx">
+      <Description>https://github.com/Microchip-MPLAB-Harmony/azure-rtos-threadx/blob/master/readme.md</Description>
       <Licenses>
         <License name="MPLAB Harmony License" path="mplab_harmony_license.md"/>
       </Licenses>
@@ -458,7 +457,12 @@
       <Licenses>
         <License name="GNU GENERAL PUBLIC LICENSE v2" path="LICENSE"/>
       </Licenses>
-
+    </Repo>
+    <Repo name="threadx">
+      <Description>https://github.com/Microchip-MPLAB-Harmony/threadx/blob/master/README.md</Description>
+      <Licenses>
+        <License name="Microsoft Software License" path="LICENSE.txt"/>
+      </Licenses>
     </Repo>
   </RepoList>
 
