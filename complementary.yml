@@ -12,7 +12,7 @@ catalog:
 
         packages:
             - name: "cryptoauthlib"
-              description: "https://github.com/MicrochipTech/cryptoauthlib/blob/master/README.md"
+              description: "https://github.com/MicrochipTech/cryptoauthlib/blob/main/README.md"
               licenses:
                   - {name: "Microchip CAL License", path: "license.txt"}
 

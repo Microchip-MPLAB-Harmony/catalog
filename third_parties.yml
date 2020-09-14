@@ -14,7 +14,7 @@ catalog:
             - name: "CMSIS-FreeRTOS"
               description: "https://github.com/Microchip-MPLAB-Harmony/CMSIS-FreeRTOS/blob/develop/README.md"
               licenses:
-                  - {name: "MIT license", path: "license/license.txt"}
+                  - {name: "MIT license", path: "License/license.txt"}
 
             - name: "zlib"
               description: "https://github.com/Microchip-MPLAB-Harmony/zlib/blob/master/README"
@@ -36,7 +36,7 @@ catalog:
             - name: "wolfMQTT"
               description: "https://github.com/Microchip-MPLAB-Harmony/wolfMQTT/blob/master/README.md"
               licenses:
-                  - { name: "GNU GENERAL PUBLIC LICENSE v2", path: "LICENSING"}
+                  - { name: "GNU GENERAL PUBLIC LICENSE v2", path: "LICENSE"}
                   - { name: "Microchip/WolfSSL EULA", path: "WolfSSL_EULicense_Microchip.md"}
 
             - name: "threadx"
