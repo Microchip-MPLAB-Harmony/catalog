@@ -268,6 +268,24 @@
         <License name="MPLAB Harmony License" path="mplab_harmony_license.md"/>
       </Licenses>
     </Repo>
+    <Repo name="crypto_apps_encrypt_decrypt">
+      <Description>https://github.com/Microchip-MPLAB-Harmony/crypto_apps_encrypt_decrypt/blob/master/readme.md</Description>
+      <Licenses>
+        <License name="MPLAB Harmony License" path="mplab_harmony_license.md"/>
+      </Licenses>
+    </Repo>
+    <Repo name="crypto_apps_large_hash">
+      <Description>https://github.com/Microchip-MPLAB-Harmony/crypto_apps_large_hash/blob/master/readme.md</Description>
+      <Licenses>
+        <License name="MPLAB Harmony License" path="mplab_harmony_license.md"/>
+      </Licenses>
+    </Repo>
+    <Repo name="crypto_apps_speed_test">
+      <Description>https://github.com/Microchip-MPLAB-Harmony/crypto_apps_speed_test/blob/master/readme.md</Description>
+      <Licenses>
+        <License name="MPLAB Harmony License" path="mplab_harmony_license.md"/>
+      </Licenses>
+    </Repo>
     <Repo name="gfx">
       <Description>https://github.com/Microchip-MPLAB-Harmony/gfx/blob/master/readme.md</Description>
       <Licenses>
@@ -330,6 +348,12 @@
     </Repo>
     <Repo name="touch">
       <Description>https://github.com/Microchip-MPLAB-Harmony/touch/blob/master/readme.md</Description>
+      <Licenses>
+        <License name="MPLAB Harmony License" path="mplab_harmony_license.md"/>
+      </Licenses>
+    </Repo>
+    <Repo name="touch_apps">
+      <Description>https://github.com/Microchip-MPLAB-Harmony/touch_apps/blob/master/readme.md</Description>
       <Licenses>
         <License name="MPLAB Harmony License" path="mplab_harmony_license.md"/>
       </Licenses>

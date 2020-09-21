@@ -375,6 +375,27 @@ catalog:
               description: "https://github.com/Microchip-MPLAB-Harmony/crypto/blob/master/readme.md"
               licenses:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+                  
+            - name: "crypto_apps_encrypt_decrypt"
+              type: "application"
+              parent: "crypto"
+              description: "https://github.com/Microchip-MPLAB-Harmony/crypto_apps_encrypt_decrypt/blob/master/readme.md"
+              licenses:
+                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+
+            - name: "crypto_apps_large_hash"
+              type: "application"
+              parent: "crypto"
+              description: "https://github.com/Microchip-MPLAB-Harmony/crypto_apps_large_hash/blob/master/readme.md"
+              licenses:
+                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+
+            - name: "crypto_apps_speed_test"
+              type: "application"
+              parent: "crypto"
+              description: "https://github.com/Microchip-MPLAB-Harmony/crypto_apps_speed_test/blob/master/readme.md"
+              licenses:
+                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
 
             - name: "gfx"
               description: "https://github.com/Microchip-MPLAB-Harmony/gfx/blob/master/readme.md"
@@ -430,6 +451,13 @@ catalog:
 
             - name: "touch"
               description: "https://github.com/Microchip-MPLAB-Harmony/touch/blob/master/readme.md"
+              licenses:
+                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+
+            - name: "touch_apps"
+              type: "application"
+              parent: "touch"
+              description: "https://github.com/Microchip-MPLAB-Harmony/touch_apps/blob/master/readme.md"
               licenses:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
 
