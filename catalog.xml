@@ -437,12 +437,6 @@
         <License name="MPLAB Harmony License" path="mplab_harmony_license.md"/>
       </Licenses>
     </Repo>
-    <Repo name="reference_apps">
-      <Description>https://github.com/Microchip-MPLAB-Harmony/reference_apps/blob/master/readme.md</Description>
-      <Licenses>
-        <License name="MPLAB Harmony License" path="mplab_harmony_license.md"/>
-      </Licenses>
-    </Repo>
     <Repo name="classb_sam_e5x_d5x">
       <Description>https://github.com/Microchip-MPLAB-Harmony/classb_sam_e5x_d5x/blob/master/readme.md</Description>
       <Licenses>
@@ -503,5 +497,11 @@
         <License name="MIT License" path="LICENSE"/>
       </Licenses>
     </Repo>
+    <Repo name="MPLAB-Harmony-Reference-Apps">
+      <Description>https://github.com/MicrochipTech/MPLAB-Harmony-Reference-Apps/blob/main/readme.md</Description>
+      <Licenses>
+        <License name="MPLAB Harmony License" path="mplab_harmony_license.md"/>
+      </Licenses>
+    </Repo>	
   </RepoList>
 </Manifest>

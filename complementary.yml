@@ -20,3 +20,8 @@ catalog:
               description: "https://github.com/MicrochipTech/amazon-freertos/blob/master/README.md"
               licenses:
                   - {name: "MIT License", path: "LICENSE"}
+                  
+            - name: "MPLAB-Harmony-Reference-Apps"
+              description: "https://github.com/MicrochipTech/MPLAB-Harmony-Reference-Apps/blob/main/readme.md"
+              licenses:
+                  - {name: "Microchip MPLAB Harmony License", path: "mplab_harmony_license.md"}
