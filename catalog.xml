@@ -497,6 +497,13 @@
         <License name="MIT License" path="LICENSE"/>
       </Licenses>
     </Repo>
+    <Repo name="paho.mqtt.embedded-c">
+      <Description>https://github.com/MicrochipTech/paho.mqtt.embedded-c/blob/master/README.md</Description>
+      <Licenses>
+        <License name="Eclipse Distribution License" path="epl-v10"/>
+        <License name="Eclipse Public License" path="epl-v10"/>
+      </Licenses>
+    </Repo>
     <Repo name="MPLAB-Harmony-Reference-Apps">
       <Description>https://github.com/MicrochipTech/MPLAB-Harmony-Reference-Apps/blob/main/readme.md</Description>
       <Licenses>
