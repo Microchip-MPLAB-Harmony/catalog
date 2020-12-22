@@ -28,6 +28,6 @@ catalog:
                   - { name: "Eclipse Public License", path: "epl-v10"}
 
             - name: "MPLAB-Harmony-Reference-Apps"
-              description: "https://github.com/MicrochipTech/MPLAB-Harmony-Reference-Apps/blob/main/readme.md"
+              description: "https://github.com/MicrochipTech/MPLAB-Harmony-Reference-Apps/blob/master/readme.md"
               licenses:
                   - {name: "Microchip MPLAB Harmony License", path: "mplab_harmony_license.md"}
