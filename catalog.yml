@@ -419,6 +419,13 @@ catalog:
             - name: "gfx_apps_sam_d5x_e5x"
               type: "application"
               parent: "gfx"
+              description: "https://github.com/Microchip-MPLAB-Harmony/gfx_apps_sam_d5x_e5x/blob/master/readme.md"
+              licenses:
+                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+
+            - name: "gfx_apps_sam_e70_s70_v70_v71"
+              type: "application"
+              parent: "gfx"
               description: "https://github.com/Microchip-MPLAB-Harmony/gfx_apps_sam_e70_s70_v70_v71/blob/master/readme.md"
               licenses:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
