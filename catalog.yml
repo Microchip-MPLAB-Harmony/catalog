@@ -351,6 +351,7 @@ catalog:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
 
             - name: "crypto"
+	      title: "Harmony Cryptography solutions"
               description: "https://github.com/Microchip-MPLAB-Harmony/crypto/blob/master/readme.md"
               licenses:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
@@ -377,6 +378,7 @@ catalog:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
 
             - name: "gfx"
+	      title: "Harmony Graphics solutions"
               description: "https://github.com/Microchip-MPLAB-Harmony/gfx/blob/master/readme.md"
               licenses:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
@@ -498,7 +500,36 @@ catalog:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
 
             - name: "usb"
+              title: "Harmony USB stacks"
               description: "https://github.com/Microchip-MPLAB-Harmony/usb/blob/master/readme.md"
+              licenses:
+                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+
+            - name: "usb_apps_device"
+              type: "application"
+              parent: "usb"
+              description: "https://github.com/Microchip-MPLAB-Harmony/usb_apps_device/blob/master/readme.md"
+              licenses:
+                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+
+            - name: "usb_apps_dual_role"
+              type: "application"
+              parent: "usb"
+              description: "https://github.com/Microchip-MPLAB-Harmony/usb_apps_dual_role/blob/master/readme.md"
+              licenses:
+                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+
+            - name: "usb_apps_host"
+              type: "application"
+              parent: "usb"
+              description: "https://github.com/Microchip-MPLAB-Harmony/usb_apps_host/blob/master/readme.md"
+              licenses:
+                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+
+            - name: "usb_apps_multi_controller"
+              type: "application"
+              parent: "usb"
+              description: "https://github.com/Microchip-MPLAB-Harmony/usb_apps_multi_controller/blob/master/readme.md"
               licenses:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
 
@@ -555,7 +586,7 @@ catalog:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
 
             - name: "motor_control"
-              title: "MPLAB Harmony 3 Motor Control"
+              title: "Harmony 3 Motor Control"
               description: "https://github.com/Microchip-MPLAB-Harmony/motor_control/blob/master/readme.md"
               licenses:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
@@ -579,6 +610,7 @@ catalog:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
 
             - name: "touch"
+	      title: "Harmony Capacitive Touch solutions"
               description: "https://github.com/Microchip-MPLAB-Harmony/touch/blob/master/readme.md"
               licenses:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
