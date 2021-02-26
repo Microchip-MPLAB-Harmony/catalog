@@ -322,31 +322,10 @@ catalog:
               licenses:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
 
-            - name: "core_apps_pic32cm_jh00_jh01"
-              type: "application"
-              parent: "core"
-              description: "https://github.com/Microchip-MPLAB-Harmony/core_apps_pic32cm_jh00_jh01/blob/master/readme.md"
-              licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
-
-            - name: "core_apps_pic32cm_le_ls"
-              type: "application"
-              parent: "core"
-              description: "https://github.com/Microchip-MPLAB-Harmony/core_apps_pic32cm_le_ls/blob/master/readme.md"
-              licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
-
             - name: "core_apps_pic32cm_mc00"
               type: "application"
               parent: "core"
               description: "https://github.com/Microchip-MPLAB-Harmony/core_apps_pic32cm_mc00/blob/master/readme.md"
-              licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
-
-            - name: "core_apps_pic32cx_bz24_bz25"
-              type: "application"
-              parent: "core"
-              description: "https://github.com/Microchip-MPLAB-Harmony/core_apps_pic32cx_bz24_bz25/blob/master/readme.md"
               licenses:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
 
@@ -500,7 +479,7 @@ catalog:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
 
             - name: "usb"
-              title: "Harmony USB stacks"
+              title: "Harmony USB solutions"
               description: "https://github.com/Microchip-MPLAB-Harmony/usb/blob/master/readme.md"
               licenses:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
@@ -552,21 +531,21 @@ catalog:
 
             - name: "mc_apps_pic32mk"
               type: "application"
-              parent: "motor_control"            
+              parent: "motor_control"
               description: "https://github.com/Microchip-MPLAB-Harmony/mc_apps_pic32mk/blob/master/readme.md"
               licenses:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
 
             - name: "mc_apps_sam_c2x"
               type: "application"
-              parent: "motor_control"            
+              parent: "motor_control"
               description: "https://github.com/Microchip-MPLAB-Harmony/mc_apps_sam_c2x/blob/master/readme.md"
               licenses:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
 
             - name: "mc_apps_sam_d5x_e5x"
               type: "application"
-              parent: "motor_control"            
+              parent: "motor_control"
               description: "https://github.com/Microchip-MPLAB-Harmony/mc_apps_sam_d5x_e5x/blob/master/readme.md"
               licenses:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
@@ -586,13 +565,13 @@ catalog:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
 
             - name: "motor_control"
-              title: "Harmony 3 Motor Control"
+              title: "Harmony Motor Control solutions"
               description: "https://github.com/Microchip-MPLAB-Harmony/motor_control/blob/master/readme.md"
               licenses:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
 
             - name: "x2c"
-              title: "MPLAB Harmony 3 X2C"
+              title: "X2C for Harmony"
               description: "https://github.com/Microchip-MPLAB-Harmony/x2c/blob/master/readme.md"
               licenses:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
@@ -623,6 +602,7 @@ catalog:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
 
             - name: "wireless"
+              title: "Harmony Wireless solutions"
               description: "https://github.com/Microchip-MPLAB-Harmony/wireless/blob/master/readme.md"
               licenses:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
