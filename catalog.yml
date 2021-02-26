@@ -330,7 +330,7 @@ catalog:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
 
             - name: "crypto"
-	      title: "Harmony Cryptography solutions"
+              title: "Harmony Cryptography solutions"
               description: "https://github.com/Microchip-MPLAB-Harmony/crypto/blob/master/readme.md"
               licenses:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
@@ -357,7 +357,7 @@ catalog:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
 
             - name: "gfx"
-	      title: "Harmony Graphics solutions"
+              title: "Harmony Graphics solutions"
               description: "https://github.com/Microchip-MPLAB-Harmony/gfx/blob/master/readme.md"
               licenses:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
@@ -552,14 +552,14 @@ catalog:
 
             - name: "mc_apps_sam_e7x_s7x_v7x"
               type: "application"
-              parent: "motor_control"                        
+              parent: "motor_control"
               description: "https://github.com/Microchip-MPLAB-Harmony/mc_apps_sam_e7x_s7x_v7x/blob/master/readme.md"
               licenses:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
 
             - name: "mc_apps_sam_rh71"
               type: "application"
-              parent: "motor_control"                        
+              parent: "motor_control"
               description: "https://github.com/Microchip-MPLAB-Harmony/mc_apps_sam_rh71/blob/master/readme.md"
               licenses:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
@@ -589,7 +589,7 @@ catalog:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
 
             - name: "touch"
-	      title: "Harmony Capacitive Touch solutions"
+              title: "Harmony Capacitive Touch solutions"
               description: "https://github.com/Microchip-MPLAB-Harmony/touch/blob/master/readme.md"
               licenses:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
