@@ -684,3 +684,16 @@ catalog:
               description: "https://github.com/Microchip-MPLAB-Harmony/classb_sam_e5x_d5x/blob/master/readme.md"
               licenses:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+
+            - name: "mbed_os_rtos"
+              title: "Harmony Mbed OS Port"
+              description: "https://github.com/Microchip-MPLAB-Harmony/mbed_os_rtos/blob/master/readme.md"
+              licenses:
+                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+
+            - name: "mbed_os_rtos_apps"
+              type: "application"
+              parent: "mbed_os_rtos"
+              description: "https://github.com/Microchip-MPLAB-Harmony/mbed_os_rtos_apps/blob/master/readme.md"
+              licenses:
+                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}

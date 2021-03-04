@@ -43,3 +43,8 @@ catalog:
               description: "https://github.com/Microchip-MPLAB-Harmony/threadx/blob/master/README.md"
               licenses:
                   - { name: "Microsoft Software License", path: "LICENSE.txt"}
+
+            - name: "mbed-os"
+              description: "https://github.com/Microchip-MPLAB-Harmony/mbed-os/blob/master/README.md"
+              licenses:
+                  - { name: "Apache-2.0 License", path: "LICENSE-apache-2.0.txt"}
