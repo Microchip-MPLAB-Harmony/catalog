@@ -411,6 +411,13 @@ catalog:
               licenses:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
 
+            - name: "gfx_apps_sam_l22"
+              type: "application"
+              parent: "gfx"
+              description: "https://github.com/Microchip-MPLAB-Harmony/gfx_apps_sam_l22/blob/master/readme.md"
+              licenses:
+                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+
             - name: "gfx_aria"
               description: "https://github.com/Microchip-MPLAB-Harmony/gfx_aria/blob/master/readme.md"
               licenses:
