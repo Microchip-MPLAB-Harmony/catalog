@@ -615,25 +615,29 @@ catalog:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
 
             - name: "wireless_apps_winc1500"
-              title: "Harmony Wireless apps for WINC1500"
+              type: "application"
+              parent: "wireless_wifi"
               description: "https://github.com/Microchip-MPLAB-Harmony/wireless_apps_winc1500/blob/master/readme.md"
               licenses:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
 
             - name: "wireless_apps_winc3400"
-              title: "Harmony Wireless apps for WINC3400"
+              type: "application"
+              parent: "wireless_wifi"
               description: "https://github.com/Microchip-MPLAB-Harmony/wireless_apps_winc3400/blob/master/readme.md"
               licenses:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
 
             - name: "wireless_system_pic32mzw1_wfi32e01"
-              title: "Harmony Wireless system services for WFI32/PIC32MZW1"
+              type: "application"
+              parent: "wireless_wifi"
               description: "https://github.com/Microchip-MPLAB-Harmony/wireless_system_pic32mzw1_wfi32e01/blob/master/readme.md"
               licenses:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
 
             - name: "wireless_apps_pic32mzw1_wfi32e01"
-              title: "Harmony Wireless apps for WFI32/PIC32MZW1"
+              type: "application"
+              parent: "wireless_wifi"
               description: "https://github.com/Microchip-MPLAB-Harmony/wireless_apps_pic32mzw1_wfi32e01/blob/master/readme.md"
               licenses:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
