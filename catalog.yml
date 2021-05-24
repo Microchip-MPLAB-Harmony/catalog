@@ -667,6 +667,13 @@ catalog:
               licenses:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
 
+            - name: "bootloader_apps_can"
+              type: "application"
+              parent: "bootloader"
+              description: "https://github.com/Microchip-MPLAB-Harmony/bootloader_apps_can/blob/master/readme.md"
+              licenses:
+                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+
             - name: "bootloader_apps_usb"
               type: "application"
               parent: "bootloader"
@@ -685,6 +692,13 @@ catalog:
               type: "application"
               parent: "bootloader"
               description: "https://github.com/Microchip-MPLAB-Harmony/bootloader_apps_sdcard/blob/master/readme.md"
+              licenses:
+                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+
+            - name: "bootloader_apps_serial_memory"
+              type: "application"
+              parent: "bootloader"
+              description: "https://github.com/Microchip-MPLAB-Harmony/bootloader_apps_serial_memory/blob/master/readme.md"
               licenses:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
 
