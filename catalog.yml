@@ -27,6 +27,12 @@ catalog:
               licenses:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
 
+            - name: "harmony-services"
+              required: "true"
+              description: "https://github.com/Microchip-MPLAB-Harmony/harmony-services/blob/master/readme.md"
+              licenses:
+                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+
             - name: "dev_packs"
               parent: "csp"
               category: "devices"
