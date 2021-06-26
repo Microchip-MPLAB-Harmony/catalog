@@ -746,3 +746,9 @@ catalog:
               description: "https://github.com/Microchip-MPLAB-Harmony/mbed_os_rtos_apps/blob/master/readme.md"
               licenses:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+
+            - name: "reference_apps"
+              description: "https://github.com/Microchip-MPLAB-Harmony/reference_apps/blob/master/readme.md"
+              licenses:
+                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+                  
