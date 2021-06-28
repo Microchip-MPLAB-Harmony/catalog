@@ -26,3 +26,8 @@ catalog:
               licenses:
                   - { name: "Eclipse Distribution License", path: "epl-v10"}
                   - { name: "Eclipse Public License", path: "epl-v10"}
+
+            - name: "littlefs"
+              description: "https://github.com/MicrochipTech/littlefs/blob/master/README.md"
+              licenses:
+                  - {name: "BSD-3-Clause License", path: "LICENSE.md"}
