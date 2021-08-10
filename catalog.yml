@@ -758,6 +758,7 @@ catalog:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
 
             - name: "net_10base_t1s"
+              parent: "net"
               description: "https://github.com/Microchip-MPLAB-Harmony/net_10base_t1s/blob/master/readme.md"
               licenses:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
