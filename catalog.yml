@@ -757,6 +757,11 @@ catalog:
               licenses:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
 
+            - name: "classb_pic32mzw1_wfi32e01"
+              description: "https://github.com/Microchip-MPLAB-Harmony/classb_pic32mzw1_wfi32e01/blob/master/readme.md"
+              licenses:
+                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+
             - name: "net_10base_t1s"
               parent: "net"
               description: "https://github.com/Microchip-MPLAB-Harmony/net_10base_t1s/blob/master/readme.md"
