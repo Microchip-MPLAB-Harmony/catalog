@@ -8,6 +8,7 @@ catalog:
     links:
         - { name: "Microchip MPLAB Harmony 3 - Complementary content", url: "file:///complementary.yml"}
         - { name: "Microchip MPLAB Harmony 3 - Third Parties", url: "file:///third_parties.yml"}
+        - { name: "Microchip MPLAB Harmony 3 - littlefs", url: "file:///littlefs.yml"}
         - { name: "Microchip MPLAB Harmony 3 - Community", url: "https://raw.githubusercontent.com/Microchip-MPLAB-Harmony/community_catalog/master/catalog.yml"}
 
     host:

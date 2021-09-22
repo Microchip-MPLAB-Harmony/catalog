@@ -1,0 +1,20 @@
+#
+# This file must be updated only by Microchip employees
+#
+catalog:
+    format-version: "1.1.0"
+    name: "Microchip MPLAB Harmony 3 - littlefs"
+
+    host:
+        url: "github.com"
+        path: "/littlefs-project/"
+        raw_file_url_pattern: "https://raw.githubusercontent.com//littlefs-project/{REPO_NAME}/{BRANCH-NAME/TAG-NAME}/{FILE-NAME}"
+
+        packages:
+            - name: "littlefs"
+              title: "Harmony littlefs solutions"
+              category: "filesystem"
+              description: "https://github.com/littlefs-project/littlefs/blob/master/README.md"
+              licenses:
+                  - { name: "BSD-3-Clause License", path: "LICENSE.md"}
+              tag-check: false
