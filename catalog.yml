@@ -43,6 +43,13 @@ catalog:
               licenses:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
 
+            - name: "csp_apps_pic32mm"
+              type: "application"
+              parent: "csp"
+              description: "https://github.com/Microchip-MPLAB-Harmony/csp_apps_pic32mm/blob/master/readme.md"
+              licenses:
+                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+                  
             - name: "csp_apps_pic32mx"
               type: "application"
               parent: "csp"
@@ -200,6 +207,13 @@ catalog:
               type: "application"
               parent: "core"
               description: "https://github.com/Microchip-MPLAB-Harmony/core_apps_pic32mk/blob/master/readme.md"
+              licenses:
+                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+                  
+            - name: "core_apps_pic32mm"
+              type: "application"
+              parent: "core"
+              description: "https://github.com/Microchip-MPLAB-Harmony/core_apps_pic32mm/blob/master/readme.md"
               licenses:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
 
