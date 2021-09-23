@@ -8,6 +8,7 @@ catalog:
     links:
         - { name: "Microchip MPLAB Harmony 3 - Complementary content", url: "file:///complementary.yml"}
         - { name: "Microchip MPLAB Harmony 3 - Third Parties", url: "file:///third_parties.yml"}
+        - { name: "Microchip MPLAB Harmony 3 - Microsoft Azure RTOS", url: "file:///azure_rtos.yml"}
         - { name: "Microchip MPLAB Harmony 3 - littlefs", url: "file:///littlefs.yml"}
         - { name: "Microchip MPLAB Harmony 3 - Community", url: "https://raw.githubusercontent.com/Microchip-MPLAB-Harmony/community_catalog/master/catalog.yml"}
 
@@ -636,13 +637,6 @@ catalog:
               licenses:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
 
-            - name: "azure-rtos-threadx"
-              type: "application"
-              parent: "threadx"
-              description: "https://github.com/Microchip-MPLAB-Harmony/azure-rtos-threadx/blob/master/readme.md"
-              licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
-
             - name: "touch"
               title: "Harmony Capacitive Touch solutions"
               category: "touch"
@@ -824,6 +818,12 @@ catalog:
               type: "application"
               parent: "mbed_os_rtos"
               description: "https://github.com/Microchip-MPLAB-Harmony/mbed_os_rtos_apps/blob/master/readme.md"
+              licenses:
+                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+
+            - name: "azure_rtos"
+              title: "Harmony Azure RTOS solutions"
+              description: "https://github.com/Microchip-MPLAB-Harmony/azure_rtos/blob/master/readme.md"
               licenses:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
 

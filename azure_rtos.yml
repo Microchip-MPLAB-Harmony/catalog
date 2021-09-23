@@ -1,0 +1,34 @@
+#
+# This file must be updated only by Microchip employees
+#
+catalog:
+    format-version: "1.1.0"
+    name: "Microchip MPLAB Harmony 3 - Microsoft Azure RTOS"
+
+    host:
+        url: "github.com"
+        path: "/azure-rtos/"
+        raw_file_url_pattern: "https://raw.githubusercontent.com/azure-rtos/{REPO_NAME}/{BRANCH-NAME/TAG-NAME}/{FILE-NAME}"
+
+        packages:
+            - name: "threadx"
+              parent: "azure_rtos"
+              category: "rtos"
+              description: "https://github.com/azure-rtos/threadx/blob/master/README.md"
+              licenses:
+                  - { name: "Microsoft Software License", path: "LICENSE.txt"}
+              tag-check: false
+
+            - name: "netxduo"
+              parent: "azure_rtos"
+              description: "https://github.com/azure-rtos/netxduo/blob/master/README.md"
+              licenses:
+                  - { name: "Microsoft Software License", path: "LICENSE.txt"}
+              tag-check: false
+
+            - name: "filex"
+              parent: "azure_rtos"
+              description: "https://github.com/azure-rtos/filex/blob/master/README.md"
+              licenses:
+                  - { name: "Microsoft Software License", path: "LICENSE.txt"}
+              tag-check: false
