@@ -2,7 +2,7 @@
 # This file must be updated only by Microchip employees
 #
 catalog:
-    format-version: "1.0.0"
+    format-version: "2.0.0"
     name: "Microchip MPLAB Harmony 3 - Third Parties"
 
     host:
@@ -12,28 +12,38 @@ catalog:
 
         packages:
             - name: "CMSIS-FreeRTOS"
+              title: "CMSIS FreeRTOS"
+              category: "rtos"
               description: "https://github.com/Microchip-MPLAB-Harmony/CMSIS-FreeRTOS/blob/develop/README.md"
               licenses:
                   - {name: "MIT license", path: "License/license.txt"}
 
             - name: "zlib"
+              parent: "core"
+              category: "data compression"
               description: "https://github.com/Microchip-MPLAB-Harmony/zlib/blob/master/README"
               licenses:
                   - {name: "zlib", path: "README"}
 
             - name: "wolfssl"
+              title: "Harmony WolfSSL solutions"
+              category: "cryptography"
               description: "https://github.com/Microchip-MPLAB-Harmony/wolfssl/blob/master/README.md"
               licenses:
                   - { name: "GNU GENERAL PUBLIC LICENSE v2", path: "LICENSING"}
                   - { name: "Microchip/WolfSSL EULA", path: "WolfSSL_EULicense_Microchip.md"}
 
             - name: "wolfssh"
+              parent: "wolfssl"
+              category: "cryptography"
               description: "https://github.com/Microchip-MPLAB-Harmony/wolfssh/blob/master/README.md"
               licenses:
                   - { name: "GNU GENERAL PUBLIC LICENSE v2", path: "LICENSING"}
                   - { name: "Microchip/WolfSSL EULA", path: "WolfSSL_EULicense_Microchip.md"}
 
             - name: "wolfMQTT"
+              parent: "wolfssl"
+              category: "iot"
               description: "https://github.com/Microchip-MPLAB-Harmony/wolfMQTT/blob/master/README.md"
               licenses:
                   - { name: "GNU GENERAL PUBLIC LICENSE v2", path: "LICENSE"}
@@ -45,6 +55,8 @@ catalog:
                   - { name: "Microsoft Software License", path: "LICENSE.txt"}
 
             - name: "mbed-os"
+              title: "arm Mbed OS"
+              category: "rtos"
               description: "https://github.com/Microchip-MPLAB-Harmony/mbed-os/blob/master/README.md"
               licenses:
                   - { name: "Apache-2.0 License", path: "LICENSE-apache-2.0.txt"}
