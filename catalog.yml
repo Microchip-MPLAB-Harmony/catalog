@@ -6,6 +6,7 @@ catalog:
     name: "Microchip MPLAB Harmony 3"
 
     links:
+        - { name: "Microchip MPLAB Harmony 3 - Class B", url: "file:///classb.yml"}
         - { name: "Microchip MPLAB Harmony 3 - Complementary content", url: "file:///complementary.yml"}
         - { name: "Microchip MPLAB Harmony 3 - Third Parties", url: "file:///third_parties.yml"}
         - { name: "Microchip MPLAB Harmony 3 - Microsoft Azure RTOS", url: "file:///azure_rtos.yml"}
@@ -783,27 +784,6 @@ catalog:
               parent: "quick_docs"
               category: "documentation"
               description: "https://github.com/Microchip-MPLAB-Harmony/reference_apps/blob/master/readme.md"
-              licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
-
-            - name: "classb_sam_e5x_d5x"
-              title: "Harmony Class B solutions"
-              category: "classb"
-              description: "https://github.com/Microchip-MPLAB-Harmony/classb_sam_e5x_d5x/blob/master/readme.md"
-              licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
-
-            - name: "classb_pic32cm_mc"
-              parent: "classb_sam_e5x_d5x"
-              category: "classb"
-              description: "https://github.com/Microchip-MPLAB-Harmony/classb_pic32cm_mc/blob/master/readme.md"
-              licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
-
-            - name: "classb_pic32mzw1_wfi32e01"
-              parent: "classb_sam_e5x_d5x"
-              category: "classb"
-              description: "https://github.com/Microchip-MPLAB-Harmony/classb_pic32mzw1_wfi32e01/blob/master/readme.md"
               licenses:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
 

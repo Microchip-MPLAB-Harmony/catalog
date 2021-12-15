@@ -1,0 +1,60 @@
+#
+# This file must be updated only by Microchip employees
+#
+catalog:
+    format-version: "2.0.0"
+    name: "Microchip MPLAB Harmony 3 - Class B"
+
+    host:
+        url: "github.com"
+        path: "/Microchip-MPLAB-Harmony/"
+        raw_file_url_pattern: "https://raw.githubusercontent.com/Microchip-MPLAB-Harmony/{REPO_NAME}/{BRANCH-NAME/TAG-NAME}/{FILE-NAME}"
+
+        packages:
+            - name: "classb_sam_e5x_d5x"
+              title: "Harmony Class B solutions"
+              type: "api"
+              required: "false"
+              category: "classb"
+              tag_check: true
+              package_check: true
+              third_party: false
+              description: "https://github.com/Microchip-MPLAB-Harmony/classb_sam_e5x_d5x/blob/master/readme.md"
+              licenses:
+                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+
+            - name: "classb_pic32cm_mc"
+              parent: "classb_sam_e5x_d5x"
+              type: "api"
+              required: "false"
+              category: "classb"
+              tag_check: true
+              package_check: true
+              third_party: false
+              description: "https://github.com/Microchip-MPLAB-Harmony/classb_pic32cm_mc/blob/master/readme.md"
+              licenses:
+                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+
+            - name: "classb_pic32mzw1_wfi32e01"
+              parent: "classb_sam_e5x_d5x"
+              type: "api"
+              required: "false"
+              category: "classb"
+              tag_check: true
+              package_check: true
+              third_party: false
+              description: "https://github.com/Microchip-MPLAB-Harmony/classb_pic32mzw1_wfi32e01/blob/master/readme.md"
+              licenses:
+                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+
+            - name: "classb_sam_e70_s70_v70_v71"
+              parent: "classb_sam_e5x_d5x"
+              type: "api"
+              required: "false"
+              category: "classb"
+              tag_check: true
+              package_check: true
+              third_party: false
+              description: "https://github.com/Microchip-MPLAB-Harmony/classb_sam_e70_s70_v70_v71/blob/master/readme.md"
+              licenses:
+                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
