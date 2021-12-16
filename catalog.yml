@@ -862,6 +862,20 @@ catalog:
               licenses:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
 
+            - name: "aerospace_apps_sam_rh71"
+              type: "application"
+              parent: "aerospace"
+              description: "https://github.com/Microchip-MPLAB-Harmony/aerospace_apps_sam_rh71/blob/master/readme.md"
+              licenses:
+                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+
+            - name: "aerospace_apps_sam_rh707"
+              type: "application"
+              parent: "aerospace"
+              description: "https://github.com/Microchip-MPLAB-Harmony/aerospace_apps_sam_rh707/blob/master/readme.md"
+              licenses:
+                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+
             - name: "cryptoauthlib_apps"
               type: "application"
               parent: "cryptoauthlib"
