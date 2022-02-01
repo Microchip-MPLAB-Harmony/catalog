@@ -55,3 +55,11 @@ catalog:
               description: "https://github.com/Microchip-MPLAB-Harmony/mbed-os/blob/master/README.md"
               licenses:
                   - { name: "Apache-2.0 License", path: "LICENSE-apache-2.0.txt"}
+
+            - name: "tflite-micro"
+              title: "TFLite Micro"
+              category: "Machine Learning"
+              description: "https://github.com/Microchip-MPLAB-Harmony/tflite-micro/blob/master/README.md"
+              licenses:
+                  - { name: "Apache-2.0 License", path: "LICENSE.txt"}
+              tag-check: false

@@ -827,3 +827,8 @@ catalog:
               licenses:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
 
+            - name: "tflite-micro-apps"
+              title: "Harmony TensorFlow Lite for Microcontroller (TFLM) Solutions"
+              description: "https://github.com/Microchip-MPLAB-Harmony/tflite-micro-apps/blob/master/readme.md"
+              licenses:
+                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
