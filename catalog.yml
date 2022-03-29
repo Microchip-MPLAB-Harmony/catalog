@@ -680,6 +680,13 @@ catalog:
               licenses:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
 
+            - name: "touch_host_driver"
+              parent: "touch"
+              category: "touch"
+              description: "https://github.com/Microchip-MPLAB-Harmony/touch_host_driver/blob/master/readme.md"
+              licenses:
+                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+
             - name: "wireless_wifi"
               title: "Harmony Wireless solutions"
               category: "wireless"
