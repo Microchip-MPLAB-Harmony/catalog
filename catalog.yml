@@ -50,6 +50,13 @@ catalog:
               licenses:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
 
+            - name: "csp_apps_cec173x"
+              type: "application"
+              parent: "csp"
+              description: "https://github.com/Microchip-MPLAB-Harmony/csp_apps_cec173x/blob/master/readme.md"
+              licenses:
+                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+
             - name: "csp_apps_pic32mk"
               type: "application"
               parent: "csp"
