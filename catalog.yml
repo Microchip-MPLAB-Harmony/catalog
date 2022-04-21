@@ -832,3 +832,10 @@ catalog:
               description: "https://github.com/Microchip-MPLAB-Harmony/tflite-micro-apps/blob/master/readme.md"
               licenses:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+
+            - name: "CEC173x_soteria_lib"
+              category: "security"
+              title: "Soteria Gen3 secure-boot solution library"
+              description: "https://github.com/Microchip-MPLAB-Harmony/CEC173x_soteria_lib/blob/master/readme.md"
+              licenses:
+                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
