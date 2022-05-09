@@ -12,6 +12,7 @@ catalog:
         - { name: "Microchip MPLAB Harmony 3 - Microsoft Azure RTOS", url: "file:///azure_rtos.yml"}
         - { name: "Microchip MPLAB Harmony 3 - littlefs", url: "file:///littlefs.yml"}
         - { name: "Microchip MPLAB Harmony 3 - Community", url: "https://raw.githubusercontent.com/Microchip-MPLAB-Harmony/community_catalog/master/catalog.yml"}
+        - { name: "Microchip MPLAB Harmony 3 - Smart Energy", url: "file:///smart_energy.yml"}
 
     host:
         url: "github.com"
