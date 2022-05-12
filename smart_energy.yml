@@ -12,7 +12,7 @@ catalog:
 
         packages:
             - name: "smartenergy"
-              title: "Smart Energy"
+              title: "Smart Energy solutions"
               package_group: "Smart Energy solutions"
               type: "api"
               category: "smartenergy"
@@ -25,7 +25,8 @@ catalog:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
 
             - name: "smartenergy_g3_apps"
-              title: "Smart Energy G3 Apps"
+#              title: "Smart Energy G3 applications"
+              parent: "smartenergy"
               package_group: "Smart Energy solutions"
               type: "application"
               category: "smartenergy"
@@ -38,7 +39,8 @@ catalog:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
 
             - name: "smartenergy_prime_apps"
-              title: "Smart Energy PRIME Apps"
+#              title: "Smart Energy PRIME applications"
+              parent: "smartenergy"
               package_group: "Smart Energy solutions"
               type: "application"
               category: "smartenergy"
