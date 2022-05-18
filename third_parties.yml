@@ -11,6 +11,20 @@ catalog:
         raw_file_url_pattern: "https://raw.githubusercontent.com/Microchip-MPLAB-Harmony/{REPO_NAME}/{BRANCH-NAME/TAG-NAME}/{FILE-NAME}"
 
         packages:
+            - name: "helix_mp3"
+              parent: "audio"
+              description: "https://github.com/Microchip-MPLAB-Harmony/helix_mp3/blob/master/readme.md"
+              licenses:
+                  - {name: "RealNetworks Community Source license", path: "fixpnt/RCSL.txt"}
+                  - {name: "RealNetworks Public Source license", path: "fixpnt/RPSL.txt"}
+
+            - name: "xiph_flac"
+              parent: "audio"
+              description: "https://github.com/projects/MH3/repos/xiph_flac/raw/readme.md"
+              licenses:
+                  - {name: "GPL license", path: "COPYING.GPL"}
+                  - {name: "Xiph license", path: "COPYING.Xiph"}
+
             - name: "CMSIS-FreeRTOS"
               title: "CMSIS FreeRTOS"
               category: "rtos"

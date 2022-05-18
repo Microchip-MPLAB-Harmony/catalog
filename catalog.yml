@@ -596,12 +596,12 @@ catalog:
               licenses:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
 
-            - name: "helix_mp3"
+            - name: "audio_apps"
+              type: "application"
               parent: "audio"
-              description: "https://github.com/Microchip-MPLAB-Harmony/helix_mp3/blob/master/readme.md"
+              description: "https://github.com/Microchip-MPLAB-Harmony/audio_apps/blob/master/readme.md"
               licenses:
-                  - {name: "RealNetworks Community Source license", path: "fixpnt/RCSL.txt"}
-                  - {name: "RealNetworks Public Source license", path: "fixpnt/RPSL.txt"}
+                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
 
             - name: "motor_control"
               title: "Harmony Motor Control solutions"
