@@ -952,3 +952,17 @@ catalog:
               description: "https://github.com/Microchip-MPLAB-Harmony/CEC173x_soteria_lib/blob/master/readme.md"
               licenses:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+                  
+            - name: "wireless_apps_pic32cxbz2_wbz45"
+              type: "application"
+              parent: "wireless_ble"
+              description: "https://github.com/Microchip-MPLAB-Harmony/wireless_apps_pic32cxbz2_wbz45/blob/master/readme.md"
+              licenses:
+                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+
+            - name: "wireless_system_pic32cxbz_wbz"
+              type: "application"
+              parent: "wireless_ble"
+              description: "https://github.com/Microchip-MPLAB-Harmony/wireless_system_pic32cxbz_wbz/blob/master/readme.md"
+              licenses:
+                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
