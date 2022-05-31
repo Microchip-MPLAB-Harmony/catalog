@@ -16,7 +16,7 @@ catalog:
               package_group: "Smart Energy solutions"
               type: "api"
               category: "smartenergy"
-              required: false
+              required: "false"
               tag-check: true
               package-check: true
               third_party: false
@@ -30,7 +30,7 @@ catalog:
               package_group: "Smart Energy solutions"
               type: "application"
               category: "smartenergy"
-              required: false
+              required: "false"
               tag-check: true
               package-check: true
               third_party: false
@@ -44,7 +44,7 @@ catalog:
               package_group: "Smart Energy solutions"
               type: "application"
               category: "smartenergy"
-              required: false
+              required: "false"
               tag-check: true
               package-check: true
               third_party: false
