@@ -1,5 +1,5 @@
 #
-# This file must be updated only by Microchip employees 
+# This file must be updated only by Microchip employees
 #
 catalog:
     format-version: "2.0.0"
@@ -219,6 +219,34 @@ catalog:
               licenses:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
 
+            - name: "csp_apps_pic32cm_jh00_jh01"
+              type: "application"
+              parent: "csp"
+              description: "https://github.com/Microchip-MPLAB-Harmony/csp_apps_pic32cm_jh00_jh01/blob/master/readme.md"
+              licenses:
+                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+
+            - name: "csp_apps_sam_rh707"
+              type: "application"
+              parent: "csp"
+              description: "https://github.com/Microchip-MPLAB-Harmony/csp_apps_sam_rh707/blob/master/readme.md"
+              licenses:
+                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+
+            - name: "csp_apps_pic32cxbz2_wbz45"
+              type: "application"
+              parent: "csp"
+              description: "https://github.com/Microchip-MPLAB-Harmony/csp_apps_pic32cxbz2_wbz45/blob/master/readme.md"
+              licenses:
+                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+
+            - name: "csp_apps_sam_a7g5"
+              type: "application"
+              parent: "csp"
+              description: "https://github.com/Microchip-MPLAB-Harmony/csp_apps_sam_a7g5/blob/master/readme.md"
+              licenses:
+                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+
             - name: "core"
               category: "foundations"
               title: "Harmony Core"
@@ -372,6 +400,34 @@ catalog:
               type: "application"
               parent: "core"
               description: "https://github.com/Microchip-MPLAB-Harmony/core_apps_pic32cm_mc00/blob/master/readme.md"
+              licenses:
+                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+
+            - name: "core_apps_pic32cm_jh00_jh01"
+              type: "application"
+              parent: "core"
+              description: "https://github.com/Microchip-MPLAB-Harmony/core_apps_pic32cm_jh00_jh01/blob/master/readme.md"
+              licenses:
+                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+
+            - name: "core_apps_sam_rh707"
+              type: "application"
+              parent: "core"
+              description: "https://github.com/Microchip-MPLAB-Harmony/core_apps_sam_rh707/blob/master/readme.md"
+              licenses:
+                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+
+            - name: "core_apps_pic32cxbz2_wbz45"
+              type: "application"
+              parent: "core"
+              description: "https://github.com/Microchip-MPLAB-Harmony/core_apps_pic32cxbz2_wbz45/blob/master/readme.md"
+              licenses:
+                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+
+            - name: "core_apps_sam_a7g5"
+              type: "application"
+              parent: "core"
+              description: "https://github.com/Microchip-MPLAB-Harmony/core_apps_sam_a7g5/blob/master/readme.md"
               licenses:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
 
