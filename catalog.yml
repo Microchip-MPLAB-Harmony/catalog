@@ -765,7 +765,7 @@ catalog:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
 
             - name: "wireless_pic32cxbz_wbz"
-              title: "Harmony Wireless solutions"
+              title: "Harmony Wireless PIC32CX-BZ System Services"
               category: "wireless"
               description: "https://github.com/Microchip-MPLAB-Harmony/wireless_pic32cxbz_wbz/blob/master/readme.md"
               licenses:
