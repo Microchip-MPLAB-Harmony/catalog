@@ -31,6 +31,8 @@ catalog:
               description: "https://github.com/Microchip-MPLAB-Harmony/CMSIS-FreeRTOS/blob/develop/README.md"
               licenses:
                   - {name: "MIT license", path: "License/license.txt"}
+              third_party: true
+              tag-check: false
 
             - name: "zlib"
               parent: "core"
