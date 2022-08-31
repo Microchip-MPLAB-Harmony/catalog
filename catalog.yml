@@ -883,6 +883,20 @@ catalog:
               licenses:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
 
+            - name: "bootloader_apps_pic32cm_jh00_jh01"
+              type: "application"
+              parent: "bootloader"
+              description: "https://github.com/Microchip-MPLAB-Harmony/bootloader_apps_pic32cm_jh00_jh01/blob/master/readme.md"
+              licenses:
+                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+
+            - name: "bootloader_apps_pic32cm_le_ls"
+              type: "application"
+              parent: "bootloader"
+              description: "https://github.com/Microchip-MPLAB-Harmony/bootloader_apps_pic32cm_le_ls/blob/master/readme.md"
+              licenses:
+                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+
             - name: "aerospace"
               title: "Harmony Aerospace solutions"
               category: "aerospace"
