@@ -722,6 +722,13 @@ catalog:
               licenses:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
 
+            - name: "mc_apps_sam_rh707"
+              type: "application"
+              parent: "motor_control"
+              description: "https://github.com/Microchip-MPLAB-Harmony/mc_apps_sam_rh707/blob/master/readme.md"
+              licenses:
+                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+
             - name: "x2c"
               title: "X2C for Harmony"
               category: "motor control, tools"
