@@ -812,6 +812,13 @@ catalog:
               description: "https://github.com/Microchip-MPLAB-Harmony/wireless_ble/blob/master/readme.md"
               licenses:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+                  
+            - name: "wireless_zigbee"
+              title: "Harmony Wireless Zigbee solutions"
+              category: "wireless"
+              description: "https://github.com/Microchip-MPLAB-Harmony/wireless_zigbee/blob/master/readme.md"
+              licenses:
+                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
 
             - name: "aws_cloud"
               title: "Harmony AWS solutions"
