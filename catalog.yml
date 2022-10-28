@@ -13,6 +13,7 @@ catalog:
         - { name: "Microchip MPLAB Harmony 3 - littlefs", url: "file:///littlefs.yml"}
         - { name: "Microchip MPLAB Harmony 3 - Community", url: "https://raw.githubusercontent.com/Microchip-MPLAB-Harmony/community_catalog/master/catalog.yml"}
         - { name: "Microchip MPLAB Harmony 3 - Smart Energy", url: "file:///smart_energy.yml"}
+        - { name: "Microchip MPLAB Harmony 3 - Motor Control", url: "file:///motorcontrol.yml"}
 
     host:
         url: "github.com"
@@ -670,69 +671,6 @@ catalog:
               type: "application"
               parent: "audio"
               description: "https://github.com/Microchip-MPLAB-Harmony/audio_apps/blob/master/readme.md"
-              licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
-
-            - name: "motor_control"
-              title: "Harmony Motor Control solutions"
-              category: "motor control"
-              description: "https://github.com/Microchip-MPLAB-Harmony/motor_control/blob/master/readme.md"
-              licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
-
-            - name: "mc_apps_pic32cm_mc"
-              type: "application"
-              parent: "motor_control"
-              description: "https://github.com/Microchip-MPLAB-Harmony/mc_apps_pic32cm_mc/blob/master/readme.md"
-              licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
-
-            - name: "mc_apps_pic32mk"
-              type: "application"
-              parent: "motor_control"
-              description: "https://github.com/Microchip-MPLAB-Harmony/mc_apps_pic32mk/blob/master/readme.md"
-              licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
-
-            - name: "mc_apps_sam_c2x"
-              type: "application"
-              parent: "motor_control"
-              description: "https://github.com/Microchip-MPLAB-Harmony/mc_apps_sam_c2x/blob/master/readme.md"
-              licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
-
-            - name: "mc_apps_sam_d5x_e5x"
-              type: "application"
-              parent: "motor_control"
-              description: "https://github.com/Microchip-MPLAB-Harmony/mc_apps_sam_d5x_e5x/blob/master/readme.md"
-              licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
-
-            - name: "mc_apps_sam_e7x_s7x_v7x"
-              type: "application"
-              parent: "motor_control"
-              description: "https://github.com/Microchip-MPLAB-Harmony/mc_apps_sam_e7x_s7x_v7x/blob/master/readme.md"
-              licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
-
-            - name: "mc_apps_sam_rh71"
-              type: "application"
-              parent: "motor_control"
-              description: "https://github.com/Microchip-MPLAB-Harmony/mc_apps_sam_rh71/blob/master/readme.md"
-              licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
-
-            - name: "mc_apps_sam_rh707"
-              type: "application"
-              parent: "motor_control"
-              description: "https://github.com/Microchip-MPLAB-Harmony/mc_apps_sam_rh707/blob/master/readme.md"
-              licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
-
-            - name: "x2c"
-              title: "X2C for Harmony"
-              category: "motor control, tools"
-              description: "https://github.com/Microchip-MPLAB-Harmony/x2c/blob/master/readme.md"
               licenses:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
 
