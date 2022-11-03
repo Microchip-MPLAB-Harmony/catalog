@@ -14,6 +14,7 @@ catalog:
         - { name: "Microchip MPLAB Harmony 3 - Community", url: "https://raw.githubusercontent.com/Microchip-MPLAB-Harmony/community_catalog/master/catalog.yml"}
         - { name: "Microchip MPLAB Harmony 3 - Smart Energy", url: "file:///smart_energy.yml"}
         - { name: "Microchip MPLAB Harmony 3 - Motor Control", url: "file:///motorcontrol.yml"}
+        - { name: "Microchip MPLAB Harmony 3 - Bootloader", url: "file:///bootloader.yml"}
 
     host:
         url: "github.com"
@@ -762,76 +763,6 @@ catalog:
               title: "Harmony AWS solutions"
               category: "touch"
               description: "https://github.com/Microchip-MPLAB-Harmony/aws_cloud/blob/master/readme.md"
-              licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
-
-            - name: "bootloader"
-              title: "Harmony Bootloader"
-              category: "bootloader"
-              description: "https://github.com/Microchip-MPLAB-Harmony/bootloader/blob/master/readme.md"
-              licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
-
-            - name: "bootloader_apps_uart"
-              type: "application"
-              parent: "bootloader"
-              description: "https://github.com/Microchip-MPLAB-Harmony/bootloader_apps_uart/blob/master/readme.md"
-              licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
-
-            - name: "bootloader_apps_i2c"
-              type: "application"
-              parent: "bootloader"
-              description: "https://github.com/Microchip-MPLAB-Harmony/bootloader_apps_i2c/blob/master/readme.md"
-              licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
-
-            - name: "bootloader_apps_can"
-              type: "application"
-              parent: "bootloader"
-              description: "https://github.com/Microchip-MPLAB-Harmony/bootloader_apps_can/blob/master/readme.md"
-              licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
-
-            - name: "bootloader_apps_usb"
-              type: "application"
-              parent: "bootloader"
-              description: "https://github.com/Microchip-MPLAB-Harmony/bootloader_apps_usb/blob/master/readme.md"
-              licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
-
-            - name: "bootloader_apps_ethernet"
-              type: "application"
-              parent: "bootloader"
-              description: "https://github.com/Microchip-MPLAB-Harmony/bootloader_apps_ethernet/blob/master/readme.md"
-              licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
-
-            - name: "bootloader_apps_sdcard"
-              type: "application"
-              parent: "bootloader"
-              description: "https://github.com/Microchip-MPLAB-Harmony/bootloader_apps_sdcard/blob/master/readme.md"
-              licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
-
-            - name: "bootloader_apps_serial_memory"
-              type: "application"
-              parent: "bootloader"
-              description: "https://github.com/Microchip-MPLAB-Harmony/bootloader_apps_serial_memory/blob/master/readme.md"
-              licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
-
-            - name: "bootloader_apps_pic32cm_jh00_jh01"
-              type: "application"
-              parent: "bootloader"
-              description: "https://github.com/Microchip-MPLAB-Harmony/bootloader_apps_pic32cm_jh00_jh01/blob/master/readme.md"
-              licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
-
-            - name: "bootloader_apps_pic32cm_le_ls"
-              type: "application"
-              parent: "bootloader"
-              description: "https://github.com/Microchip-MPLAB-Harmony/bootloader_apps_pic32cm_le_ls/blob/master/readme.md"
               licenses:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
 
