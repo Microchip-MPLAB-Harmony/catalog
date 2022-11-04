@@ -16,7 +16,7 @@ catalog:
               package_group: "Harmony3 Motor Control"
               type: "api"
               category: "motor control"
-              required: "true"
+              required: "false"
               tag-check: true
               package-check: true
               third_party: false
@@ -30,7 +30,7 @@ catalog:
               package_group: "Harmony3 Motor Control"
               type: "application"
               category: "motor control"
-              required: "true"
+              required: "false"
               tag-check: true
               package-check: true
               third_party: false
@@ -44,7 +44,7 @@ catalog:
               package_group: "Harmony3 Motor Control"
               type: "application"
               category: "motor control"
-              required: "true"
+              required: "false"
               tag-check: true
               package-check: true
               third_party: false
@@ -58,7 +58,7 @@ catalog:
               package_group: "Harmony3 Motor Control"
               type: "application"
               category: "motor control"
-              required: "true"
+              required: "false"
               tag-check: true
               package-check: true
               third_party: false
@@ -72,7 +72,7 @@ catalog:
               package_group: "Harmony3 Motor Control"
               type: "application"
               category: "motor control"
-              required: "true"
+              required: "false"
               tag-check: true
               package-check: true
               third_party: false
@@ -86,7 +86,7 @@ catalog:
               package_group: "Harmony3 Motor Control"
               type: "application"
               category: "motor control"
-              required: "true"
+              required: "false"
               tag-check: true
               package-check: true
               third_party: false
@@ -100,7 +100,7 @@ catalog:
               package_group: "Harmony3 Motor Control"
               type: "application"
               category: "motor control"
-              required: "true"
+              required: "false"
               tag-check: true
               package-check: true
               third_party: false
@@ -114,7 +114,7 @@ catalog:
               package_group: "Harmony3 Motor Control"
               type: "application"
               category: "motor control"
-              required: "true"
+              required: "false"
               tag-check: true
               package-check: true
               third_party: false
@@ -128,7 +128,7 @@ catalog:
               package_group: "Harmony3 Motor Control"
               type: "api"
               category: "motor control, tools"
-              required: "true"
+              required: "false"
               tag-check: true
               package-check: true
               third_party: false
