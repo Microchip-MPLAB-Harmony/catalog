@@ -1,0 +1,179 @@
+#
+# This file must be updated only by Microchip employees
+#
+catalog:
+    format-version: "3.0.0"
+    name: "Microchip MPLAB Harmony 3 - Network"
+
+    host:
+        url: "github.com"
+        path: "/Microchip-MPLAB-Harmony/"
+        raw_file_url_pattern: "https://raw.githubusercontent.com/Microchip-MPLAB-Harmony/{REPO_NAME}/{BRANCH-NAME/TAG-NAME}/{FILE-NAME}"
+
+        packages:
+            - name: "net"
+              title: "Harmony 3 Networking Stack and Solutions"
+              package_group: "Harmony Networking Stack"
+              type: "api"
+              category: "network"
+              required: "false"
+              tag-check: true
+              package-check: true
+              third_party: false
+              description: "https://github.com/Microchip-MPLAB-Harmony/net/blob/master/readme.md"
+              licenses:
+                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+
+            - name: "net_apps_pic32mx"
+#              title: "Harmony 3 Networking Application Examples for PIC32 MX family"
+              parent: "net"
+              package_group: "Harmony Networking Stack"
+              type: "application"
+              category: "network"
+              required: "false"
+              tag-check: true
+              package-check: true
+              third_party: false
+              description: "https://github.com/Microchip-MPLAB-Harmony/net_apps_pic32mx/blob/master/readme.md"
+              licenses:
+                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+
+            - name: "net_apps_pic32mz"
+#              title: "Harmony 3 Networking Application Examples for PIC32 MZ family"
+              parent: "net"
+              package_group: "Harmony Networking Stack"
+              type: "application"
+              category: "network"
+              required: "false"
+              tag-check: true
+              package-check: true
+              third_party: false
+              description: "https://github.com/Microchip-MPLAB-Harmony/net_apps_pic32mz/blob/master/readme.md"
+              licenses:
+                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+
+            - name: "net_apps_sam_9x60"
+#              title: "Harmony 3 Networking Application Examples for SAM 9X60 family"
+              parent: "net"
+              package_group: "Harmony Networking Stack"
+              type: "application"
+              category: "network"
+              required: "false"
+              tag-check: true
+              package-check: true
+              third_party: false
+              description: "https://github.com/Microchip-MPLAB-Harmony/net_apps_sam_9x60/blob/master/readme.md"
+              licenses:
+                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+
+            - name: "net_apps_sam_a5d2"
+#              title: "Harmony 3 Networking Application Examples for SAM A5D2 family"
+              parent: "net"
+              package_group: "Harmony Networking Stack"
+              type: "application"
+              category: "network"
+              required: "false"
+              tag-check: true
+              package-check: true
+              third_party: false
+              description: "https://github.com/Microchip-MPLAB-Harmony/net_apps_sam_a5d2/blob/master/readme.md"
+              licenses:
+                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+                  
+            - name: "net_apps_sam_e5x"
+#              title: "Harmony 3 Networking Application Examples for SAM A5D2 family"
+              parent: "net"
+              package_group: "Harmony Networking Stack"
+              type: "application"
+              category: "network"
+              required: "false"
+              tag-check: true
+              package-check: true
+              third_party: false
+              description: "https://github.com/Microchip-MPLAB-Harmony/net_apps_sam_e5x/blob/master/readme.md"
+              licenses:
+                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+            
+            - name: "net_apps_sam_a7g5"
+#              title: "Harmony 3 Networking Application Examples for SAM A7G5 family"
+              parent: "net"
+              package_group: "Harmony Networking Stack"
+              type: "application"
+              category: "network"
+              required: "false"
+              tag-check: true
+              package-check: true
+              third_party: false
+              description: "https://github.com/Microchip-MPLAB-Harmony/net_apps_sam_a7g5/blob/master/readme.md"
+              licenses:
+                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}      
+                  
+            - name: "net_apps_sam_9x7"
+#              title: "Harmony 3 Networking Application Examples for SAM 9X7 family"
+              parent: "net"
+              package_group: "Harmony Networking Stack"
+              type: "application"
+              category: "network"
+              required: "false"
+              tag-check: true
+              package-check: true
+              third_party: false
+              description: "https://github.com/Microchip-MPLAB-Harmony/net_apps_sam_9x7/blob/master/readme.md"
+              licenses:
+                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}  
+                  
+            - name: "net_apps_sam_e70_v71"
+#              title: "Harmony 3 Networking Application Examples for SAM E70/V71 family"
+              parent: "net"
+              package_group: "Harmony Networking Stack"
+              type: "application"
+              category: "network"
+              required: "false"
+              tag-check: true
+              package-check: true
+              third_party: false
+              description: "https://github.com/Microchip-MPLAB-Harmony/net_apps_sam_e70_v71/blob/master/readme.md"
+              licenses:
+                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+            
+            - name: "net_apps_sam_rh71"
+#              title: "Harmony 3 Networking Application Examples for SAM RH71 family"
+              parent: "net"
+              package_group: "Harmony Networking Stack"
+              type: "application"
+              category: "network"
+              required: "false"
+              tag-check: true
+              package-check: true
+              third_party: false
+              description: "https://github.com/Microchip-MPLAB-Harmony/net_apps_sam_rh71/blob/master/readme.md"
+              licenses:
+                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}  
+            
+            - name: "net_10base_t1s"
+#              title: "Harmony 3 10BASE-T1S Driver and Solutions"
+              parent: "net"
+              package_group: "Harmony Networking Stack"
+              type: "api"
+              category: "network"
+              required: "false"
+              tag-check: true
+              package-check: true
+              third_party: false
+              description: "https://github.com/Microchip-MPLAB-Harmony/net_10base_t1s/blob/master/readme.md"
+              licenses:
+                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}      
+            
+            - name: "ethercat"
+#              title: "Harmony 3 ETHERCAT Driver and Solutions"
+              parent: "net"
+              package_group: "Harmony Networking Stack"
+              type: "api"
+              category: "network"
+              required: "false"
+              tag-check: true
+              package-check: true
+              third_party: false
+              description: "https://github.com/Microchip-MPLAB-Harmony/ethercat/blob/master/readme.md"
+              licenses:
+                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}                    

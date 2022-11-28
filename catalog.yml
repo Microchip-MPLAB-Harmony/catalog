@@ -18,6 +18,7 @@ catalog:
         - { name: "Microchip MPLAB Harmony 3 - Smart Energy", url: "file:///smart_energy.yml"}
         - { name: "Microchip MPLAB Harmony 3 - Third Parties", url: "file:///third_parties.yml"}
         - { name: "Microchip MPLAB Harmony 3 - Graphics", url: "file:///graphics.yml"}
+        - { name: "Microchip MPLAB Harmony 3 - Network", url: "file:///net.yml"}
 
     host:
         url: "github.com"
@@ -64,68 +65,6 @@ catalog:
               type: "application"
               parent: "crypto"
               description: "https://github.com/Microchip-MPLAB-Harmony/crypto_apps_speed_test/blob/master/readme.md"
-              licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
-
-            - name: "net"
-              category: "network"
-              title: "Harmony Networking Stack and Solutions"
-              description: "https://github.com/Microchip-MPLAB-Harmony/net/blob/master/readme.md"
-              licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
-
-            - name: "net_apps_pic32mx"
-              type: "application"
-              parent: "net"
-              description: "https://github.com/Microchip-MPLAB-Harmony/net_apps_pic32mx/blob/master/readme.md"
-              licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
-
-            - name: "net_apps_pic32mz"
-              type: "application"
-              parent: "net"
-              description: "https://github.com/Microchip-MPLAB-Harmony/net_apps_pic32mz/blob/master/readme.md"
-              licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
-
-            - name: "net_apps_sam_9x60"
-              type: "application"
-              parent: "net"
-              description: "https://github.com/Microchip-MPLAB-Harmony/net_apps_sam_9x60/blob/master/readme.md"
-              licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
-
-            - name: "net_apps_sam_a5d2"
-              type: "application"
-              parent: "net"
-              description: "https://github.com/Microchip-MPLAB-Harmony/net_apps_sam_a5d2/blob/master/readme.md"
-              licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
-
-            - name: "net_apps_sam_e5x"
-              type: "application"
-              parent: "net"
-              description: "https://github.com/Microchip-MPLAB-Harmony/net_apps_sam_e5x/blob/master/readme.md"
-              licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
-
-            - name: "net_apps_sam_e70_v71"
-              type: "application"
-              parent: "net"
-              description: "https://github.com/Microchip-MPLAB-Harmony/net_apps_sam_e70_v71/blob/master/readme.md"
-              licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
-
-            - name: "net_apps_sam_rh71"
-              type: "application"
-              parent: "net"
-              description: "https://github.com/Microchip-MPLAB-Harmony/net_apps_sam_rh71/blob/master/readme.md"
-              licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
-
-            - name: "net_10base_t1s"
-              parent: "net"
-              description: "https://github.com/Microchip-MPLAB-Harmony/net_10base_t1s/blob/master/readme.md"
               licenses:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
 
@@ -301,13 +240,6 @@ catalog:
               parent: "cryptoauthlib"
               category: "cryptography"
               description: "https://github.com/Microchip-MPLAB-Harmony/cryptoauthlib_apps/blob/master/readme.md"
-              licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
-
-            - name: "ethercat"
-              category: "network"
-              parent: "net"
-              description: "https://github.com/Microchip-MPLAB-Harmony/ethercat/blob/master/readme.md"
               licenses:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
 
