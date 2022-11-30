@@ -17,6 +17,7 @@ catalog:
         - { name: "Microchip MPLAB Harmony 3 - Motor Control", url: "file:///motorcontrol.yml"}
         - { name: "Microchip MPLAB Harmony 3 - Smart Energy", url: "file:///smart_energy.yml"}
         - { name: "Microchip MPLAB Harmony 3 - Third Parties", url: "file:///third_parties.yml"}
+        - { name: "Microchip MPLAB Harmony 3 - Graphics", url: "file:///graphics.yml"}
 
     host:
         url: "github.com"
@@ -63,83 +64,6 @@ catalog:
               type: "application"
               parent: "crypto"
               description: "https://github.com/Microchip-MPLAB-Harmony/crypto_apps_speed_test/blob/master/readme.md"
-              licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
-
-            - name: "gfx"
-              category: "graphics"
-              title: "Harmony Graphics solutions"
-              description: "https://github.com/Microchip-MPLAB-Harmony/gfx/blob/master/readme.md"
-              licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
-
-            - name: "gfx_apps_pic32mz_da"
-              type: "application"
-              parent: "gfx"
-              description: "https://github.com/Microchip-MPLAB-Harmony/gfx_apps_pic32mz_da/blob/master/readme.md"
-              licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
-
-            - name: "gfx_apps_pic32mz_ef"
-              type: "application"
-              parent: "gfx"
-              description: "https://github.com/Microchip-MPLAB-Harmony/gfx_apps_pic32mz_ef/blob/master/readme.md"
-              licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
-
-            - name: "gfx_apps_sam_9x60"
-              type: "application"
-              parent: "gfx"
-              description: "https://github.com/Microchip-MPLAB-Harmony/gfx_apps_sam_9x60/blob/master/readme.md"
-              licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
-
-            - name: "gfx_apps_sam_a5d2"
-              type: "application"
-              parent: "gfx"
-              description: "https://github.com/Microchip-MPLAB-Harmony/gfx_apps_sam_a5d2/blob/master/readme.md"
-              licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
-
-            - name: "gfx_apps_sam_c20_c21"
-              type: "application"
-              parent: "gfx"
-              description: "https://github.com/Microchip-MPLAB-Harmony/gfx_apps_sam_c20_c21/blob/master/readme.md"
-              licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
-
-            - name: "gfx_apps_sam_d5x_e5x"
-              type: "application"
-              parent: "gfx"
-              description: "https://github.com/Microchip-MPLAB-Harmony/gfx_apps_sam_d5x_e5x/blob/master/readme.md"
-              licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
-
-            - name: "gfx_apps_sam_e70_s70_v70_v71"
-              type: "application"
-              parent: "gfx"
-              description: "https://github.com/Microchip-MPLAB-Harmony/gfx_apps_sam_e70_s70_v70_v71/blob/master/readme.md"
-              licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
-
-            - name: "gfx_apps_sam_l22"
-              type: "application"
-              parent: "gfx"
-              description: "https://github.com/Microchip-MPLAB-Harmony/gfx_apps_sam_l22/blob/master/readme.md"
-              licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
-
-            - name: "gfx_aria"
-              category: "graphics"
-              title: "Harmony Graphics (Aria) solutions"
-              description: "https://github.com/Microchip-MPLAB-Harmony/gfx_aria/blob/master/readme.md"
-              licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
-
-            - name: "gfx_apps"
-              type: "application"
-              parent: "gfx_aria"
-              description: "https://github.com/Microchip-MPLAB-Harmony/gfx_apps/blob/master/readme.md"
               licenses:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
 
