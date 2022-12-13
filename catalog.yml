@@ -222,6 +222,13 @@ catalog:
               description: "https://github.com/Microchip-MPLAB-Harmony/wireless_zigbee/blob/master/readme.md"
               licenses:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+                  
+            - name: "wireless_15_4_phy"
+              title: "Harmony Wireless 802.15.4 Transceivers PHY solutions"
+              category: "wireless"
+              description: "https://github.com/Microchip-MPLAB-Harmony/wireless_15_4_phy/blob/master/readme.md"
+              licenses:
+                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
 
             - name: "aws_cloud"
               title: "Harmony AWS solutions"
