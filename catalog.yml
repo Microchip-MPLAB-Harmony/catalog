@@ -14,6 +14,7 @@ catalog:
         - { name: "Microchip MPLAB Harmony 3 - Smart Energy", url: "file:///smart_energy.yml"}
         - { name: "Microchip MPLAB Harmony 3 - Graphics", url: "file:///graphics.yml"}
         - { name: "Microchip MPLAB Harmony 3 - Network", url: "file:///net.yml"}
+        - { name: "Microchip MPLAB Harmony 3 - PMCI", url: "file:///pmci.yml"}
         - { name: "Microchip MPLAB Harmony 3 - Class B", url: "file:///classb.yml"}
         - { name: "Microchip MPLAB Harmony 3 - Third Parties", url: "file:///third_parties.yml"}
         - { name: "Microchip MPLAB Harmony 3 - Microsoft Azure RTOS", url: "file:///azure_rtos.yml"}
