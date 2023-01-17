@@ -16,6 +16,7 @@ catalog:
         - { name: "Microchip MPLAB Harmony 3 - Network", url: "file:///net.yml"}
         - { name: "Microchip MPLAB Harmony 3 - PMCI", url: "file:///pmci.yml"}
         - { name: "Microchip MPLAB Harmony 3 - Class B", url: "file:///classb.yml"}
+        - { name: "Microchip MPLAB Harmony 3 - Soteria secureboot solution", url: "file:///cec173x_soteria.yml"}
         - { name: "Microchip MPLAB Harmony 3 - Third Parties", url: "file:///third_parties.yml"}
         - { name: "Microchip MPLAB Harmony 3 - Microsoft Azure RTOS", url: "file:///azure_rtos.yml"}
         - { name: "Microchip MPLAB Harmony 3 - littlefs", url: "file:///littlefs.yml"}
@@ -296,13 +297,6 @@ catalog:
             - name: "tflite-micro-apps"
               title: "Harmony TensorFlow Lite for Microcontroller (TFLM) Solutions"
               description: "https://github.com/Microchip-MPLAB-Harmony/tflite-micro-apps/blob/master/readme.md"
-              licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
-
-            - name: "CEC173x_soteria_lib"
-              category: "security"
-              title: "Soteria Gen3 secure-boot solution library"
-              description: "https://github.com/Microchip-MPLAB-Harmony/CEC173x_soteria_lib/blob/master/readme.md"
               licenses:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
 
