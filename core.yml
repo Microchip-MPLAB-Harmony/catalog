@@ -40,6 +40,20 @@ catalog:
               licenses:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
 
+            - name: "core_apps_cec173x"
+#              title: "Harmony 3 driver and system service application examples for CEC173X family"
+              parent: "core"
+              package_group: "Harmony Core"
+              type: "application"
+              category: "foundations"
+              required: "false"
+              tag-check: true
+              package-check: true
+              third_party: false
+              description: "https://github.com/Microchip-MPLAB-Harmony/core_apps_cec173x/blob/master/readme.md"
+              licenses:
+                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+                  
             - name: "core_apps_pic32ck_sg_gc"
 #              title: "Harmony 3 driver and system service application examples for PIC32CK-GC/SG family"
               parent: "core"
