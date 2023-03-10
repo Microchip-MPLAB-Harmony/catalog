@@ -6,19 +6,20 @@ catalog:
     name: "Microchip MPLAB Harmony 3"
 
     links:
-        - { name: "Microchip MPLAB Harmony 3 - Bootloader", url: "file:///bootloader.yml"}
+        - { name: "Microchip MPLAB Harmony 3 - CMSIS", url: "file:///arm-software.yml"}
         - { name: "Microchip MPLAB Harmony 3 - Chip Support Package", url: "file:///csp.yml"}
-        - { name: "Microchip MPLAB Harmony 3 - Class B", url: "file:///classb.yml"}
-        - { name: "Microchip MPLAB Harmony 3 - Community", url: "https://raw.githubusercontent.com/Microchip-MPLAB-Harmony/community_catalog/master/catalog.yml"}
-        - { name: "Microchip MPLAB Harmony 3 - Complementary content", url: "file:///complementary.yml"}
         - { name: "Microchip MPLAB Harmony 3 - Core", url: "file:///core.yml"}
-        - { name: "Microchip MPLAB Harmony 3 - littlefs", url: "file:///littlefs.yml"}
-        - { name: "Microchip MPLAB Harmony 3 - Microsoft Azure RTOS", url: "file:///azure_rtos.yml"}
+        - { name: "Microchip MPLAB Harmony 3 - Bootloader", url: "file:///bootloader.yml"}
         - { name: "Microchip MPLAB Harmony 3 - Motor Control", url: "file:///motorcontrol.yml"}
         - { name: "Microchip MPLAB Harmony 3 - Smart Energy", url: "file:///smart_energy.yml"}
-        - { name: "Microchip MPLAB Harmony 3 - Third Parties", url: "file:///third_parties.yml"}
         - { name: "Microchip MPLAB Harmony 3 - Graphics", url: "file:///graphics.yml"}
         - { name: "Microchip MPLAB Harmony 3 - Network", url: "file:///net.yml"}
+        - { name: "Microchip MPLAB Harmony 3 - Class B", url: "file:///classb.yml"}
+        - { name: "Microchip MPLAB Harmony 3 - Third Parties", url: "file:///third_parties.yml"}
+        - { name: "Microchip MPLAB Harmony 3 - Microsoft Azure RTOS", url: "file:///azure_rtos.yml"}
+        - { name: "Microchip MPLAB Harmony 3 - littlefs", url: "file:///littlefs.yml"}
+        - { name: "Microchip MPLAB Harmony 3 - Complementary content", url: "file:///complementary.yml"}
+        - { name: "Microchip MPLAB Harmony 3 - Community", url: "https://raw.githubusercontent.com/Microchip-MPLAB-Harmony/community_catalog/master/catalog.yml"}
 
     host:
         url: "github.com"
@@ -27,15 +28,28 @@ catalog:
 
         packages:
             - name: "mhc"
-              title: "Harmony Tools"
+              title: "MPLAB Harmony Configurator"
+              package_group: "Harmony Tools"
+              type: "tool"
               category: "tools"
               required: "false"
+              tag-check: false
+              package-check: true
+              third_party: false
               description: "https://github.com/Microchip-MPLAB-Harmony/mhc/blob/master/readme.md"
               licenses:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
 
             - name: "harmony-services"
+#              title: "MPLAB Harmony Services"
+              package_group: "Harmony Tools"
+              type: "tool"
+              category: "tools"
+              parent: "mhc"
               required: "true"
+              tag-check: false
+              package-check: true
+              third_party: false
               description: "https://github.com/Microchip-MPLAB-Harmony/harmony-services/blob/master/readme.md"
               licenses:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}

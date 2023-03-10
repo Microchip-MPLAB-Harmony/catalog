@@ -2,7 +2,7 @@
 # This file must be updated only by Microchip employees
 #
 catalog:
-    format-version: "2.0.0"
+    format-version: "3.0.0"
     name: "Microchip MPLAB Harmony 3 - Complementary content"
 
     host:
@@ -13,21 +13,37 @@ catalog:
         packages:
             - name: "cryptoauthlib"
               title: "Harmony CryptoAuthLib solutions"
+              package_group: "crypto"
               category: "cryptography"
+              required: "false"
+              tag-check: true
+              package-check: true
+              third_party: false
               description: "https://github.com/MicrochipTech/cryptoauthlib/blob/main/README.md"
               licenses:
                   - {name: "Microchip CAL License", path: "license.txt"}
 
             - name: "amazon-freertos"
               title: "Harmony Amazon FreeRTOS solutions"
+              package_group: "Amazon FreeRTOS"
+              type: external
               category: "rtos"
+              required: "false"
+              tag-check: false
+              package-check: false
+              third_party: true
               description: "https://github.com/MicrochipTech/amazon-freertos/blob/master/README.md"
               licenses:
                   - {name: "MIT License", path: "LICENSE"}
 
             - name: "paho.mqtt.embedded-c"
+              type: external
               parent: "wireless_wifi"
               category: "iot"
+              required: "false"
+              tag-check: false
+              package-check: false
+              third_party: true
               description: "https://github.com/MicrochipTech/paho.mqtt.embedded-c/blob/master/README.md"
               licenses:
                   - { name: "Eclipse Distribution License", path: "epl-v10"}

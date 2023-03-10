@@ -2,7 +2,7 @@
 # This file must be updated only by Microchip employees
 #
 catalog:
-    format-version: "2.0.0"
+    format-version: "3.0.0"
     name: "Microchip MPLAB Harmony 3 - Third Parties"
 
     host:
@@ -11,6 +11,19 @@ catalog:
         raw_file_url_pattern: "https://raw.githubusercontent.com/Microchip-MPLAB-Harmony/{REPO_NAME}/{BRANCH-NAME/TAG-NAME}/{FILE-NAME}"
 
         packages:
+            - name: "mbed-os"
+              title: "arm Mbed OS"
+              package_group: "Mbed OS"
+              type: external
+              category: "rtos"
+              required: "false"
+              tag-check: false
+              package-check: false
+              third_party: true
+              description: "https://github.com/Microchip-MPLAB-Harmony/mbed-os/blob/master/README.md"
+              licenses:
+                  - { name: "Apache-2.0 License", path: "LICENSE-apache-2.0.txt"}
+
             - name: "helix_mp3"
               parent: "audio"
               description: "https://github.com/Microchip-MPLAB-Harmony/helix_mp3/blob/master/README.md"
@@ -25,57 +38,73 @@ catalog:
                   - {name: "GPL license", path: "COPYING.GPL"}
                   - {name: "Xiph license", path: "COPYING.Xiph"}
 
-            - name: "CMSIS-FreeRTOS"
-              title: "CMSIS FreeRTOS"
-              category: "rtos"
-              description: "https://github.com/Microchip-MPLAB-Harmony/CMSIS-FreeRTOS/blob/develop/README.md"
-              licenses:
-                  - {name: "MIT license", path: "License/license.txt"}
-              third_party: true
-              tag-check: false
-
             - name: "zlib"
+#              title: "ZLIB DATA COMPRESSION LIBRARY"
+              package_group: "Zlib"
+              type: external
               parent: "core"
               category: "data compression"
+              required: "false"
+              tag-check: false
+              package-check: false
+              third_party: true
               description: "https://github.com/Microchip-MPLAB-Harmony/zlib/blob/master/README"
               licenses:
                   - {name: "zlib", path: "README"}
 
             - name: "wolfssl"
               title: "Harmony WolfSSL solutions"
+              package_group: "WolfSSL"
+              type: external
               category: "cryptography"
+              required: "false"
+              tag-check: false
+              package-check: false
+              third_party: true
               description: "https://github.com/Microchip-MPLAB-Harmony/wolfssl/blob/master/README.md"
               licenses:
                   - { name: "GNU GENERAL PUBLIC LICENSE v2", path: "LICENSING"}
                   - { name: "Microchip/WolfSSL EULA", path: "WolfSSL_EULicense_Microchip.md"}
 
             - name: "wolfssh"
+#              title: "wolfssh"
               parent: "wolfssl"
+              package_group: "WolfSSL"
+              type: external
               category: "cryptography"
+              required: "false"
+              tag-check: false
+              package-check: false
+              third_party: true
               description: "https://github.com/Microchip-MPLAB-Harmony/wolfssh/blob/master/README.md"
               licenses:
                   - { name: "GNU GENERAL PUBLIC LICENSE v2", path: "LICENSING"}
                   - { name: "Microchip/WolfSSL EULA", path: "WolfSSL_EULicense_Microchip.md"}
 
             - name: "wolfMQTT"
+#              title: "wolfMQTT"
               parent: "wolfssl"
+              package_group: "WolfSSL"
+              type: external
               category: "iot"
+              required: "false"
+              tag-check: false
+              package-check: false
+              third_party: true
               description: "https://github.com/Microchip-MPLAB-Harmony/wolfMQTT/blob/master/README.md"
               licenses:
                   - { name: "GNU GENERAL PUBLIC LICENSE v2", path: "LICENSE"}
                   - { name: "Microchip/WolfSSL EULA", path: "WolfSSL_EULicense_Microchip.md"}
 
-            - name: "mbed-os"
-              title: "arm Mbed OS"
-              category: "rtos"
-              description: "https://github.com/Microchip-MPLAB-Harmony/mbed-os/blob/master/README.md"
-              licenses:
-                  - { name: "Apache-2.0 License", path: "LICENSE-apache-2.0.txt"}
-
             - name: "tflite-micro"
               title: "TFLite Micro"
+              package_group: "TensorFlow"
+              type: external
               category: "Machine Learning"
+              required: "false"
+              tag-check: false
+              package-check: false
+              third_party: true
               description: "https://github.com/Microchip-MPLAB-Harmony/tflite-micro/blob/master/README.md"
               licenses:
                   - { name: "Apache-2.0 License", path: "LICENSE.txt"}
-              tag-check: false

@@ -1,0 +1,65 @@
+#
+# This file must be updated only by Microchip employees
+#
+catalog:
+    format-version: "3.0.0"
+    name: "Microchip MPLAB Harmony 3 - ARM software"
+
+    host:
+        url: "github.com"
+        path: "/ARM-software/"
+        raw_file_url_pattern: "https://raw.githubusercontent.com/ARM-software/{REPO_NAME}/{BRANCH-NAME/TAG-NAME}/{FILE-NAME}"
+
+        packages:
+            - name: "CMSIS_5"
+              title: "CMSIS v5"
+              package_group: "Harmony3 Chip Support Package"
+              type: external
+              category: "foundations"
+              required: "false"
+              tag-check: false
+              package-check: false
+              third_party: true
+              description: "https://github.com/ARM-software/CMSIS_5/blob/main/README.md"
+              licenses:
+                  - {name: "Apache License 2.0", path: "LICENSE.txt"}
+
+            - name: "CMSIS-DSP"
+              title: "CMSIS-DSP"
+              package_group: "Harmony3 Chip Support Package"
+              type: external
+              category: "foundations"
+              required: "false"
+              tag-check: false
+              package-check: false
+              third_party: true
+              description: "https://github.com/ARM-software/CMSIS-DSP/blob/main/README.md"
+              licenses:
+                  - {name: "Apache License 2.0", path: "LICENSE.txt"}
+
+            - name: "CMSIS-FreeRTOS"
+              title: "CMSIS FreeRTOS"
+              package_group: "Harmony Core"
+              type: external
+              category: "rtos"
+              required: "false"
+              tag-check: false
+              package-check: false
+              third_party: true
+              description: "https://github.com/ARM-software/CMSIS-FreeRTOS/blob/main/README.md"
+              licenses:
+                  - {name: "MIT license", path: "License/license.txt"}
+
+            - name: "CMSIS-NN"
+              title: "CMSIS-NN"
+              package_group: "Harmony Core"
+              type: external
+              category: "AI/ML"
+              required: "false"
+              tag-check: false
+              package-check: false
+              third_party: true
+              description: "https://github.com/ARM-software/CMSIS-NN/blob/main/README.md"
+              licenses:
+                  - {name: "Apache License 2.0", path: "LICENSE.txt"}
+
