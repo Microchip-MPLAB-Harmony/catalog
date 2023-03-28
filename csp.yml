@@ -139,6 +139,34 @@ catalog:
               licenses:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
 
+            - name: "csp_apps_pic32cxbz2_wbz45"
+#              title: "Harmony 3 Peripheral library applicaton examples for PIC32CXBZ2/WBZ451 family"
+              parent: "csp"
+              package_group: "Harmony 3 Chip Support Package"
+              type: "application"
+              category: "foundations"
+              required: "false"
+              tag-check: true
+              package-check: true
+              third_party: false
+              description: "https://github.com/Microchip-MPLAB-Harmony/csp_apps_pic32cxbz2_wbz45/blob/master/readme.md"
+              licenses:
+                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+
+            - name: "csp_apps_pic32cxbz3_wbz3"
+#              title: "Harmony 3 Peripheral library applicaton examples for PIC32CXBZ3/WBZ351 family"
+              parent: "csp"
+              package_group: "Harmony 3 Chip Support Package"
+              type: "application"
+              category: "foundations"
+              required: "false"
+              tag-check: true
+              package-check: true
+              third_party: false
+              description: "https://github.com/Microchip-MPLAB-Harmony/csp_apps_pic32cxbz3_wbz3/blob/master/readme.md"
+              licenses:
+                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+
             - name: "csp_apps_pic32cz_ca"
 #              title: "Harmony 3 Peripheral library applicaton examples for PIC32CZCA family"
               parent: "csp"
