@@ -55,7 +55,7 @@ catalog:
               description: "https://github.com/Microchip-MPLAB-Harmony/core_apps_cec173x/blob/master/readme.md"
               licenses:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
-                  
+
             - name: "core_apps_pic32ck_sg_gc"
 #              title: "Harmony 3 driver and system service application examples for PIC32CK-GC/SG family"
               parent: "core"
@@ -69,7 +69,7 @@ catalog:
               description: "https://github.com/Microchip-MPLAB-Harmony/core_apps_pic32ck_sg_gc/blob/master/readme.md"
               licenses:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
-                  
+
             - name: "core_apps_pic32cm_jh00_jh01"
 #             title: "Harmony 3 driver and system service application examples for PIC32CMJH00/JH01 family"
               parent: "core"
@@ -111,7 +111,7 @@ catalog:
               description: "https://github.com/Microchip-MPLAB-Harmony/core_apps_pic32cm_mc00/blob/master/readme.md"
               licenses:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
-                  
+
             - name: "core_apps_pic32cx_mt"
 #             title: "Harmony 3 driver and system service application examples for PIC32CX-MT family"
               parent: "core"
@@ -129,7 +129,7 @@ catalog:
             - name: "core_apps_pic32cxbz2_wbz45"
 #             title: "Harmony 3 driver and system service application examples for PIC32CXBZ2/WBZ451 family"
               parent: "core"
-              package_group: "Harmony Core"
+              package_group: "Harmony 3 Core"
               type: "application"
               category: "foundations"
               required: "false"
@@ -143,7 +143,7 @@ catalog:
             - name: "core_apps_pic32cxbz3_wbz3"
 #             title: "Harmony 3 driver and system service application examples for PIC32CXBZ3/WBZ351 family"
               parent: "core"
-              package_group: "Harmony Core"
+              package_group: "Harmony 3 Core"
               type: "application"
               category: "foundations"
               required: "false"
@@ -462,3 +462,16 @@ catalog:
               licenses:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
 
+            - name: "core_apps_sam_rh707"
+#             title: "Harmony 3 driver and system service application examples for SAMRH707 family"
+              parent: "core"
+              package_group: "Harmony 3 Core"
+              type: "application"
+              category: "foundations"
+              required: "false"
+              tag-check: true
+              package-check: true
+              third_party: false
+              description: "https://github.com/Microchip-MPLAB-Harmony/core_apps_sam_rh707/blob/master/readme.md"
+              licenses:
+                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
