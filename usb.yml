@@ -1,0 +1,81 @@
+#
+# This file must be updated only by Microchip employees
+#
+catalog:
+    format-version: "3.0.0"
+    name: "Microchip MPLAB Harmony 3 - USB"
+
+    host:
+        url: "github.com"
+        path: "/Microchip-MPLAB-Harmony/"
+        raw_file_url_pattern: "https://raw.githubusercontent.com/Microchip-MPLAB-Harmony/{REPO_NAME}/{BRANCH-NAME/TAG-NAME}/{FILE-NAME}"
+
+        packages:
+            - name: "usb"
+              title: "Harmony USB solutions"
+              package_group: "Harmony USB"
+              type: "api"
+              category: "usb"
+              required: "false"
+              tag-check: true
+              package-check: true
+              third_party: false
+              description: "https://github.com/Microchip-MPLAB-Harmony/usb/blob/master/readme.md"
+              licenses:
+                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+
+            - name: "usb_apps_device"
+#              title: "Harmony 3 USB Device application examples"
+              parent: "usb"
+              package_group: "Harmony USB"
+              type: "application"
+              category: "usb"
+              required: "false"
+              tag-check: true
+              package-check: true
+              third_party: false
+              description: "https://github.com/Microchip-MPLAB-Harmony/usb_apps_device/blob/master/readme.md"
+              licenses:
+                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+
+            - name: "usb_apps_dual_role"
+#              title: "Harmony 3 USB Dual-Role application examples"
+              parent: "usb"
+              package_group: "Harmony USB"
+              type: "application"
+              category: "usb"
+              required: "false"
+              tag-check: true
+              package-check: true
+              third_party: false
+              description: "https://github.com/Microchip-MPLAB-Harmony/usb_apps_dual_role/blob/master/readme.md"
+              licenses:
+                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+
+            - name: "usb_apps_host"
+#              title: "Harmony 3 USB Host application examples"
+              parent: "usb"
+              package_group: "Harmony USB"
+              type: "application"
+              category: "usb"
+              required: "false"
+              tag-check: true
+              package-check: true
+              third_party: false
+              description: "https://github.com/Microchip-MPLAB-Harmony/usb_apps_host/blob/master/readme.md"
+              licenses:
+                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+
+            - name: "usb_apps_multi_controller"
+#              title: "Harmony 3 USB Multi-Controller application examples"
+              parent: "usb"
+              package_group: "Harmony USB"
+              type: "application"
+              category: "usb"
+              required: "false"
+              tag-check: true
+              package-check: true
+              third_party: false
+              description: "https://github.com/Microchip-MPLAB-Harmony/usb_apps_multi_controller/blob/master/readme.md"
+              licenses:
+                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}

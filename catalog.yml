@@ -23,8 +23,9 @@ catalog:
         - { name: "Microchip MPLAB Harmony 3 - Complementary content", url: "file:///complementary.yml"}
         - { name: "Microchip MPLAB Harmony 3 - Community", url: "https://raw.githubusercontent.com/Microchip-MPLAB-Harmony/community_catalog/master/catalog.yml"}
         - { name: "Microchip MPLAB Harmony 3 - Reference Apps and Quick Docs", url: "file:///ra_qd.yml"}
-        - { name: "Microchip MPLAB Harmony 3 - Touch", url: "file:///touch.yml"}        
-        - { name: "Microchip MPLAB Harmony 3 - AWS Cloud", url: "file:///aws_cloud.yml"}               
+        - { name: "Microchip MPLAB Harmony 3 - Touch", url: "file:///touch.yml"}
+        - { name: "Microchip MPLAB Harmony 3 - AWS Cloud", url: "file:///aws_cloud.yml"}
+        - { name: "Microchip MPLAB Harmony 3 - USB", url: "file:///usb.yml"}
 
     host:
         url: "github.com"
@@ -84,41 +85,6 @@ catalog:
               type: "application"
               parent: "crypto"
               description: "https://github.com/Microchip-MPLAB-Harmony/crypto_apps_speed_test/blob/master/readme.md"
-              licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
-
-            - name: "usb"
-              title: "Harmony USB solutions"
-              category: "usb"
-              description: "https://github.com/Microchip-MPLAB-Harmony/usb/blob/master/readme.md"
-              licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
-
-            - name: "usb_apps_device"
-              type: "application"
-              parent: "usb"
-              description: "https://github.com/Microchip-MPLAB-Harmony/usb_apps_device/blob/master/readme.md"
-              licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
-
-            - name: "usb_apps_dual_role"
-              type: "application"
-              parent: "usb"
-              description: "https://github.com/Microchip-MPLAB-Harmony/usb_apps_dual_role/blob/master/readme.md"
-              licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
-
-            - name: "usb_apps_host"
-              type: "application"
-              parent: "usb"
-              description: "https://github.com/Microchip-MPLAB-Harmony/usb_apps_host/blob/master/readme.md"
-              licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
-
-            - name: "usb_apps_multi_controller"
-              type: "application"
-              parent: "usb"
-              description: "https://github.com/Microchip-MPLAB-Harmony/usb_apps_multi_controller/blob/master/readme.md"
               licenses:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
 
@@ -204,7 +170,7 @@ catalog:
               description: "https://github.com/Microchip-MPLAB-Harmony/wireless_zigbee/blob/master/readme.md"
               licenses:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
-                  
+
             - name: "wireless_15_4_phy"
               title: "Harmony Wireless 802.15.4 Transceivers PHY solutions"
               category: "wireless"
