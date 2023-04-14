@@ -22,6 +22,9 @@ catalog:
         - { name: "Microchip MPLAB Harmony 3 - littlefs", url: "file:///littlefs.yml"}
         - { name: "Microchip MPLAB Harmony 3 - Complementary content", url: "file:///complementary.yml"}
         - { name: "Microchip MPLAB Harmony 3 - Community", url: "https://raw.githubusercontent.com/Microchip-MPLAB-Harmony/community_catalog/master/catalog.yml"}
+        - { name: "Microchip MPLAB Harmony 3 - Reference Apps and Quick Docs", url: "file:///ra_qd.yml"}
+        - { name: "Microchip MPLAB Harmony 3 - Touch", url: "file:///touch.yml"}        
+        - { name: "Microchip MPLAB Harmony 3 - AWS Cloud", url: "file:///aws_cloud.yml"}               
 
     host:
         url: "github.com"
@@ -146,27 +149,6 @@ catalog:
               licenses:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
 
-            - name: "touch"
-              title: "Harmony Capacitive Touch solutions"
-              category: "touch"
-              description: "https://github.com/Microchip-MPLAB-Harmony/touch/blob/master/readme.md"
-              licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
-
-            - name: "touch_apps"
-              type: "application"
-              parent: "touch"
-              description: "https://github.com/Microchip-MPLAB-Harmony/touch_apps/blob/master/readme.md"
-              licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
-
-            - name: "touch_host_driver"
-              parent: "touch"
-              category: "touch"
-              description: "https://github.com/Microchip-MPLAB-Harmony/touch_host_driver/blob/master/readme.md"
-              licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
-
             - name: "wireless_wifi"
               title: "Harmony Wireless solutions"
               category: "wireless"
@@ -230,13 +212,6 @@ catalog:
               licenses:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
 
-            - name: "aws_cloud"
-              title: "Harmony AWS solutions"
-              category: "touch"
-              description: "https://github.com/Microchip-MPLAB-Harmony/aws_cloud/blob/master/readme.md"
-              licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
-
             - name: "aerospace"
               title: "Harmony Aerospace solutions"
               category: "aerospace"
@@ -263,21 +238,6 @@ catalog:
               parent: "cryptoauthlib"
               category: "cryptography"
               description: "https://github.com/Microchip-MPLAB-Harmony/cryptoauthlib_apps/blob/master/readme.md"
-              licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
-
-            - name: "quick_docs"
-              title: "Harmony reference material"
-              category: "documentation"
-              required: "true"
-              description: "https://github.com/Microchip-MPLAB-Harmony/quick_docs/blob/master/readme.md"
-              licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
-
-            - name: "reference_apps"
-              parent: "quick_docs"
-              category: "documentation"
-              description: "https://github.com/Microchip-MPLAB-Harmony/reference_apps/blob/master/readme.md"
               licenses:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
 
