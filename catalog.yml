@@ -26,6 +26,7 @@ catalog:
         - { name: "Microchip MPLAB Harmony 3 - Touch", url: "file:///touch.yml"}
         - { name: "Microchip MPLAB Harmony 3 - AWS Cloud", url: "file:///aws_cloud.yml"}
         - { name: "Microchip MPLAB Harmony 3 - USB", url: "file:///usb.yml"}
+        - { name: "Microchip MPLAB Harmony 3 - Wireless", url: "file:///wireless.yml"}
 
     host:
         url: "github.com"
@@ -115,69 +116,6 @@ catalog:
               licenses:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
 
-            - name: "wireless_wifi"
-              title: "Harmony Wireless solutions"
-              category: "wireless"
-              description: "https://github.com/Microchip-MPLAB-Harmony/wireless_wifi/blob/master/readme.md"
-              licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
-
-            - name: "wireless_pic32cxbz_wbz"
-              title: "Harmony Wireless PIC32CX-BZ System Services"
-              category: "wireless"
-              description: "https://github.com/Microchip-MPLAB-Harmony/wireless_pic32cxbz_wbz/blob/master/readme.md"
-              licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
-
-            - name: "wireless_apps_winc1500"
-              type: "application"
-              parent: "wireless_wifi"
-              description: "https://github.com/Microchip-MPLAB-Harmony/wireless_apps_winc1500/blob/master/readme.md"
-              licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
-
-            - name: "wireless_apps_winc3400"
-              type: "application"
-              parent: "wireless_wifi"
-              description: "https://github.com/Microchip-MPLAB-Harmony/wireless_apps_winc3400/blob/master/readme.md"
-              licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
-
-            - name: "wireless_system_pic32mzw1_wfi32e01"
-              type: "application"
-              parent: "wireless_wifi"
-              description: "https://github.com/Microchip-MPLAB-Harmony/wireless_system_pic32mzw1_wfi32e01/blob/master/readme.md"
-              licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
-
-            - name: "wireless_apps_pic32mzw1_wfi32e01"
-              type: "application"
-              parent: "wireless_wifi"
-              description: "https://github.com/Microchip-MPLAB-Harmony/wireless_apps_pic32mzw1_wfi32e01/blob/master/readme.md"
-              licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
-
-            - name: "wireless_ble"
-              title: "Harmony Wireless BLE solutions"
-              category: "wireless"
-              description: "https://github.com/Microchip-MPLAB-Harmony/wireless_ble/blob/master/readme.md"
-              licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
-
-            - name: "wireless_zigbee"
-              title: "Harmony Wireless Zigbee solutions"
-              category: "wireless"
-              description: "https://github.com/Microchip-MPLAB-Harmony/wireless_zigbee/blob/master/readme.md"
-              licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
-
-            - name: "wireless_15_4_phy"
-              title: "Harmony Wireless 802.15.4 Transceivers PHY solutions"
-              category: "wireless"
-              description: "https://github.com/Microchip-MPLAB-Harmony/wireless_15_4_phy/blob/master/readme.md"
-              licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
-
             - name: "aerospace"
               title: "Harmony Aerospace solutions"
               category: "aerospace"
@@ -230,19 +168,5 @@ catalog:
             - name: "tflite-micro-apps"
               title: "Harmony TensorFlow Lite for Microcontroller (TFLM) Solutions"
               description: "https://github.com/Microchip-MPLAB-Harmony/tflite-micro-apps/blob/master/readme.md"
-              licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
-
-            - name: "wireless_apps_pic32cxbz2_wbz45"
-              type: "application"
-              parent: "wireless_ble"
-              description: "https://github.com/Microchip-MPLAB-Harmony/wireless_apps_pic32cxbz2_wbz45/blob/master/readme.md"
-              licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
-
-            - name: "wireless_system_pic32cxbz_wbz"
-              type: "application"
-              parent: "wireless_ble"
-              description: "https://github.com/Microchip-MPLAB-Harmony/wireless_system_pic32cxbz_wbz/blob/master/readme.md"
               licenses:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
