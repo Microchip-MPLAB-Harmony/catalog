@@ -8,7 +8,7 @@ catalog:
     host:
         url: "github.com"
         path: "/Microchip-MPLAB-Harmony/"
-        raw_file_url_pattern: "https://raw.githubusercontent.com/Microchip-MPLAB-Harmony/{REPO_NAME}/{BRANCH-NAME/TAG-NAME}/{FILE-NAME}
+        raw_file_url_pattern: "https://raw.githubusercontent.com/Microchip-MPLAB-Harmony/{REPO_NAME}/{BRANCH-NAME/TAG-NAME}/{FILE-NAME}"
 
         packages:
             - name: "aws_cloud"
