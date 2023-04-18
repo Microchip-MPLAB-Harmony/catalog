@@ -5,7 +5,7 @@ catalog:
     format-version: "3.0.0"
     name: "Microchip MPLAB Harmony 3 - Wireless"
 
-   host:
+    host:
         url: "github.com"
         path: "/Microchip-MPLAB-Harmony/"
         raw_file_url_pattern: "https://raw.githubusercontent.com/Microchip-MPLAB-Harmony/{REPO_NAME}/{BRANCH-NAME/TAG-NAME}/{FILE-NAME}"
