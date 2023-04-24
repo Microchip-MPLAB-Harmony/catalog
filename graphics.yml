@@ -1,3 +1,5 @@
+# yaml-language-server: $schema=./harmony-catalog.schema.json
+
 #
 # This file must be updated only by Microchip employees
 #
@@ -125,6 +127,19 @@ catalog:
               package-check: true
               third_party: false
               description: "https://github.com/Microchip-MPLAB-Harmony/gfx_apps_pic32cz_ca/blob/master/readme.md"
+              licenses:
+                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+
+            - name: "gfx_apps_pic32cm_le_ls"
+              parent: "gfx"
+              package_group: "Harmony Graphics solutions"
+              type: "application"
+              category: "gfx"
+              required: "false"
+              tag-check: true
+              package-check: true
+              third_party: false
+              description: "https://github.com/Microchip-MPLAB-Harmony/gfx_apps_pic32cm_le_ls/blob/master/readme.md"
               licenses:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
 
