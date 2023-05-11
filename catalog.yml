@@ -10,23 +10,24 @@ catalog:
         - { name: "Microchip MPLAB Harmony 3 - Chip Support Package", url: "file:///csp.yml"}
         - { name: "Microchip MPLAB Harmony 3 - Core", url: "file:///core.yml"}
         - { name: "Microchip MPLAB Harmony 3 - Bootloader", url: "file:///bootloader.yml"}
+        - { name: "Microchip MPLAB Harmony 3 - USB", url: "file:///usb.yml"}
         - { name: "Microchip MPLAB Harmony 3 - Motor Control", url: "file:///motorcontrol.yml"}
         - { name: "Microchip MPLAB Harmony 3 - Smart Energy", url: "file:///smart_energy.yml"}
         - { name: "Microchip MPLAB Harmony 3 - Graphics", url: "file:///graphics.yml"}
         - { name: "Microchip MPLAB Harmony 3 - Network", url: "file:///net.yml"}
+        - { name: "Microchip MPLAB Harmony 3 - Wireless", url: "file:///wireless.yml"}
         - { name: "Microchip MPLAB Harmony 3 - PMCI", url: "file:///pmci.yml"}
-        - { name: "Microchip MPLAB Harmony 3 - Class B", url: "file:///classb.yml"}
         - { name: "Microchip MPLAB Harmony 3 - Soteria secureboot solution", url: "file:///cec173x_soteria.yml"}
-        - { name: "Microchip MPLAB Harmony 3 - Third Parties", url: "file:///third_parties.yml"}
+        - { name: "Microchip MPLAB Harmony 3 - Class B", url: "file:///classb.yml"}
         - { name: "Microchip MPLAB Harmony 3 - Microsoft Azure RTOS", url: "file:///azure_rtos.yml"}
         - { name: "Microchip MPLAB Harmony 3 - littlefs", url: "file:///littlefs.yml"}
+        - { name: "Microchip MPLAB Harmony 3 - Third Parties", url: "file:///third_parties.yml"}
         - { name: "Microchip MPLAB Harmony 3 - Complementary content", url: "file:///complementary.yml"}
         - { name: "Microchip MPLAB Harmony 3 - Community", url: "https://raw.githubusercontent.com/Microchip-MPLAB-Harmony/community_catalog/master/catalog.yml"}
         - { name: "Microchip MPLAB Harmony 3 - Reference Apps and Quick Docs", url: "file:///ra_qd.yml"}
         - { name: "Microchip MPLAB Harmony 3 - Touch", url: "file:///touch.yml"}
         - { name: "Microchip MPLAB Harmony 3 - AWS Cloud", url: "file:///aws_cloud.yml"}
-        - { name: "Microchip MPLAB Harmony 3 - USB", url: "file:///usb.yml"}
-        - { name: "Microchip MPLAB Harmony 3 - Wireless", url: "file:///wireless.yml"}
+        - { name: "Microchip MPLAB Harmony 3 - SPI UHF Transceiver", url: "file:///spi_uhf_transceiver.yml"}
 
     host:
         url: "github.com"
