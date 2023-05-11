@@ -1,3 +1,5 @@
+# yaml-language-server: $schema=./harmony-catalog.schema.json
+
 #
 # This file must be updated only by Microchip employees
 #
@@ -12,8 +14,8 @@ catalog:
 
         packages:
             - name: "cryptoauthlib"
-              title: "Harmony CryptoAuthLib solutions"
-              package_group: "crypto"
+              title: "Harmony 3 - CryptoAuthLib solutions"
+              package_group: "Harmony 3 CryptoAuthLib solutions"
               category: "cryptography"
               required: "false"
               tag-check: true
@@ -24,8 +26,8 @@ catalog:
                   - {name: "Microchip CAL License", path: "license.txt"}
 
             - name: "amazon-freertos"
-              title: "Harmony Amazon FreeRTOS solutions"
-              package_group: "Amazon FreeRTOS"
+              title: "Harmony 3 - Amazon FreeRTOS solutions"
+              package_group: "Harmony 3 Amazon FreeRTOS solutions"
               type: external
               category: "rtos"
               required: "false"
@@ -37,8 +39,10 @@ catalog:
                   - {name: "MIT License", path: "LICENSE"}
 
             - name: "paho.mqtt.embedded-c"
-              type: external
+#              title: "Paho MQTT"
               parent: "wireless_wifi"
+              package_group: "Harmony 3 Wireless solutions"
+              type: external
               category: "iot"
               required: "false"
               tag-check: false
@@ -48,3 +52,4 @@ catalog:
               licenses:
                   - { name: "Eclipse Distribution License", path: "epl-v10"}
                   - { name: "Eclipse Public License", path: "epl-v10"}
+

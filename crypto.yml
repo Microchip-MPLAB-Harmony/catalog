@@ -1,3 +1,5 @@
+# yaml-language-server: $schema=./harmony-catalog.schema.json
+
 #
 # This file must be updated only by Microchip employees
 #
@@ -12,8 +14,8 @@ catalog:
 
         packages:
             - name: "crypto"
-              title: "Harmony Cryptography solutions"
-              package_group: "Harmony3 Crypto Support Package"
+              title: "Harmony 3 - Cryptography solutions"
+              package_group: "Harmony 3 Crypto solutions"
               type: "api"
               category: "cryptography"
               required: "false"
@@ -26,20 +28,20 @@ catalog:
 
 #            - name: "crypto_apps"
 #              parent: "crypto"
-#              package_group: "Harmony3 Crypto Support Package"
+#              package_group: "Harmony 3 Crypto solutions"
 #              type: "application"
 #              category: "cryptography"
 #              required: "false"
 #              tag-check: true
 #              package-check: true
 #              third_party: false
-#              description: "https://github.com/Microchip-MPLAB-Harmony/crypto/blob/master/readme.md"
+#              description: "https://github.com/Microchip-MPLAB-Harmony/crypto_apps/blob/master/readme.md"
 #              licenses:
 #                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
 
             - name: "crypto_apps_encrypt_decrypt"
               parent: "crypto"
-              package_group: "Harmony3 Crypto Support Package"
+              package_group: "Harmony 3 Crypto solutions"
               type: "application"
               category: "cryptography"
               required: "false"
@@ -52,7 +54,7 @@ catalog:
 
             - name: "crypto_apps_large_hash"
               parent: "crypto"
-              package_group: "Harmony3 Crypto Support Package"
+              package_group: "Harmony 3 Crypto solutions"
               type: "application"
               category: "cryptography"
               required: "false"
@@ -65,7 +67,7 @@ catalog:
 
             - name: "crypto_apps_speed_test"
               parent: "crypto"
-              package_group: "Harmony3 Crypto Support Package"
+              package_group: "Harmony 3 Crypto solutions"
               type: "application"
               category: "cryptography"
               required: "false"
@@ -75,3 +77,18 @@ catalog:
               description: "https://github.com/Microchip-MPLAB-Harmony/crypto_apps_speed_test/blob/master/readme.md"
               licenses:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+
+            - name: "cryptoauthlib_apps"
+              parent: "cryptoauthlib"
+              package_group: "Harmony 3 CryptoAuthLib solutions"
+              type: "application"
+              parent: "cryptoauthlib"
+              category: "cryptography"
+              required: "false"
+              tag-check: true
+              package-check: true
+              third_party: false
+              description: "https://github.com/Microchip-MPLAB-Harmony/cryptoauthlib_apps/blob/master/readme.md"
+              licenses:
+                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+

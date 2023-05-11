@@ -1,3 +1,5 @@
+# yaml-language-server: $schema=./harmony-catalog.schema.json
+
 #
 # This file must be updated only by Microchip employees
 #
@@ -25,80 +27,38 @@ catalog:
                   - { name: "Apache-2.0 License", path: "LICENSE-apache-2.0.txt"}
 
             - name: "helix_mp3"
+#              title: "Helix MP3 codec"
               parent: "audio"
+              package_group: "Harmony 3 Audio solutions"
+              type: "api"
+              category: "audio"
+              required: "false"
+              tag-check: false
+              package-check: false
+              third_party: true
               description: "https://github.com/Microchip-MPLAB-Harmony/helix_mp3/blob/master/README.md"
               licenses:
                   - {name: "RealNetworks Community Source license", path: "fixpnt/RCSL.txt"}
                   - {name: "RealNetworks Public Source license", path: "fixpnt/RPSL.txt"}
 
             - name: "xiph_flac"
+#              title: "Xiph Flac codec"
               parent: "audio"
+              package_group: "Harmony 3 Audio solutions"
+              type: "api"
+              category: "audio"
+              required: "false"
+              tag-check: false
+              package-check: false
+              third_party: true
               description: "https://github.com/Microchip-MPLAB-Harmony/xiph_flac/blob/master/README.md"
               licenses:
                   - {name: "GPL license", path: "COPYING.GPL"}
                   - {name: "Xiph license", path: "COPYING.Xiph"}
 
-            - name: "zlib"
-#              title: "ZLIB DATA COMPRESSION LIBRARY"
-              package_group: "Zlib"
-              type: external
-              parent: "core"
-              category: "data compression"
-              required: "false"
-              tag-check: false
-              package-check: false
-              third_party: true
-              description: "https://github.com/Microchip-MPLAB-Harmony/zlib/blob/master/README"
-              licenses:
-                  - {name: "zlib", path: "README"}
-
-            - name: "wolfssl"
-              title: "Harmony WolfSSL solutions"
-              package_group: "WolfSSL"
-              type: external
-              category: "cryptography"
-              required: "false"
-              tag-check: false
-              package-check: false
-              third_party: true
-              description: "https://github.com/Microchip-MPLAB-Harmony/wolfssl/blob/master/README.md"
-              licenses:
-                  - { name: "GNU GENERAL PUBLIC LICENSE v2", path: "LICENSING"}
-                  - { name: "Microchip/WolfSSL EULA", path: "WolfSSL_EULicense_Microchip.md"}
-
-            - name: "wolfssh"
-#              title: "wolfssh"
-              parent: "wolfssl"
-              package_group: "WolfSSL"
-              type: external
-              category: "cryptography"
-              required: "false"
-              tag-check: false
-              package-check: false
-              third_party: true
-              description: "https://github.com/Microchip-MPLAB-Harmony/wolfssh/blob/master/README.md"
-              licenses:
-                  - { name: "GNU GENERAL PUBLIC LICENSE v2", path: "LICENSING"}
-                  - { name: "Microchip/WolfSSL EULA", path: "WolfSSL_EULicense_Microchip.md"}
-
-            - name: "wolfMQTT"
-#              title: "wolfMQTT"
-              parent: "wolfssl"
-              package_group: "WolfSSL"
-              type: external
-              category: "iot"
-              required: "false"
-              tag-check: false
-              package-check: false
-              third_party: true
-              description: "https://github.com/Microchip-MPLAB-Harmony/wolfMQTT/blob/master/README.md"
-              licenses:
-                  - { name: "GNU GENERAL PUBLIC LICENSE v2", path: "LICENSE"}
-                  - { name: "Microchip/WolfSSL EULA", path: "WolfSSL_EULicense_Microchip.md"}
-
             - name: "tflite-micro"
-              title: "TFLite Micro"
-              package_group: "TensorFlow"
+              title: "Harmony 3 - TensorFlow Lite for Microcontroller (TFLM) Solutions"
+              package_group: "Harmony AI/ML"
               type: external
               category: "Machine Learning"
               required: "false"
@@ -108,3 +68,4 @@ catalog:
               description: "https://github.com/Microchip-MPLAB-Harmony/tflite-micro/blob/master/README.md"
               licenses:
                   - { name: "Apache-2.0 License", path: "LICENSE.txt"}
+

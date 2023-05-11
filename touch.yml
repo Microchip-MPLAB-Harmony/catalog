@@ -1,3 +1,5 @@
+# yaml-language-server: $schema=./harmony-catalog.schema.json
+
 #
 # This file must be updated only by Microchip employees
 #
@@ -13,7 +15,7 @@ catalog:
         packages:
             - name: "touch"
               title: "Harmony 3 - Capacitive Touch solutions"
-              package_group: "Harmony 3 - Capacitive Touch solutions"
+              package_group: "Harmony 3 Capacitive Touch solutions"
               type: "api"
               category: "touch"
               required: "false"
@@ -27,7 +29,7 @@ catalog:
             - name: "touch_apps"
 #              title: "Harmony 3 Touch Apps"
               parent: "touch"
-              package_group: "Harmony 3 - Capacitive Touch solutions"
+              package_group: "Harmony 3 Capacitive Touch solutions"
               type: "application"
               category: "touch"
               required: "false"
@@ -39,9 +41,9 @@ catalog:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
 
             - name: "touch_host_driver"
-#              title: "Harmony 3 Touch Host Driver"
+#              title: "Harmony 3 - Touch Host Driver"
               parent: "touch"
-              package_group: "Harmony 3 - Capacitive Touch solutions"
+              package_group: "Harmony 3 Capacitive Touch solutions"
               type: "api"
               category: "touch"
               required: "false"
@@ -51,3 +53,4 @@ catalog:
               description: "https://github.com/Microchip-MPLAB-Harmony/touch_host_driver/blob/master/readme.md"
               licenses:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+

@@ -10,8 +10,8 @@ and microprocessor devices.  Refer to the following links for more information.
  - [Microchip MPLAB® Harmony](https://www.microchip.com/mplab/mplab-harmony)
  - [Microchip MPLAB® Harmony Pages](https://microchip-mplab-harmony.github.io/)
 
-This repository contains the current catalog of module repositories for
-Microchip MPLAB® Harmony 3 (see previous links).
+This repository contains the current catalog of package repositories for Microchip MPLAB® Harmony 3 (see previous links).
 
  - These pages are kept up to date with the latest information.
  - Report issues to [www.microchip.com/support](http://microchip.com/support).
+

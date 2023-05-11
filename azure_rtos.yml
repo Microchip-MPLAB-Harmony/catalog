@@ -1,8 +1,10 @@
+# yaml-language-server: $schema=./harmony-catalog.schema.json
+
 #
 # This file must be updated only by Microchip employees
 #
 catalog:
-    format-version: "1.1.0"
+    format-version: "3.0.0"
     name: "Microchip MPLAB Harmony 3 - Microsoft Azure RTOS"
 
     host:
@@ -12,23 +14,43 @@ catalog:
 
         packages:
             - name: "threadx"
+#              title: "Azure RTOS ThreadX"
               parent: "azure_rtos"
+              package_group: "Azure RTOS"
+              type: external
               category: "rtos"
+              required: "false"
+              tag-check: false
+              package-check: false
+              third_party: true
               description: "https://github.com/azure-rtos/threadx/blob/master/README.md"
               licenses:
                   - { name: "Microsoft Software License", path: "LICENSE.txt"}
-              tag-check: false
 
             - name: "netxduo"
+#              title: "Azure RTOS NetX Duo"
               parent: "azure_rtos"
+              package_group: "Azure RTOS"
+              type: external
+              category: "rtos"
+              required: "false"
+              tag-check: false
+              package-check: false
+              third_party: true
               description: "https://github.com/azure-rtos/netxduo/blob/master/README.md"
               licenses:
                   - { name: "Microsoft Software License", path: "LICENSE.txt"}
-              tag-check: false
 
             - name: "filex"
+#              title: "Azure RTOS FileX"
               parent: "azure_rtos"
+              package_group: "Azure RTOS"
+              type: external
+              category: "rtos"
+              required: "false"
+              tag-check: false
+              package-check: false
+              third_party: true
               description: "https://github.com/azure-rtos/filex/blob/master/README.md"
               licenses:
                   - { name: "Microsoft Software License", path: "LICENSE.txt"}
-              tag-check: false

@@ -1,3 +1,5 @@
+# yaml-language-server: $schema=./harmony-catalog.schema.json
+
 #
 # This file must be updated only by Microchip employees
 #
@@ -12,8 +14,8 @@ catalog:
 
         packages:
             - name: "usb"
-              title: "Harmony USB solutions"
-              package_group: "Harmony USB"
+              title: "Harmony 3 - USB solutions"
+              package_group: "Harmony 3 USB"
               type: "api"
               category: "usb"
               required: "false"
@@ -27,7 +29,7 @@ catalog:
             - name: "usb_apps_device"
 #              title: "Harmony 3 USB Device application examples"
               parent: "usb"
-              package_group: "Harmony USB"
+              package_group: "Harmony 3 USB"
               type: "application"
               category: "usb"
               required: "false"
@@ -41,7 +43,7 @@ catalog:
             - name: "usb_apps_dual_role"
 #              title: "Harmony 3 USB Dual-Role application examples"
               parent: "usb"
-              package_group: "Harmony USB"
+              package_group: "Harmony 3 USB"
               type: "application"
               category: "usb"
               required: "false"
@@ -55,7 +57,7 @@ catalog:
             - name: "usb_apps_host"
 #              title: "Harmony 3 USB Host application examples"
               parent: "usb"
-              package_group: "Harmony USB"
+              package_group: "Harmony 3 USB"
               type: "application"
               category: "usb"
               required: "false"
@@ -69,7 +71,7 @@ catalog:
             - name: "usb_apps_multi_controller"
 #              title: "Harmony 3 USB Multi-Controller application examples"
               parent: "usb"
-              package_group: "Harmony USB"
+              package_group: "Harmony 3 USB"
               type: "application"
               category: "usb"
               required: "false"
@@ -79,3 +81,4 @@ catalog:
               description: "https://github.com/Microchip-MPLAB-Harmony/usb_apps_multi_controller/blob/master/readme.md"
               licenses:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+

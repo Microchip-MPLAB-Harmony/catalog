@@ -5,7 +5,7 @@
 #
 catalog:
     format-version: "3.0.0"
-    name: "Microchip MPLAB Harmony 3 - AWS solution"
+    name: "Microchip MPLAB Harmony 3 - MPLAB tools"
 
     host:
         url: "github.com"
@@ -13,16 +13,15 @@ catalog:
         raw_file_url_pattern: "https://raw.githubusercontent.com/Microchip-MPLAB-Harmony/{REPO_NAME}/{BRANCH-NAME/TAG-NAME}/{FILE-NAME}"
 
         packages:
-            - name: "aws_cloud"
-              title: "Harmony 3 - AWS solution"
-              package_group: "Harmony 3 AWS solution"
-              type: "api"
-              category: "iot"
+            - name: "mplab_event_recorder"
+              title: "Harmony 3 - MPLAB Event Recorder"
+              package_group: "MPLAB X Tools"
+              type: "tool"
+              category: "tools"
               required: "false"
               tag-check: true
               package-check: true
               third_party: false
-              description: "https://github.com/Microchip-MPLAB-Harmony/aws_cloud/blob/master/readme.md"
+              description: "https://github.com/Microchip-MPLAB-Harmony/mplab_event_recorder/blob/master/readme.md"
               licenses:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
-

@@ -1,3 +1,5 @@
+# yaml-language-server: $schema=./harmony-catalog.schema.json
+
 #
 # This file must be updated only by Microchip employees
 #
@@ -12,8 +14,8 @@ catalog:
 
         packages:
             - name: "cec173x_soteria_lib"
-              title: "Harmony 3 Soteria secureboot solution library"
-              package_group: "Soteria secureboot solution"
+              title: "Harmony 3 - Soteria secureboot solution library"
+              package_group: "Harmony 3 Soteria secureboot solution"
               type: "application"
               category: "Secureboot"
               required: "false"
@@ -23,3 +25,4 @@ catalog:
               description: "https://github.com/Microchip-MPLAB-Harmony/cec173x_soteria_lib/browse/readme.md"
               licenses:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+

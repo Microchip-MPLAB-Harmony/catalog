@@ -1,3 +1,5 @@
+# yaml-language-server: $schema=./harmony-catalog.schema.json
+
 #
 # This file must be updated only by Microchip employees
 #
@@ -12,8 +14,8 @@ catalog:
 
         packages:
             - name: "reference_apps"
-              title: "Harmony 3 Reference Apps"
-              package_group: "Harmony 3 - Reference Apps and Quick Docs"
+              title: "Harmony 3 - Reference Apps"
+              package_group: "Harmony 3 Reference Apps and Quick Docs"
               type: "application"
               category: "foundations"
               required: "false"
@@ -25,9 +27,9 @@ catalog:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
 
             - name: "quick_docs"
-#              title: "Harmony 3 Quick Docs"
+#              title: "Harmony 3 - Quick Docs"
               parent: "reference_apps"
-              package_group: "Harmony 3 - Reference Apps and Quick Docs"
+              package_group: "Harmony 3 Reference Apps and Quick Docs"
               type: "documentation"
               category: "foundations"
               required: "true"
@@ -37,3 +39,4 @@ catalog:
               description: "https://github.com/Microchip-MPLAB-Harmony/quick_docs/blob/master/readme.md"
               licenses:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+

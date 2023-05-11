@@ -5,25 +5,24 @@
 #
 catalog:
     format-version: "3.0.0"
-    name: "Microchip MPLAB Harmony 3 - littlefs"
+    name: "Microchip MPLAB Harmony 3 - zlib"
 
     host:
         url: "github.com"
-        path: "/littlefs-project/"
+        path: "/madler/"
         raw_file_url_pattern: "https://raw.githubusercontent.com//littlefs-project/{REPO_NAME}/{BRANCH-NAME/TAG-NAME}/{FILE-NAME}"
 
         packages:
-            - name: "littlefs"
-              title: "Harmony 3 - littlefs solutions"
-              parent: core
-              package_group: "Harmony 3 Core"
+            - name: "zlib"
+              title: "Harmony 3 - zlib  data-compression library"
+              package_group: "zlib"
               type: external
-              category: "filesystem"
+              category: "data compression"
               required: "false"
               tag-check: false
               package-check: false
               third_party: true
-              description: "https://github.com/littlefs-project/littlefs/blob/master/README.md"
+              description: "https://github.com/madler/zlib/blob/master/README"
               licenses:
-                  - { name: "BSD-3-Clause License", path: "LICENSE.md"}
+                  - {name: "zlib", path: "README"}
 

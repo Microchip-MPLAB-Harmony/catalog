@@ -1,3 +1,5 @@
+# yaml-language-server: $schema=./harmony-catalog.schema.json
+
 #
 # This file must be updated only by Microchip employees
 #
@@ -12,7 +14,9 @@ catalog:
         - { name: "Microchip MPLAB Harmony 3 - Bootloader", url: "file:///bootloader.yml"}
         - { name: "Microchip MPLAB Harmony 3 - USB", url: "file:///usb.yml"}
         - { name: "Microchip MPLAB Harmony 3 - Motor Control", url: "file:///motorcontrol.yml"}
+        - { name: "Microchip MPLAB Harmony 3 - RTOS Support", url: "file:///rtos.yml"}
         - { name: "Microchip MPLAB Harmony 3 - Smart Energy", url: "file:///smart_energy.yml"}
+        - { name: "Microchip MPLAB Harmony 3 - Audio", url: "file:///audio.yml"}
         - { name: "Microchip MPLAB Harmony 3 - Graphics", url: "file:///graphics.yml"}
         - { name: "Microchip MPLAB Harmony 3 - Network", url: "file:///net.yml"}
         - { name: "Microchip MPLAB Harmony 3 - Wireless", url: "file:///wireless.yml"}
@@ -20,15 +24,20 @@ catalog:
         - { name: "Microchip MPLAB Harmony 3 - Soteria secureboot solution", url: "file:///cec173x_soteria.yml"}
         - { name: "Microchip MPLAB Harmony 3 - Crypto", url: "file:///crypto.yml"}
         - { name: "Microchip MPLAB Harmony 3 - Class B", url: "file:///classb.yml"}
+        - { name: "Microchip MPLAB Harmony 3 - Aerospace", url: "file:///aerospace.yml"}
         - { name: "Microchip MPLAB Harmony 3 - Microsoft Azure RTOS", url: "file:///azure_rtos.yml"}
         - { name: "Microchip MPLAB Harmony 3 - littlefs", url: "file:///littlefs.yml"}
         - { name: "Microchip MPLAB Harmony 3 - Third Parties", url: "file:///third_parties.yml"}
-        - { name: "Microchip MPLAB Harmony 3 - Complementary content", url: "file:///complementary.yml"}
+        - { name: "Microchip MPLAB Harmony 3 - Complementary content", url: "file:///microchiptech.yml"}
         - { name: "Microchip MPLAB Harmony 3 - Community", url: "https://raw.githubusercontent.com/Microchip-MPLAB-Harmony/community_catalog/master/catalog.yml"}
         - { name: "Microchip MPLAB Harmony 3 - Reference Apps and Quick Docs", url: "file:///ra_qd.yml"}
         - { name: "Microchip MPLAB Harmony 3 - Touch", url: "file:///touch.yml"}
         - { name: "Microchip MPLAB Harmony 3 - AWS Cloud", url: "file:///aws_cloud.yml"}
         - { name: "Microchip MPLAB Harmony 3 - SPI UHF Transceiver", url: "file:///spi_uhf_transceiver.yml"}
+        - { name: "Microchip MPLAB Harmony 3 - AI/ML", url: "file:///aiml.yml"}
+#        - { name: "Microchip MPLAB Harmony 3 - Tools", url: "file:///tools.yml"}
+        - { name: "Microchip MPLAB Harmony 3 - zlib", url: "file:///zlib.yml"}
+        - { name: "Microchip MPLAB Harmony 3 - wolfSSL", url: "file:///wolfssl.yml"}
 
     host:
         url: "github.com"
@@ -36,25 +45,11 @@ catalog:
         raw_file_url_pattern: "https://raw.githubusercontent.com/Microchip-MPLAB-Harmony/{REPO_NAME}/{BRANCH-NAME/TAG-NAME}/{FILE-NAME}"
 
         packages:
-            - name: "mhc"
-              title: "MPLAB Harmony Configurator"
-              package_group: "Harmony Tools"
-              type: "tool"
-              category: "tools"
-              required: "false"
-              tag-check: false
-              package-check: true
-              third_party: false
-              description: "https://github.com/Microchip-MPLAB-Harmony/mhc/blob/master/readme.md"
-              licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
-
             - name: "harmony-services"
-#              title: "MPLAB Harmony Services"
+              title: "Harmony 3 - Harmony Services"
               package_group: "Harmony Tools"
               type: "tool"
               category: "tools"
-              parent: "mhc"
               required: "true"
               tag-check: false
               package-check: true
@@ -63,84 +58,3 @@ catalog:
               licenses:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
 
-            - name: "audio"
-              title: "Harmony Audio solutions"
-              category: "audio"
-              description: "https://github.com/Microchip-MPLAB-Harmony/audio/blob/master/readme.md"
-              licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
-
-            - name: "bt"
-              parent: "audio"
-              description: "https://github.com/Microchip-MPLAB-Harmony/bt/blob/master/readme.md"
-              licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
-
-            - name: "audio_apps"
-              type: "application"
-              parent: "audio"
-              description: "https://github.com/Microchip-MPLAB-Harmony/audio_apps/blob/master/readme.md"
-              licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
-
-            - name: "micrium_ucos3"
-              title: "Harmony Micrium u/COS III port"
-              category: "rtos"
-              description: "https://github.com/Microchip-MPLAB-Harmony/micrium_ucos3/blob/master/readme.md"
-              licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
-
-            - name: "aerospace"
-              title: "Harmony Aerospace solutions"
-              category: "aerospace"
-              description: "https://github.com/Microchip-MPLAB-Harmony/aerospace/blob/master/readme.md"
-              licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
-
-            - name: "aerospace_apps_sam_rh71"
-              type: "application"
-              parent: "aerospace"
-              description: "https://github.com/Microchip-MPLAB-Harmony/aerospace_apps_sam_rh71/blob/master/readme.md"
-              licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
-
-            - name: "aerospace_apps_sam_rh707"
-              type: "application"
-              parent: "aerospace"
-              description: "https://github.com/Microchip-MPLAB-Harmony/aerospace_apps_sam_rh707/blob/master/readme.md"
-              licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
-
-            - name: "cryptoauthlib_apps"
-              type: "application"
-              parent: "cryptoauthlib"
-              category: "cryptography"
-              description: "https://github.com/Microchip-MPLAB-Harmony/cryptoauthlib_apps/blob/master/readme.md"
-              licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
-
-            - name: "mbed_os_rtos"
-              title: "Harmony Mbed OS Port"
-              category: "rtos"
-              description: "https://github.com/Microchip-MPLAB-Harmony/mbed_os_rtos/blob/master/readme.md"
-              licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
-
-            - name: "mbed_os_rtos_apps"
-              type: "application"
-              parent: "mbed_os_rtos"
-              description: "https://github.com/Microchip-MPLAB-Harmony/mbed_os_rtos_apps/blob/master/readme.md"
-              licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
-
-            - name: "azure_rtos"
-              title: "Harmony Azure RTOS solutions"
-              description: "https://github.com/Microchip-MPLAB-Harmony/azure_rtos/blob/master/readme.md"
-              licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
-
-            - name: "tflite-micro-apps"
-              title: "Harmony TensorFlow Lite for Microcontroller (TFLM) Solutions"
-              description: "https://github.com/Microchip-MPLAB-Harmony/tflite-micro-apps/blob/master/readme.md"
-              licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}

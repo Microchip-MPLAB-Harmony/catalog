@@ -1,3 +1,5 @@
+# yaml-language-server: $schema=./harmony-catalog.schema.json
+
 #
 # This file must be updated only by Microchip employees
 #
@@ -12,8 +14,8 @@ catalog:
 
         packages:
             - name: "wireless_wifi"
-              title: "Harmony Wireless solutions"
-              package_group: "Harmony 3 - Wireless solutions"
+              title: "Harmony 3 - Wireless solutions"
+              package_group: "Harmony 3 Wireless solutions"
               type: "api"
               category: "wireless"
               required: "false"
@@ -24,23 +26,11 @@ catalog:
               licenses:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
 
-            - name: "wireless_pic32cxbz_wbz"
-              title: "Harmony Wireless PIC32CX-BZ System Services"
-              package_group: "Harmony 3 - Wireless solutions"
-              type: "api"
-              category: "wireless"
-              required: "false"
-              tag-check: true
-              package-check: true
-              third_party: false
-              description: "https://github.com/Microchip-MPLAB-Harmony/wireless_pic32cxbz_wbz/blob/master/readme.md"
-              licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
-
             - name: "wireless_apps_winc1500"
-              package_group: "Harmony 3 - Wireless solutions"
-              type: "application"
+#              title: "Harmony 3 - Wireless applications for WINC1500"
               parent: "wireless_wifi"
+              package_group: "Harmony 3 Wireless solutions"
+              type: "application"
               category: "wireless"
               required: "false"
               tag-check: true
@@ -51,9 +41,10 @@ catalog:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
 
             - name: "wireless_apps_winc3400"
-              package_group: "Harmony 3 - Wireless solutions"
-              type: "application"
+#              title: "Harmony 3 - Wireless applications for WINC3400"
               parent: "wireless_wifi"
+              package_group: "Harmony 3 Wireless solutions"
+              type: "application"
               category: "wireless"
               required: "false"
               tag-check: true
@@ -64,9 +55,10 @@ catalog:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
 
             - name: "wireless_system_pic32mzw1_wfi32e01"
-              package_group: "Harmony 3 - Wireless solutions"
-              type: "api"
+#              title: "Harmony 3 - Wireless applications for PIC32MZ W1 and WFI32E01"
               parent: "wireless_wifi"
+              package_group: "Harmony 3 Wireless solutions"
+              type: "api"
               category: "wireless"
               required: "false"
               tag-check: true
@@ -77,9 +69,10 @@ catalog:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
 
             - name: "wireless_apps_pic32mzw1_wfi32e01"
-              package_group: "Harmony 3 - Wireless solutions"
-              type: "application"
+#              title: "Harmony 3 - Wireless applications for PIC32MZ W1 and WFI32E01"
               parent: "wireless_wifi"
+              package_group: "Harmony 3 Wireless solutions"
+              type: "application"
               category: "wireless"
               required: "false"
               tag-check: true
@@ -90,8 +83,8 @@ catalog:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
 
             - name: "wireless_ble"
-              title: "Harmony Wireless BLE solutions"
-              package_group: "Harmony 3 - Wireless solutions"
+              title: "Harmony 3 - Wireless BLE solutions"
+              package_group: "Harmony 3 Wireless solutions"
               type: "api"
               category: "wireless"
               required: "false"
@@ -102,9 +95,51 @@ catalog:
               licenses:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
 
+            - name: "wireless_pic32cxbz_wbz"
+#              title: "Harmony 3 - Wireless PIC32CX-BZ System Services"
+              parent: "wireless_ble"
+              package_group: "Harmony 3 Wireless solutions"
+              type: "api"
+              category: "wireless"
+              required: "false"
+              tag-check: true
+              package-check: true
+              third_party: false
+              description: "https://github.com/Microchip-MPLAB-Harmony/wireless_pic32cxbz_wbz/blob/master/readme.md"
+              licenses:
+                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+
+            - name: "wireless_system_pic32cxbz_wbz"
+#               title: "Harmony 3 - Wireless BLE applications for PIC32CX BZ and WBZ"
+              parent: "wireless_ble"
+              package_group: "Harmony 3 Wireless solutions"
+              type: "api"
+              category: "wireless"
+              required: "false"
+              tag-check: true
+              package-check: true
+              third_party: false
+              description: "https://github.com/Microchip-MPLAB-Harmony/wireless_system_pic32cxbz_wbz/blob/master/readme.md"
+              licenses:
+                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+
+            - name: "wireless_apps_pic32cxbz2_wbz45"
+#               title: "Harmony 3 - Wireless BLE applications for PIC32CX BZ2 and WBZ45"
+              parent: "wireless_ble"
+              package_group: "Harmony 3 Wireless solutions"
+              type: "application"
+              category: "wireless"
+              required: "false"
+              tag-check: true
+              package-check: true
+              third_party: false
+              description: "https://github.com/Microchip-MPLAB-Harmony/wireless_apps_pic32cxbz2_wbz45/blob/master/readme.md"
+              licenses:
+                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+
             - name: "wireless_15_4_phy"
-              title: "Harmony Wireless 802.15.4 Transceiver PHY solutions"
-              package_group: "Harmony 3 - Wireless solutions"
+              title: "Harmony 3 - Wireless 802.15.4 Transceiver PHY solutions"
+              package_group: "Harmony 3 Wireless solutions"
               type: "api"
               category: "wireless"
               required: "false"
@@ -116,8 +151,8 @@ catalog:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
 
             - name: "wireless_zigbee"
-              title: "Harmony Wireless Zigbee solutions"
-              package_group: "Harmony 3 - Wireless solutions"
+              title: "Harmony 3 - Wireless Zigbee solutions"
+              package_group: "Harmony 3 Wireless solutions"
               type: "api"
               category: "wireless"
               required: "false"
@@ -128,35 +163,9 @@ catalog:
               licenses:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
 
-            - name: "wireless_apps_pic32cxbz2_wbz45"
-              package_group: "Harmony 3 - Wireless solutions"
-              type: "application"
-              parent: "wireless_ble"
-              category: "wireless"
-              required: "false"
-              tag-check: true
-              package-check: true
-              third_party: false
-              description: "https://github.com/Microchip-MPLAB-Harmony/wireless_apps_pic32cxbz2_wbz45/blob/master/readme.md"
-              licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
-
-            - name: "wireless_system_pic32cxbz_wbz"
-              package_group: "Harmony 3 - Wireless solutions"
-              type: "api"
-              parent: "wireless_ble"
-              category: "wireless"
-              required: "false"
-              tag-check: true
-              package-check: true
-              third_party: false
-              description: "https://github.com/Microchip-MPLAB-Harmony/wireless_system_pic32cxbz_wbz/blob/master/readme.md"
-              licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
-
             - name: "wireless_rnbd"
-              title: "Harmony3 Wireless RNBD"
-              package_group: "Harmony 3 - Wireless solutions"
+              title: "Harmony 3 - Wireless RNBD"
+              package_group: "Harmony 3 Wireless solutions"
               type: "api"
               category: "wireless"
               required: "false"
@@ -166,3 +175,4 @@ catalog:
               description: "https://github.com/Microchip-MPLAB-Harmony/wireless_rnbd/blob/master/readme.md"
               licenses:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+

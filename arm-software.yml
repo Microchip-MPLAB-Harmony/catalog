@@ -1,9 +1,10 @@
+# yaml-language-server: $schema=./harmony-catalog.schema.json
 #
 # This file must be updated only by Microchip employees
 #
 catalog:
     format-version: "3.0.0"
-    name: "Microchip MPLAB Harmony 3 - ARM software"
+    name: "Microchip MPLAB Harmony 3 - arm CMSIS"
 
     host:
         url: "github.com"
@@ -12,8 +13,8 @@ catalog:
 
         packages:
             - name: "CMSIS_5"
-              title: "CMSIS v5"
-              package_group: "Harmony3 Chip Support Package"
+              title: "arm CMSIS"
+              package_group: "arm CMSIS"
               type: external
               category: "foundations"
               required: "false"
@@ -25,8 +26,9 @@ catalog:
                   - {name: "Apache License 2.0", path: "LICENSE.txt"}
 
             - name: "CMSIS-DSP"
-              title: "CMSIS-DSP"
-              package_group: "Harmony3 Chip Support Package"
+#              title: "CMSIS-DSP"
+              parent: "CMSIS_5"
+              package_group: "arm CMSIS"
               type: external
               category: "foundations"
               required: "false"
@@ -38,8 +40,9 @@ catalog:
                   - {name: "Apache License 2.0", path: "LICENSE.txt"}
 
             - name: "CMSIS-FreeRTOS"
-              title: "CMSIS FreeRTOS"
-              package_group: "Harmony Core"
+#              title: "CMSIS FreeRTOS"
+              parent: "CMSIS_5"
+              package_group: "arm CMSIS"
               type: external
               category: "rtos"
               required: "false"
@@ -51,8 +54,9 @@ catalog:
                   - {name: "MIT license", path: "License/license.txt"}
 
             - name: "CMSIS-NN"
-              title: "CMSIS-NN"
-              package_group: "Harmony Core"
+#              title: "CMSIS-NN"
+              parent: "CMSIS_5"
+              package_group: "arm CMSIS"
               type: external
               category: "AI/ML"
               required: "false"
@@ -62,4 +66,18 @@ catalog:
               description: "https://github.com/ARM-software/CMSIS-NN/blob/main/README.md"
               licenses:
                   - {name: "Apache License 2.0", path: "LICENSE.txt"}
+
+            - name: "CMSIS-View"
+#              title: "CMSIS-View"
+              parent: "CMSIS_5"
+              package_group: "arm CMSIS"
+              type: external
+              category: "tools"
+              required: "false"
+              tag-check: false
+              package-check: false
+              third_party: true
+              description: "https://github.com/ARM-software/CMSIS-View/blob/main/README.md"
+              licenses:
+                  - {name: "Apache License 2.0", path: "LICENSE"}
 

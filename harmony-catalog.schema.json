@@ -1,0 +1,179 @@
+{
+    "$schema": "http://json-schema.org/draft-06/schema#",
+    "$ref": "#/definitions/harmony_catalog",
+    "definitions": {
+        "harmony_catalog": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "catalog": {
+                    "$ref": "#/definitions/Catalog"
+                }
+            },
+            "required": [
+                "catalog"
+            ],
+            "title": "harmony_catalog"
+        },
+        "Catalog": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "format-version": {
+                    "type": "string"
+                },
+                "name": {
+                    "type": "string"
+                },
+                "links": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/Link"
+                    }
+                },
+                "host": {
+                    "$ref": "#/definitions/Host"
+                }
+            },
+            "required": [
+                "format-version",
+                "host",
+                "links",
+                "name"
+            ],
+            "title": "Catalog"
+        },
+        "Host": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "url": {
+                    "type": "string"
+                },
+                "path": {
+                    "type": "string"
+                },
+                "raw_file_url_pattern": {
+                    "type": "string"
+                },
+                "packages": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/Package"
+                    }
+                }
+            },
+            "required": [
+                "packages",
+                "path",
+                "raw_file_url_pattern",
+                "url"
+            ],
+            "title": "Host"
+        },
+        "Package": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "name": {
+                    "type": "string"
+                },
+                "title": {
+                    "type": "string"
+                },
+                "package_group": {
+                    "type": "string"
+                },
+                "type": {
+                    "type": "string"
+                },
+                "category": {
+                    "type": "string"
+                },
+                "required": {
+                    "type": "string",
+                    "format": "boolean"
+                },
+                "tag-check": {
+                    "type": "boolean"
+                },
+                "package-check": {
+                    "type": "boolean"
+                },
+                "third_party": {
+                    "type": "boolean"
+                },
+                "description": {
+                    "type": "string",
+                    "format": "uri",
+                    "qt-uri-protocols": [
+                        "https"
+                    ],
+                    "qt-uri-extensions": [
+                        ".md"
+                    ]
+                },
+                "licenses": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/License"
+                    }
+                }
+            },
+            "required": [
+                "category",
+                "description",
+                "licenses",
+                "name",
+                "package-check",
+                "package_group",
+                "required",
+                "tag-check",
+                "third_party",
+                "title",
+                "type"
+            ],
+            "title": "Package"
+        },
+        "License": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "name": {
+                    "type": "string"
+                },
+                "path": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "name",
+                "path"
+            ],
+            "title": "License"
+        },
+        "Link": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "name": {
+                    "type": "string"
+                },
+                "url": {
+                    "type": "string",
+                    "qt-uri-protocols": [
+                        "https"
+                    ],
+                    "qt-uri-extensions": [
+                        ".yml"
+                    ]
+                }
+            },
+            "required": [
+                "name",
+                "url"
+            ],
+            "title": "Link"
+        }
+    }
+}

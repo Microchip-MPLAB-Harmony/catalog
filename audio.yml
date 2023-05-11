@@ -5,7 +5,7 @@
 #
 catalog:
     format-version: "3.0.0"
-    name: "Microchip MPLAB Harmony 3 - Smart Energy"
+    name: "Microchip MPLAB Harmony 3 - Audio solutions"
 
     host:
         url: "github.com"
@@ -13,44 +13,44 @@ catalog:
         raw_file_url_pattern: "https://raw.githubusercontent.com/Microchip-MPLAB-Harmony/{REPO_NAME}/{BRANCH-NAME/TAG-NAME}/{FILE-NAME}"
 
         packages:
-            - name: "smartenergy"
-              title: "Harmony 3 - Smart Energy solutions"
-              package_group: "Harmony 3 Smart Energy solutions"
+            - name: "audio"
+              title: "Harmony 3 - Audio solutions"
+              package_group: "Harmony 3 Audio solutions"
               type: "api"
-              category: "smartenergy"
+              category: "audio"
               required: "false"
               tag-check: true
               package-check: true
               third_party: false
-              description: "https://github.com/Microchip-MPLAB-Harmony/smartenergy/blob/master/readme.md"
+              description: "https://github.com/Microchip-MPLAB-Harmony/audio/blob/master/readme.md"
               licenses:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
 
-            - name: "smartenergy_g3_apps"
-#              title: "Harmony 3 - Smart Energy G3 applications"
-              parent: "smartenergy"
-              package_group: "Harmony 3 Smart Energy solutions"
-              type: "application"
-              category: "smartenergy"
+            - name: "bt"
+#              title: "Harmony 3 Bluetooth solutions"
+              parent: "audio"
+              package_group: "Harmony 3 Audio solutions"
+              type: "api"
+              category: "audio"
               required: "false"
               tag-check: true
               package-check: true
               third_party: false
-              description: "https://github.com/Microchip-MPLAB-Harmony/smartenergy_g3_apps/blob/master/readme.md"
+              description: "https://github.com/Microchip-MPLAB-Harmony/bt/blob/master/readme.md"
               licenses:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
 
-            - name: "smartenergy_prime_apps"
-#              title: "Harmony 3 - Smart Energy PRIME applications"
-              parent: "smartenergy"
-              package_group: "Harmony 3 Smart Energy solutions"
+            - name: "audio_apps"
+#              title: "Harmony 3 Audio Application examples"
+              parent: "audio"
+              package_group: "Harmony 3 Audio solutions"
               type: "application"
-              category: "smartenergy"
+              category: "audio"
               required: "false"
               tag-check: true
               package-check: true
               third_party: false
-              description: "https://github.com/Microchip-MPLAB-Harmony/smartenergy_prime_apps/blob/master/readme.md"
+              description: "https://github.com/Microchip-MPLAB-Harmony/audio_apps/blob/master/readme.md"
               licenses:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
 

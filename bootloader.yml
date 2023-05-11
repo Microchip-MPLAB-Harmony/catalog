@@ -1,3 +1,5 @@
+# yaml-language-server: $schema=./harmony-catalog.schema.json
+
 #
 # This file must be updated only by Microchip employees
 #
@@ -12,8 +14,8 @@ catalog:
 
         packages:
             - name: "bootloader"
-              title: "Harmony 3 Bootloader"
-              package_group: "Harmony Bootloader"
+              title: "Harmony 3 - Bootloader solutions"
+              package_group: "Harmony 3 Bootloader"
               type: "api"
               category: "bootloader"
               required: "false"
@@ -27,7 +29,7 @@ catalog:
             - name: "bootloader_apps_can"
 #              title: "Harmony 3 CAN Bootloader Application Examples"
               parent: "bootloader"
-              package_group: "Harmony Bootloader"
+              package_group: "Harmony 3 Bootloader"
               type: "application"
               category: "bootloader"
               required: "false"
@@ -41,7 +43,7 @@ catalog:
             - name: "bootloader_apps_uart"
 #              title: "Harmony 3 UART Bootloader Application Examples"
               parent: "bootloader"
-              package_group: "Harmony Bootloader"
+              package_group: "Harmony 3 Bootloader"
               type: "application"
               category: "bootloader"
               required: "false"
@@ -55,7 +57,7 @@ catalog:
             - name: "bootloader_apps_i2c"
 #              title: "Harmony 3 I2C Bootloader Application Examples"
               parent: "bootloader"
-              package_group: "Harmony Bootloader"
+              package_group: "Harmony 3 Bootloader"
               type: "application"
               category: "bootloader"
               required: "false"
@@ -69,7 +71,7 @@ catalog:
             - name: "bootloader_apps_usb"
 #              title: "Harmony 3 USB Bootloader Application Examples"
               parent: "bootloader"
-              package_group: "Harmony Bootloader"
+              package_group: "Harmony 3 Bootloader"
               type: "application"
               category: "bootloader"
               required: "false"
@@ -83,7 +85,7 @@ catalog:
             - name: "bootloader_apps_ethernet"
 #              title: "Harmony 3 Ethernet Bootloader Application Examples"
               parent: "bootloader"
-              package_group: "Harmony Bootloader"
+              package_group: "Harmony 3 Bootloader"
               type: "application"
               category: "bootloader"
               required: "false"
@@ -97,7 +99,7 @@ catalog:
             - name: "bootloader_apps_sdcard"
 #              title: "Harmony 3 SD Card Bootloader Application Examples"
               parent: "bootloader"
-              package_group: "Harmony Bootloader"
+              package_group: "Harmony 3 Bootloader"
               type: "application"
               category: "bootloader"
               required: "false"
@@ -111,7 +113,7 @@ catalog:
             - name: "bootloader_apps_pic32cm_le_ls"
 #              title: "Harmony 3 Factory programmed bootloader application examples for PIC32CMLE/LS family"
               parent: "bootloader"
-              package_group: "Harmony Bootloader"
+              package_group: "Harmony 3 Bootloader"
               type: "application"
               category: "bootloader"
               required: "false"
@@ -125,7 +127,7 @@ catalog:
             - name: "bootloader_apps_serial_memory"
 #              title: "Harmony 3 Serial Memory Bootloader Application Examples"
               parent: "bootloader"
-              package_group: "Harmony Bootloader"
+              package_group: "Harmony 3 Bootloader"
               type: "application"
               category: "bootloader"
               required: "false"
@@ -136,11 +138,10 @@ catalog:
               licenses:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
 
-
             - name: "bootloader_apps_pic32cm_jh00_jh01"
 #              title: "Harmony 3 Factory programmed bootloader application examples for PIC32CMJH00/JH01 family"
               parent: "bootloader"
-              package_group: "Harmony Bootloader"
+              package_group: "Harmony 3 Bootloader"
               type: "application"
               category: "bootloader"
               required: "false"
@@ -151,11 +152,10 @@ catalog:
               licenses:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
 
-
             - name: "bootloader_apps_spi"
 #              title: "Harmony 3 SPI Bootloader Application Examples"
               parent: "bootloader"
-              package_group: "Harmony Bootloader"
+              package_group: "Harmony 3 Bootloader"
               type: "application"
               category: "bootloader"
               required: "false"
@@ -169,7 +169,7 @@ catalog:
             - name: "bootloader_apps_sam_d20"
 #              title: "Harmony 3 SPI Bootloader Application Examples"
               parent: "bootloader"
-              package_group: "Harmony Bootloader"
+              package_group: "Harmony 3 Bootloader"
               type: "application"
               category: "bootloader"
               required: "false"
@@ -178,4 +178,5 @@ catalog:
               third_party: false
               description: "https://github.com/Microchip-MPLAB-Harmony/bootloader_apps_sam_d20/blob/master/readme.md"
               licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}                  
+                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+

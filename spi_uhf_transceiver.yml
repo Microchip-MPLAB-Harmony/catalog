@@ -1,3 +1,5 @@
+# yaml-language-server: $schema=./harmony-catalog.schema.json
+
 #
 # This file must be updated only by Microchip employees
 #
@@ -12,8 +14,8 @@ catalog:
 
         packages:
             - name: "spi_uhf_transceiver"
-              title: "SPI UHF Transceiver"
-              package_group: "SPI UHF Transceiver"
+              title: "Harmony 3 - SPI UHF Transceiver solutions"
+              package_group: "Harmony 3 SPI UHF Transceiver"
               type: "api"
               category: "spi_uhf_transceiver"
               required: "false"
@@ -25,9 +27,9 @@ catalog:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
 
             - name: "spi_uhf_transceiver_apps"
-#              title: "SPI UHF Transceiver applications"
+#              title: "Harmony 3 - SPI UHF Transceiver applications"
               parent: "spi_uhf_transceiver"
-              package_group: "SPI UHF Transceiver"
+              package_group: "Harmony 3 SPI UHF Transceiver"
               type: "application"
               category: "spi_uhf_transceiver"
               required: "false"

@@ -1,3 +1,5 @@
+# yaml-language-server: $schema=./harmony-catalog.schema.json
+
 #
 # This file must be updated only by Microchip employees
 #
@@ -12,8 +14,8 @@ catalog:
 
         packages:
             - name: "pmci"
-              title: "Harmony 3 Platform Management Communications Infrastructure Stack and Solutions"
-              package_group: "Platform Management Communications Infrastructure Stack"
+              title: "Harmony 3 - Platform Management Communications Infrastructure Stack and Solutions"
+              package_group: "Harmony 3 Platform Management Communications Infrastructure Stack"
               type: "api"
               category: "PMCI"
               required: "false"
@@ -25,9 +27,9 @@ catalog:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
 
             - name: "pmci_apps_cec173x"
-#              title: "Harmony 3 PMCI Application Examples for CEC173x family"
+#              title: "Harmony 3 - PMCI Application Examples for CEC173x family"
               parent: "pmci"
-              package_group: "Harmony Platform Management Communications Infrastructure Stack"
+              package_group: "Harmony 3 Platform Management Communications Infrastructure Stack"
               type: "application"
               category: "PMCI"
               required: "false"
@@ -37,3 +39,4 @@ catalog:
               description: "https://github.com/Microchip-MPLAB-Harmony/pmci_apps_cec173x/blob/master/readme.md"
               licenses:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+

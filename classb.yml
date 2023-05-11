@@ -1,8 +1,10 @@
+# yaml-language-server: $schema=./harmony-catalog.schema.json
+
 #
 # This file must be updated only by Microchip employees
 #
 catalog:
-    format-version: "2.0.0"
+    format-version: "3.0.0"
     name: "Microchip MPLAB Harmony 3 - Class B"
 
     host:
@@ -12,49 +14,57 @@ catalog:
 
         packages:
             - name: "classb_sam_e5x_d5x"
-              title: "Harmony Class B solutions"
+              title: "Harmony 3 - Class B solutions for SAM E5x/D5x"
+              package_group: "Harmony 3 Class B"
               type: "api"
+              category: "safety"
               required: "false"
-              category: "classb"
-              tag_check: true
-              package_check: true
+              tag-check: true
+              package-check: true
               third_party: false
               description: "https://github.com/Microchip-MPLAB-Harmony/classb_sam_e5x_d5x/blob/master/readme.md"
               licenses:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
 
             - name: "classb_pic32cm_mc"
+#              title: "Harmony Class B solutions for PIC32CM MC"
               parent: "classb_sam_e5x_d5x"
+              package_group: "Harmony 3 Class B"
               type: "api"
+              category: "safety"
               required: "false"
-              category: "classb"
-              tag_check: true
-              package_check: true
+              tag-check: true
+              package-check: true
               third_party: false
               description: "https://github.com/Microchip-MPLAB-Harmony/classb_pic32cm_mc/blob/master/readme.md"
               licenses:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
 
             - name: "classb_pic32mzw1_wfi32e01"
+#              title: "Harmony Class B solutions for PIC32MZ W1 and WFI32E01"
               parent: "classb_sam_e5x_d5x"
+              package_group: "Harmony 3 Class B"
               type: "api"
+              category: "safety"
               required: "false"
-              category: "classb"
-              tag_check: true
-              package_check: true
+              tag-check: true
+              package-check: true
               third_party: false
               description: "https://github.com/Microchip-MPLAB-Harmony/classb_pic32mzw1_wfi32e01/blob/master/readme.md"
               licenses:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
 
             - name: "classb_sam_e70_s70_v70_v71"
+#              title: "Harmony Class B solutions for SAM S70/E70/V70/V71"
               parent: "classb_sam_e5x_d5x"
+              package_group: "Harmony 3 Class B"
               type: "api"
+              category: "safety"
               required: "false"
-              category: "classb"
-              tag_check: true
-              package_check: true
+              tag-check: true
+              package-check: true
               third_party: false
               description: "https://github.com/Microchip-MPLAB-Harmony/classb_sam_e70_s70_v70_v71/blob/master/readme.md"
               licenses:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+

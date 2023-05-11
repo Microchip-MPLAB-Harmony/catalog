@@ -12,8 +12,8 @@ catalog:
 
         packages:
             - name: "gfx"
-              title: "Harmony Graphics solutions"
-              package_group: "Harmony Graphics solutions"
+              title: "Harmony 3 - Graphics solutions"
+              package_group: "Harmony 3 Graphics solutions"
               type: "api"
               category: "gfx"
               required: "false"
@@ -26,7 +26,7 @@ catalog:
 
             - name: "gfx_apps_pic32mz_da"
               parent: "gfx"
-              package_group: "Harmony Graphics solutions"
+              package_group: "Harmony 3 Graphics solutions"
               type: "application"
               category: "gfx"
               required: "false"
@@ -39,7 +39,7 @@ catalog:
 
             - name: "gfx_apps_sam_9x60"
               parent: "gfx"
-              package_group: "Harmony Graphics solutions"
+              package_group: "Harmony 3 Graphics solutions"
               type: "application"
               category: "gfx"
               required: "false"
@@ -52,7 +52,7 @@ catalog:
 
             - name: "gfx_apps_sam_a5d2"
               parent: "gfx"
-              package_group: "Harmony Graphics solutions"
+              package_group: "Harmony 3 Graphics solutions"
               type: "application"
               category: "gfx"
               required: "false"
@@ -65,7 +65,7 @@ catalog:
 
             - name: "gfx_apps_sam_c20_c21"
               parent: "gfx"
-              package_group: "Harmony Graphics solutions"
+              package_group: "Harmony 3 Graphics solutions"
               type: "application"
               category: "gfx"
               required: "false"
@@ -78,7 +78,7 @@ catalog:
 
             - name: "gfx_apps_sam_d5x_e5x"
               parent: "gfx"
-              package_group: "Harmony Graphics solutions"
+              package_group: "Harmony 3 Graphics solutions"
               type: "application"
               category: "gfx"
               required: "false"
@@ -91,7 +91,7 @@ catalog:
 
             - name: "gfx_apps_sam_e70_s70_v70_v71"
               parent: "gfx"
-              package_group: "Harmony Graphics solutions"
+              package_group: "Harmony 3 Graphics solutions"
               type: "application"
               category: "gfx"
               required: "false"
@@ -104,7 +104,7 @@ catalog:
 
             - name: "gfx_apps_sam_l22"
               parent: "gfx"
-              package_group: "Harmony Graphics solutions"
+              package_group: "Harmony 3 Graphics solutions"
               type: "application"
               category: "gfx"
               required: "false"
@@ -117,7 +117,7 @@ catalog:
 
             - name: "gfx_apps_pic32cz_ca"
               parent: "gfx"
-              package_group: "Harmony Graphics solutions"
+              package_group: "Harmony 3 Graphics solutions"
               type: "application"
               category: "gfx"
               required: "false"

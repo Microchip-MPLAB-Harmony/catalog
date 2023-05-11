@@ -1,3 +1,5 @@
+# yaml-language-server: $schema=./harmony-catalog.schema.json
+
 #
 # This file must be updated only by Microchip employees
 #
@@ -12,7 +14,7 @@ catalog:
 
         packages:
             - name: "motor_control"
-              title: "Harmony Motor Control solutions"
+              title: "Harmony 3 - Motor Control solutions"
               package_group: "Harmony3 Motor Control"
               type: "api"
               category: "motor control"
@@ -135,3 +137,4 @@ catalog:
               description: "https://github.com/Microchip-MPLAB-Harmony/x2c/blob/master/readme.md"
               licenses:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+
