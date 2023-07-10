@@ -180,3 +180,45 @@ catalog:
               licenses:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
 
+            - name: "net_apps_pic32cz_ca"
+#              title: "Harmony 3 - Networking Application Examples for PIC32CZ_CA family"
+              parent: "net"
+              package_group: "Harmony 3 Networking Stack"
+              type: "application"
+              category: "network"
+              required: "false"
+              tag-check: true
+              package-check: true
+              third_party: false
+              description: "https://github.com/Microchip-MPLAB-Harmony/net_apps_pic32cz_ca/blob/master/readme.md"
+              licenses:
+                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+
+            - name: "net_apps_pic32cx_sg41"
+#              title: "Harmony 3 - Networking Application Examples for PIC32CX_SG41 family"
+              parent: "net"
+              package_group: "Harmony 3 Networking Stack"
+              type: "application"
+              category: "network"
+              required: "false"
+              tag-check: true
+              package-check: true
+              third_party: false
+              description: "https://github.com/Microchip-MPLAB-Harmony/net_apps_pic32cx_sg41/blob/master/readme.md"
+              licenses:
+                  - {name: "Microchip Software License Agreement", path: "Microchip_SLA001.md"}
+
+#            - name: "net_apps_pic32ck_sg_gc"
+##              title: "Harmony 3 - Networking Application Examples for PIC32CK_GC family"
+#              parent: "net"
+#              package_group: "Harmony 3 Networking Stack"
+#              type: "application"
+#              category: "network"
+#              required: "false"
+#              tag-check: true
+#              package-check: true
+#              third_party: false
+#              description: "https://github.com/Microchip-MPLAB-Harmony/net_apps_pic32ck_sg_gc/blob/master/readme.md"
+#              licenses:
+#                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+
