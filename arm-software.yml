@@ -17,7 +17,7 @@ catalog:
               package_group: "arm CMSIS"
               type: external
               category: "foundations"
-              required: "false"
+              required: "true"
               tag-check: false
               package-check: false
               third_party: true
