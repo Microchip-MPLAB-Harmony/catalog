@@ -16,6 +16,7 @@ catalog:
             - name: "cryptoauthlib"
               title: "Harmony 3 - CryptoAuthLib solutions"
               package_group: "Harmony 3 CryptoAuthLib solutions"
+              type: "external"
               category: "cryptography"
               required: "false"
               tag-check: true
