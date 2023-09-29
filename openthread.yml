@@ -1,0 +1,27 @@
+# yaml-language-server: $schema=./harmony-catalog.schema.json
+
+#
+# This file must be updated only by Microchip employees
+#
+catalog:
+    format-version: "3.0.0"
+    name: "Microchip MPLAB Harmony 3 - OpenThread, released by Google"
+
+    host:
+        url: "github.com"
+        path: "/Microchip-MPLAB-Harmony/"
+        raw_file_url_pattern: "https://raw.githubusercontent.com/Microchip-MPLAB-Harmony/{REPO_NAME}/{BRANCH-NAME/TAG-NAME}/{FILE-NAME}"
+
+        packages:
+            - name: "openthread"
+              title: "Harmony 3 - OpenThread, released by Google"
+              package_group: "openthread"
+              type: external
+              category: "wireless"
+              required: "false"
+              tag-check: false
+              package-check: false
+              third_party: true
+              description: "https://github.com/Microchip-MPLAB-Harmony/openthread/blob/main/README.md"
+              licenses:
+                  - { name: "BSD 3-Clause License", path: "LICENSE"}
