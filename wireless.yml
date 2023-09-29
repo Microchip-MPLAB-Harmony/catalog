@@ -188,3 +188,17 @@ catalog:
               description: "https://github.com/Microchip-MPLAB-Harmony/wireless_15_4_mac/blob/master/readme.md"
               licenses:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+
+            - name: "wireless_thread"
+              title: "Harmony 3 - Wireless Thread® solutions"
+              package_group: "Harmony 3 Wireless solutions"
+              type: "api"
+              category: "wireless"
+              required: "false"
+              tag-check: true
+              package-check: true
+              third_party: false
+              description: "https://github.com/Microchip-MPLAB-Harmony/wireless_thread/blob/master/readme.md"
+              licenses:
+                  - {name: "Microchip SLA", path: "Microchip_SLA001.md"}
+                  - {name: "BSD 3-Clause License", path: "LICENSE_OT"}
