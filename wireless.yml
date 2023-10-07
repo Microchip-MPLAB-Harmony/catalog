@@ -1,4 +1,4 @@
-# yaml-language-server: $schema=./harmony-catalog.schema.json
+﻿# yaml-language-server: $schema=./harmony-catalog.schema.json
 
 #
 # This file must be updated only by Microchip employees
@@ -190,7 +190,7 @@ catalog:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
 
             - name: "wireless_thread"
-              title: "Harmony 3 - Wireless Thread� solutions"
+              title: "Harmony 3 - Wireless Thread® solutions"
               package_group: "Harmony 3 Wireless solutions"
               type: "api"
               category: "wireless"

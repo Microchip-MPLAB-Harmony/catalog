@@ -1,0 +1,28 @@
+# yaml-language-server: $schema=./harmony-catalog.schema.json
+
+#
+# This file must be updated only by Microchip employees
+#
+catalog:
+    format-version: "3.0.0"
+    name: "Microchip MPLAB Harmony 3 - Vision"
+
+    host:
+        url: "github.com"
+        path: "/Microchip-MPLAB-Harmony/"
+        raw_file_url_pattern: "https://raw.githubusercontent.com/Microchip-MPLAB-Harmony/{REPO_NAME}/{BRANCH-NAME/TAG-NAME}/{FILE-NAME}"
+
+        packages:
+            - name: "vision"
+              title: "Harmony 3 - Vision solutions"
+              package_group: "Harmony 3 Vision solutions"
+              type: "api"
+              category: "vision"
+              required: "false"
+              tag-check: false
+              package-check: true
+              third_party: false
+              description: "https://github.com/Microchip-MPLAB-Harmony/vision/blob/master/readme.md"
+              licenses:
+                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+
