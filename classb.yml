@@ -68,3 +68,16 @@ catalog:
               licenses:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
 
+            - name: "classb_pic32cm_jh"
+#              title: "Harmony Class B solutions for PIC32CM JH"
+              parent: "classb_sam_e5x_d5x"
+              package_group: "Harmony 3 Class B"
+              type: "api"
+              category: "safety"
+              required: "false"
+              tag-check: true
+              package-check: true
+              third_party: false
+              description: "https://github.com/Microchip-MPLAB-Harmony/classb_pic32cm_jh/blob/master/readme.md"
+              licenses:
+                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
