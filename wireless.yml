@@ -202,3 +202,16 @@ catalog:
               licenses:
                   - {name: "Microchip SLA", path: "Microchip_SLA001.md"}
                   - {name: "BSD 3-Clause License", path: "LICENSE_OT"}
+
+            - name: "wireless_apps_pic32cxbz3_wbz35"
+              title: "Harmony 3 - Wireless BLE and Zigbee applications for PIC32CX BZ3 and WBZ35"
+              package_group: "Harmony 3 Wireless solutions"
+              type: "application"
+              category: "wireless"
+              required: "false"
+              tag-check: true
+              package-check: true
+              third_party: false
+              description: "https://github.com/Microchip-MPLAB-Harmony/wireless_apps_pic32cxbz3_wbz35/blob/master/readme.md"
+              licenses:
+                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}                  
