@@ -78,7 +78,7 @@ catalog:
               licenses:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
 
-            - name: "crypto_apps_hsm"
+            - name: "crypto_hsm"
               parent: "crypto"
               package_group: "Harmony 3 Crypto solutions"
               type: "application"
