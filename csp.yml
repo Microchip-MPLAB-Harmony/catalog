@@ -32,7 +32,7 @@ catalog:
               package_group: "Harmony 3 Chip Support Package"
               type: "devices"
               category: "foundations"
-              required: "true"
+              required: "false"
               tag-check: true
               package-check: true
               third_party: false
@@ -54,7 +54,7 @@ catalog:
               description: "https://github.com/Microchip-MPLAB-Harmony/csp_apps_cec173x/blob/master/readme.md"
               licenses:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
-                  
+
             - name: "csp_apps_pic32ck_sg_gc"
 #              title: "Harmony 3 Peripheral library applicaton examples for PIC32CK-GC/SG family"
               parent: "csp"
@@ -68,7 +68,7 @@ catalog:
               description: "https://github.com/Microchip-MPLAB-Harmony/csp_apps_pic32ck_sg_gc/blob/master/readme.md"
               licenses:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
-                  
+
             - name: "csp_apps_pic32cm_jh00_jh01"
 #              title: "Harmony 3 Peripheral library applicaton examples for PIC32CMJH00/JH01 family"
               parent: "csp"
@@ -110,7 +110,7 @@ catalog:
               description: "https://github.com/Microchip-MPLAB-Harmony/csp_apps_pic32cm_mc00/blob/master/readme.md"
               licenses:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
-                  
+
             - name: "csp_apps_pic32cx_mt"
 #              title: "Harmony 3 Peripheral library applicaton examples for PIC32CXMT family"
               parent: "csp"
