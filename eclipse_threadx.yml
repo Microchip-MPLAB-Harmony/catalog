@@ -5,52 +5,53 @@
 #
 catalog:
     format-version: "3.0.0"
-    name: "Microchip MPLAB Harmony 3 - Microsoft Azure RTOS"
+    name: "Microchip MPLAB Harmony 3 - Eclipse ThreadX"
 
     host:
         url: "github.com"
-        path: "/azure-rtos/"
-        raw_file_url_pattern: "https://raw.githubusercontent.com/azure-rtos/{REPO_NAME}/{BRANCH-NAME/TAG-NAME}/{FILE-NAME}"
+        path: "/eclipse-threadx/"
+        raw_file_url_pattern: "https://raw.githubusercontent.com/eclipse-threadx/{REPO_NAME}/{BRANCH-NAME/TAG-NAME}/{FILE-NAME}"
 
         packages:
             - name: "threadx"
-#              title: "Azure RTOS ThreadX"
-              parent: "azure_rtos"
-              package_group: "Azure RTOS"
+#              title: "Eclipse ThreadX"
+              parent: "eclipse_threadx"
+              package_group: "Eclipse ThreadX"
               type: external
               category: "rtos"
               required: "false"
               tag-check: false
               package-check: false
               third_party: true
-              description: "https://github.com/azure-rtos/threadx/blob/master/README.md"
+              description: "https://github.com/eclipse-threadx/threadx/blob/master/README.md"
               licenses:
                   - { name: "Microsoft Software License", path: "LICENSE.txt"}
 
             - name: "netxduo"
-#              title: "Azure RTOS NetX Duo"
-              parent: "azure_rtos"
-              package_group: "Azure RTOS"
+#              title: "Eclipse ThreadX NetX Duo"
+              parent: "eclipse_threadx"
+              package_group: "Eclipse ThreadX"
               type: external
-              category: "rtos"
+              category: "network"
               required: "false"
               tag-check: false
               package-check: false
               third_party: true
-              description: "https://github.com/azure-rtos/netxduo/blob/master/README.md"
+              description: "https://github.com/eclipse-threadx/netxduo/blob/master/README.md"
               licenses:
                   - { name: "Microsoft Software License", path: "LICENSE.txt"}
 
             - name: "filex"
-#              title: "Azure RTOS FileX"
-              parent: "azure_rtos"
-              package_group: "Azure RTOS"
+#              title: "Eclipse ThreadX FileX"
+              parent: "eclipse_threadx"
+              package_group: "Eclipse ThreadX"
               type: external
-              category: "rtos"
+              category: "filesystem"
               required: "false"
               tag-check: false
               package-check: false
               third_party: true
-              description: "https://github.com/azure-rtos/filex/blob/master/README.md"
+              description: "https://github.com/eclipse-threadx/filex/blob/master/README.md"
               licenses:
                   - { name: "Microsoft Software License", path: "LICENSE.txt"}
+

@@ -26,7 +26,7 @@ catalog:
         - { name: "Microchip MPLAB Harmony 3 - Crypto", url: "file:///crypto.yml"}
         - { name: "Microchip MPLAB Harmony 3 - Class B", url: "file:///classb.yml"}
         - { name: "Microchip MPLAB Harmony 3 - Aerospace", url: "file:///aerospace.yml"}
-        - { name: "Microchip MPLAB Harmony 3 - Microsoft Azure RTOS", url: "file:///azure_rtos.yml"}
+        - { name: "Microchip MPLAB Harmony 3 - Eclipse ThreadX", url: "file:///eclipse_threadx.yml"}
         - { name: "Microchip MPLAB Harmony 3 - littlefs", url: "file:///littlefs.yml"}
         - { name: "Microchip MPLAB Harmony 3 - Third Parties", url: "file:///third_parties.yml"}
         - { name: "Microchip MPLAB Harmony 3 - Complementary content", url: "file:///microchiptech.yml"}
