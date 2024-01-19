@@ -216,7 +216,6 @@ catalog:
               description: "https://github.com/Microchip-MPLAB-Harmony/wireless_apps_rnwf/blob/master/readme.md"
               licenses:
                   - {name: "Microchip SLA", path: "Microchip_SLA001.md"}
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
 
             - name: "wireless_system_rnwf"
               title: "Harmony 3 - Wireless RNWF Service solution"
@@ -230,7 +229,6 @@ catalog:
               description: "https://github.com/Microchip-MPLAB-Harmony/wireless_system_rnwf/blob/master/readme.md"
               licenses:
                   - {name: "Microchip SLA", path: "Microchip_SLA001.md"}
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
 
             - name: "wireless_apps_pic32cxbz3_wbz35"
               title: "Harmony 3 - Wireless BLE and Zigbee applications for PIC32CX BZ3 and WBZ35"
