@@ -1,0 +1,29 @@
+# yaml-language-server: $schema=./harmony-catalog.schema.json
+
+#
+# This file must be updated only by Microchip employees
+#
+catalog:
+    format-version: "3.0.0"
+    name: "Microchip MPLAB Harmony 3 - Microsoft Azure RTOS"
+
+    host:
+        url: "github.com"
+        path: "/azure-rtos/"
+        raw_file_url_pattern: "https://raw.githubusercontent.com/azure-rtos/{REPO_NAME}/{BRANCH-NAME/TAG-NAME}/{FILE-NAME}"
+
+        packages:
+            - name: "filex"
+#              title: "Azure RTOS FileX"
+              parent: "azure_rtos"
+              package_group: "Azure RTOS"
+              type: external
+              category: "filesystem"
+              required: "false"
+              tag-check: false
+              package-check: false
+              third_party: true
+              description: "https://github.com/azure-rtos/filex/blob/master/README.md"
+              licenses:
+                  - { name: "Microsoft Software License", path: "LICENSE.txt"}
+

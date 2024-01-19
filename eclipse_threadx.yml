@@ -41,17 +41,17 @@ catalog:
               licenses:
                   - { name: "Microsoft Software License", path: "LICENSE.txt"}
 
-            - name: "filex"
-#              title: "Eclipse ThreadX FileX"
-              parent: "eclipse_threadx"
-              package_group: "Eclipse ThreadX"
-              type: external
-              category: "filesystem"
-              required: "false"
-              tag-check: false
-              package-check: false
-              third_party: true
-              description: "https://github.com/eclipse-threadx/filex/blob/master/README.md"
-              licenses:
-                  - { name: "Microsoft Software License", path: "LICENSE.txt"}
+#            - name: "filex"
+##              title: "Eclipse ThreadX FileX"
+#              parent: "eclipse_threadx"
+#              package_group: "Eclipse ThreadX"
+#              type: external
+#              category: "filesystem"
+#              required: "false"
+#              tag-check: false
+#              package-check: false
+#              third_party: true
+#              description: "https://github.com/eclipse-threadx/filex/blob/master/README.md"
+#              licenses:
+#                  - { name: "Microsoft Software License", path: "LICENSE.txt"}
 
