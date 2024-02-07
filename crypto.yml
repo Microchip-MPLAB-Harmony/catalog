@@ -26,45 +26,6 @@ catalog:
               licenses:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
 
-#            - name: "crypto_apps"
-#              parent: "crypto"
-#              package_group: "Harmony 3 Crypto solutions"
-#              type: "application"
-#              category: "cryptography"
-#              required: "false"
-#              tag-check: true
-#              package-check: true
-#              third_party: false
-#              description: "https://github.com/Microchip-MPLAB-Harmony/crypto_apps/blob/master/readme.md"
-#              licenses:
-#                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
-
-            - name: "crypto_apps_encrypt_decrypt"
-              parent: "crypto"
-              package_group: "Harmony 3 Crypto solutions"
-              type: "application"
-              category: "cryptography"
-              required: "false"
-              tag-check: true
-              package-check: true
-              third_party: false
-              description: "https://github.com/Microchip-MPLAB-Harmony/crypto_apps_encrypt_decrypt/blob/master/readme.md"
-              licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
-
-            - name: "crypto_apps_large_hash"
-              parent: "crypto"
-              package_group: "Harmony 3 Crypto solutions"
-              type: "application"
-              category: "cryptography"
-              required: "false"
-              tag-check: true
-              package-check: true
-              third_party: false
-              description: "https://github.com/Microchip-MPLAB-Harmony/crypto_apps_large_hash/blob/master/readme.md"
-              licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
-
             - name: "crypto_apps_speed_test"
               parent: "crypto"
               package_group: "Harmony 3 Crypto solutions"
@@ -87,7 +48,7 @@ catalog:
               tag-check: true
               package-check: true
               third_party: false
-              description: "https://github.com/Microchip-MPLAB-Harmony/crypto_apps_hsm/blob/master/readme.md"
+              description: "https://github.com/Microchip-MPLAB-Harmony/crypto_hsm/blob/master/readme.md"
               licenses:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
 
