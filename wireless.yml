@@ -201,7 +201,7 @@ catalog:
               description: "https://github.com/Microchip-MPLAB-Harmony/wireless_thread/blob/master/readme.md"
               licenses:
                   - {name: "Microchip SLA", path: "Microchip_SLA001.md"}
-                  - {name: "BSD 3-Clause License", path: "LICENSE_OT"}
+                  - {name: "BSD 3-Clause License", path: "LICENSE_OT.txt"}
 
             - name: "wireless_apps_rnwf"
               title: "Harmony 3 - Wireless RNWF Application solutions"
