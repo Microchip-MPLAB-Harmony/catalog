@@ -10,7 +10,7 @@ catalog:
     host:
         url: "github.com"
         path: "/madler/"
-        raw_file_url_pattern: "https://raw.githubusercontent.com//littlefs-project/{REPO_NAME}/{BRANCH-NAME/TAG-NAME}/{FILE-NAME}"
+        raw_file_url_pattern: "https://raw.githubusercontent.com/madler/{REPO_NAME}/{BRANCH-NAME/TAG-NAME}/{FILE-NAME}"
 
         packages:
             - name: "zlib"
