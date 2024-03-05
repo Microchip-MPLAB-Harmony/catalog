@@ -1,0 +1,28 @@
+# yaml-language-server: $schema=./harmony-catalog.schema.json
+
+#
+# This file must be updated only by Microchip employees
+#
+catalog:
+    format-version: "3.0.0"
+    name: "Microchip MPLAB Harmony 3 - keySTREAM"
+
+    host:
+        url: "github.com"
+        path: "/Kudelski-IoT/"
+        raw_file_url_pattern: "https://raw.githubusercontent.com/Kudelski-IoT/{REPO_NAME}/{BRANCH-NAME/TAG-NAME}/{FILE-NAME}"
+
+        packages:
+            - name: "keySTREAM_provisioning"
+              title: "Harmony 3 - Kudelski keySTREAM solutions"
+              package_group: "keySTREAM"
+              type: external
+              category: "security"
+              required: "false"
+              tag-check: false
+              package-check: false
+              third_party: true
+              description: "https://github.com/Kudelski-IoT/keySTREAM_provisioning/blob/master/README.md"
+              licenses:
+                  - {name: "Nagravision", path: "license.txt"}
+

@@ -41,6 +41,7 @@ catalog:
         - { name: "Microchip MPLAB Harmony 3 - zlib", url: "file:///zlib.yml"}
         - { name: "Microchip MPLAB Harmony 3 - wolfSSL", url: "file:///wolfssl.yml"}
         - { name: "Microchip MPLAB Harmony 3 - OpenThread", url: "file:///openthread.yml"}
+        - { name: "Microchip MPLAB Harmony 3 - Kudelski", url: "file:///kudelski.yml"}
 
     host:
         url: "github.com"
