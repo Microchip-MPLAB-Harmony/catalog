@@ -19,8 +19,8 @@ catalog:
               type: external
               category: "security"
               required: "false"
-              tag-check: false
-              package-check: false
+              tag-check: true
+              package-check: true
               third_party: true
               description: "https://github.com/Kudelski-IoT/keySTREAM_provisioning/blob/master/README.md"
               licenses:
