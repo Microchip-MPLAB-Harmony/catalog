@@ -321,6 +321,20 @@ catalog:
               licenses:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
 
+            - name: "csp_apps_sama7d65"
+#              title: "Harmony 3 Peripheral library applicaton examples for SAMA7D65 family"
+              parent: "csp"
+              package_group: "Harmony 3 Chip Support Package"
+              type: "application"
+              category: "foundations"
+              required: "false"
+              tag-check: true
+              package-check: true
+              third_party: false
+              description: "https://github.com/Microchip-MPLAB-Harmony/csp_apps_sama7d65/blob/master/readme.md"
+              licenses:
+                  - {name: "Microchip Software License Agreement", path: "Microchip_SLA001.md"}
+
             - name: "csp_apps_sam_c20_c21"
 #              title: "Harmony 3 Peripheral library applicaton examples for SAMC20/C21 family"
               parent: "csp"
