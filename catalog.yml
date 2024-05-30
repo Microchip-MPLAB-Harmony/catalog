@@ -17,7 +17,7 @@ catalog:
         - { name: "Microchip MPLAB Harmony 3 - RTOS Support", url: "file:///rtos.yml"}
         - { name: "Microchip MPLAB Harmony 3 - Smart Energy", url: "file:///smart_energy.yml"}
         - { name: "Microchip MPLAB Harmony 3 - Audio", url: "file:///audio.yml"}
-        - { name: "Microchip MPLAB Harmony 3 - Graphics", url: "file:///graphics.yml"}
+        - { name: "Microchip Graphics Suite Harmony", url: "file:///graphics.yml"}
         - { name: "Microchip MPLAB Harmony 3 - Vision", url: "file:///vision.yml"}
         - { name: "Microchip MPLAB Harmony 3 - Network", url: "file:///net.yml"}
         - { name: "Microchip MPLAB Harmony 3 - Wireless", url: "file:///wireless.yml"}
