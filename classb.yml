@@ -94,4 +94,4 @@ catalog:
               third_party: false
               description: "https://github.com/Microchip-MPLAB-Harmony/classb_pic32mk_mc/blob/master/readme.md"
               licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+                  - {name: "Microchip Software License Agreement", path: "Microchip_SLA001.md"}
