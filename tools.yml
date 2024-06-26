@@ -25,3 +25,16 @@ catalog:
               description: "https://github.com/Microchip-MPLAB-Harmony/mplab_event_recorder/blob/master/readme.md"
               licenses:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+
+            - name: "mplab_dvrt"
+              title: "Harmony 3 - MPLAB Data Visualizer Run Time"  
+              package_group: "MPLAB X Tools"
+              type: "tool"
+              category: "tools"
+              required: "false"
+              tag-check: true
+              package-check: true
+              third_party: false
+              description: "https://github.com/Microchip-MPLAB-Harmony/mplab_dvrt/readme.md"
+              licenses:
+                  - {name: "Microchip Software License Agreement", path: "Microchip_SLA001.md"}
