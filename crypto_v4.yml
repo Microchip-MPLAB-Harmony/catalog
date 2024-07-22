@@ -1,0 +1,41 @@
+# yaml-language-server: $schema=./harmony-catalog.schema.json
+
+#
+# This file must be updated only by Microchip employees
+#
+catalog:
+    format-version: "3.0.0"
+    name: "Microchip MPLAB Harmony 3 - Crypto v4"
+
+    host:
+        url: "github.com"
+        path: "/Microchip-MPLAB-Harmony/"
+        raw_file_url_pattern: "https://raw.githubusercontent.com/Microchip-MPLAB-Harmony/{REPO_NAME}/{BRANCH-NAME/TAG-NAME}/{FILE-NAME}"
+
+        packages:
+            - name: "crypto_v4"
+              title: "Harmony 3 - Cryptography solutions v4"
+              package_group: "Harmony 3 Crypto v4 solutions"
+              type: "api"
+              category: "cryptography"
+              required: "false"
+              tag-check: true
+              package-check: true
+              third_party: false
+              description: "https://github.com/Microchip-MPLAB-Harmony/crypto_v4/blob/master/readme.md"
+              licenses:
+                  - {name: "Microchip Software License Agreement", path: "Microchip_SLA001.md"}
+
+#            - name: "crypto_apps_pic32cx_mtg"
+##              title: "Harmony 3 - Cryptography solutions v4 applications for PIC32CX MTG"
+#              parent: "crypto_v4"
+#              package_group: "Harmony 3 Crypto v4 solutions"
+#              type: "application"
+#              category: "cryptography"
+#              required: "false"
+#              tag-check: true
+#              package-check: true
+#              third_party: false
+#              description: "https://github.com/Microchip-MPLAB-Harmony/crypto_apps_pic32cx_mtg/blob/master/readme.md"
+#              licenses:
+#                  - {name: "Microchip Software License Agreement", path: "Microchip_SLA001.md"}
