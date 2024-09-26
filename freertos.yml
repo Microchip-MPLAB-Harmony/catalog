@@ -1,0 +1,27 @@
+# yaml-language-server: $schema=./harmony-catalog.schema.json
+
+#
+# This file must be updated only by Microchip employees
+#
+catalog:
+    format-version: "3.0.0"
+    name: "Microchip MPLAB Harmony 3 - FreeRTOS Support"
+
+    host:
+        url: "github.com"
+        path: "/FreeRTOS/"
+        raw_file_url_pattern: "https://raw.githubusercontent.com/FreeRTOS/{REPO_NAME}/{BRANCH-NAME/TAG-NAME}/{FILE-NAME}"
+    
+        packages:  
+            - name: "FreeRTOS-Kernel"
+              title: "FreeRTOS FreeRTOS-Kernel"
+              package_group: "FreeRTOS"
+              type: external
+              category: "rtos"
+              required: "false"
+              tag-check: false
+              package-check: false
+              third_party: true
+              description: "https://github.com/FreeRTOS/FreeRTOS-Kernel/blob/main/README.md"
+              licenses:
+                  - {name: "MIT License", path: "LICENSE.md"}

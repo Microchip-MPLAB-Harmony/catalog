@@ -43,6 +43,7 @@ catalog:
         - { name: "Microchip MPLAB Harmony 3 - wolfSSL", url: "file:///wolfssl.yml"}
         - { name: "Microchip MPLAB Harmony 3 - OpenThread", url: "file:///openthread.yml"}
         - { name: "Microchip MPLAB Harmony 3 - Kudelski", url: "file:///kudelski.yml"}
+        - { name: "Microchip MPLAB Harmony 3 - FreeRTOS", url: "file:///freertos.yml"}
 
     host:
         url: "github.com"
