@@ -14,9 +14,9 @@ catalog:
 
         packages:
             - name: "filex"
-#              title: "Azure RTOS FileX"
-              parent: "azure_rtos"
-              package_group: "Azure RTOS"
+#              title: "Eclipse ThreadX FileX"
+              parent: "threadx"
+              package_group: "Eclipse ThreadX"
               type: external
               category: "filesystem"
               required: "false"

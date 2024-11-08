@@ -15,7 +15,7 @@ catalog:
         packages:
             - name: "threadx"
 #              title: "Eclipse ThreadX"
-              parent: "eclipse_threadx"
+#              parent: "eclipse_threadx"
               package_group: "Eclipse ThreadX"
               type: external
               category: "rtos"
@@ -29,7 +29,7 @@ catalog:
 
             - name: "netxduo"
 #              title: "Eclipse ThreadX NetX Duo"
-              parent: "eclipse_threadx"
+              parent: "threadx"
               package_group: "Eclipse ThreadX"
               type: external
               category: "network"
@@ -43,7 +43,7 @@ catalog:
 
 #            - name: "filex"
 ##              title: "Eclipse ThreadX FileX"
-#              parent: "eclipse_threadx"
+#              parent: "threadx"
 #              package_group: "Eclipse ThreadX"
 #              type: external
 #              category: "filesystem"

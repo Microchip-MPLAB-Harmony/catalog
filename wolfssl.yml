@@ -27,20 +27,20 @@ catalog:
                   - { name: "GNU GENERAL PUBLIC LICENSE v2", path: "LICENSING"}
                   - { name: "Microchip/WolfSSL EULA", path: "WolfSSL_EULicense_Microchip.md"}
 
-            - name: "wolfssh"
-#              title: "wolfssh"
-              parent: "wolfssl"
-              package_group: "WolfSSL"
-              type: external
-              category: "cryptography"
-              required: "false"
-              tag-check: false
-              package-check: false
-              third_party: true
-              description: "https://github.com/Microchip-MPLAB-Harmony/wolfssh/blob/master/README.md"
-              licenses:
-                  - { name: "GNU GENERAL PUBLIC LICENSE v2", path: "LICENSING"}
-                  - { name: "Microchip/WolfSSL EULA", path: "WolfSSL_EULicense_Microchip.md"}
+#            - name: "wolfssh"
+##              title: "wolfssh"
+#              parent: "wolfssl"
+#              package_group: "WolfSSL"
+#              type: external
+#              category: "cryptography"
+#              required: "false"
+#              tag-check: false
+#              package-check: false
+#              third_party: true
+#              description: "https://github.com/Microchip-MPLAB-Harmony/wolfssh/blob/master/README.md"
+#              licenses:
+#                  - { name: "GNU GENERAL PUBLIC LICENSE v2", path: "LICENSING"}
+#                  - { name: "Microchip/WolfSSL EULA", path: "WolfSSL_EULicense_Microchip.md"}
 
             - name: "wolfMQTT"
 #              title: "wolfMQTT"
