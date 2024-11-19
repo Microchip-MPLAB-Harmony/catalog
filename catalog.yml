@@ -44,6 +44,7 @@ catalog:
         - { name: "Microchip MPLAB Harmony 3 - OpenThread", url: "file:///openthread.yml"}
         - { name: "Microchip MPLAB Harmony 3 - Kudelski", url: "file:///kudelski.yml"}
         - { name: "Microchip MPLAB Harmony 3 - FreeRTOS", url: "file:///freertos.yml"}
+        - { name: "Microchip MPLAB Harmony 3 - SHD", url: "file:///shd.yml"}
 
     host:
         url: "github.com"

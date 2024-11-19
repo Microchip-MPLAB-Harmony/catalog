@@ -1,0 +1,27 @@
+# yaml-language-server: $schema=./harmony-catalog.schema.json
+
+#
+# This file must be updated only by Microchip employees
+#
+catalog:
+    format-version: "3.0.0"
+    name: "Microchip MPLAB Harmony 3 - System Hardware Definitions (SHD)"
+
+    host:
+        url: "github.com"
+        path: "/Microchip-MPLAB-Harmony/"
+        raw_file_url_pattern: "https://raw.githubusercontent.com/Microchip-MPLAB-Harmony/{REPO_NAME}/{BRANCH-NAME/TAG-NAME}/{FILE-NAME}"
+
+        packages:
+            - name: "shd"
+              title: "Harmony 3 - System Hardware Definitions (SHD)"
+              package_group: "Harmony 3 System Hardware Definitions"
+              type: "api"
+              category: "shd"
+              required: "true"
+              tag-check: true
+              package-check: true
+              third_party: false
+              description: "https://github.com/Microchip-MPLAB-Harmony/shd/blob/master/readme.md"
+              licenses:
+                  - {name: "Microchip Software License Agreement", path: "Microchip_SLA001.md"}
