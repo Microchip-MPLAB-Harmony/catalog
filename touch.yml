@@ -24,7 +24,7 @@ catalog:
               third_party: false
               description: "https://github.com/Microchip-MPLAB-Harmony/touch/blob/master/readme.md"
               licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+                  - {name: "Microchip Software License Agreement", path: "Microchip_SLA001.md"}
 
             - name: "touch_apps"
 #              title: "Harmony 3 Touch Apps"
@@ -38,7 +38,7 @@ catalog:
               third_party: false
               description: "https://github.com/Microchip-MPLAB-Harmony/touch_apps/blob/master/readme.md"
               licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+                  - {name: "Microchip Software License Agreement", path: "Microchip_SLA001.md"}
 
             - name: "touch_host_driver"
 #              title: "Harmony 3 - Touch Host Driver"
@@ -52,5 +52,18 @@ catalog:
               third_party: false
               description: "https://github.com/Microchip-MPLAB-Harmony/touch_host_driver/blob/master/readme.md"
               licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+                  - {name: "Microchip Software License Agreement", path: "Microchip_SLA001.md"}
 
+            - name: "touch_host_driver_apps"
+#              title: "Harmony 3 - Touch Host Driver Applications"
+              parent: "touch"
+              package_group: "Harmony 3 Capacitive Touch solutions"
+              type: "application"
+              category: "touch"
+              required: "false"
+              tag-check: true
+              package-check: true
+              third_party: false
+              description: "https://github.com/Microchip-MPLAB-Harmony/touch_host_driver_apps/blob/master/readme.md"
+              licenses:
+                  - {name: "Microchip Software License Agreement", path: "Microchip_SLA001.md"}
