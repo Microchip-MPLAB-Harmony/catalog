@@ -180,19 +180,19 @@ catalog:
               licenses:
                   - {name: "Microchip Software License Agreement", path: "Microchip_SLA001.md"}
 
-#            - name: "ethercat"
-##              title: "Harmony 3 - ETHERCAT Driver and Solutions"
-#              parent: "net"
-#              package_group: "Harmony 3 Networking Stack"
-#              type: "api"
-#              category: "network"
-#              required: "false"
-#              tag-check: true
-#              package-check: true
-#              third_party: false
-#              description: "https://github.com/Microchip-MPLAB-Harmony/ethercat/blob/master/readme.md"
-#              licenses:
-#                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+            - name: "ethercat"
+#              title: "Harmony 3 - ETHERCAT Driver and Solutions"
+              parent: "net"
+              package_group: "Harmony 3 Networking Stack"
+              type: "api"
+              category: "network"
+              required: "false"
+              tag-check: true
+              package-check: true
+              third_party: false
+              description: "https://github.com/Microchip-MPLAB-Harmony/ethercat/blob/master/readme.md"
+              licenses:
+                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
 
             - name: "net_apps_pic32cz_ca"
 #              title: "Harmony 3 - Networking Application Examples for PIC32CZ_CA family"
