@@ -24,7 +24,7 @@ catalog:
               third_party: false
               description: "https://github.com/Microchip-MPLAB-Harmony/csp/blob/master/readme.md"
               licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+                  - {name: "MPLAB Harmony license", path: "Microchip_SLA001.md"}
 
             - name: "dev_packs"
 #              title: "Harmony3 Device Family Packs"
@@ -53,7 +53,7 @@ catalog:
               third_party: false
               description: "https://github.com/Microchip-MPLAB-Harmony/csp_apps_cec173x/blob/master/readme.md"
               licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+                  - {name: "MPLAB Harmony license", path: "Microchip_SLA001.md"}
 
             - name: "csp_apps_pic32ck_sg_gc"
 #              title: "Harmony 3 Peripheral library applicaton examples for PIC32CK-GC/SG family"
@@ -67,7 +67,7 @@ catalog:
               third_party: false
               description: "https://github.com/Microchip-MPLAB-Harmony/csp_apps_pic32ck_sg_gc/blob/master/readme.md"
               licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+                  - {name: "MPLAB Harmony license", path: "Microchip_SLA001.md"}
 
             - name: "csp_apps_pic32cm_jh00_jh01"
 #              title: "Harmony 3 Peripheral library applicaton examples for PIC32CMJH00/JH01 family"
@@ -81,7 +81,7 @@ catalog:
               third_party: false
               description: "https://github.com/Microchip-MPLAB-Harmony/csp_apps_pic32cm_jh00_jh01/blob/master/readme.md"
               licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+                  - {name: "MPLAB Harmony license", path: "Microchip_SLA001.md"}
 
             - name: "csp_apps_pic32cm_le_ls"
 #              title: "Harmony 3 Peripheral library applicaton examples for PIC32CMLE/LS family"
@@ -95,7 +95,7 @@ catalog:
               third_party: false
               description: "https://github.com/Microchip-MPLAB-Harmony/csp_apps_pic32cm_le_ls/blob/master/readme.md"
               licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+                  - {name: "MPLAB Harmony license", path: "Microchip_SLA001.md"}
 
             - name: "csp_apps_pic32cm_mc00"
 #              title: "Harmony 3 Peripheral library applicaton examples for PIC32CMMC00 family"
@@ -109,7 +109,7 @@ catalog:
               third_party: false
               description: "https://github.com/Microchip-MPLAB-Harmony/csp_apps_pic32cm_mc00/blob/master/readme.md"
               licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+                  - {name: "MPLAB Harmony license", path: "Microchip_SLA001.md"}
 
             - name: "csp_apps_pic32cx_mt"
 #              title: "Harmony 3 Peripheral library applicaton examples for PIC32CXMT family"
@@ -123,7 +123,7 @@ catalog:
               third_party: false
               description: "https://github.com/Microchip-MPLAB-Harmony/csp_apps_pic32cx_mt/blob/master/readme.md"
               licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+                  - {name: "MPLAB Harmony license", path: "Microchip_SLA001.md"}
 
             - name: "csp_apps_pic32cx_sg41"
 #              title: "Harmony 3 Peripheral library applicaton examples for PIC32CXSG41 family"
@@ -137,7 +137,7 @@ catalog:
               third_party: false
               description: "https://github.com/Microchip-MPLAB-Harmony/csp_apps_pic32cx_sg41/blob/master/readme.md"
               licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+                  - {name: "MPLAB Harmony license", path: "Microchip_SLA001.md"}
 
             - name: "csp_apps_pic32cxbz2_wbz45"
 #              title: "Harmony 3 Peripheral library applicaton examples for PIC32CXBZ2/WBZ451 family"
@@ -151,7 +151,7 @@ catalog:
               third_party: false
               description: "https://github.com/Microchip-MPLAB-Harmony/csp_apps_pic32cxbz2_wbz45/blob/master/readme.md"
               licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+                  - {name: "MPLAB Harmony license", path: "Microchip_SLA001.md"}
 
             - name: "csp_apps_pic32cxbz3_wbz3"
 #              title: "Harmony 3 Peripheral library applicaton examples for PIC32CXBZ3/WBZ351 family"
@@ -165,7 +165,7 @@ catalog:
               third_party: false
               description: "https://github.com/Microchip-MPLAB-Harmony/csp_apps_pic32cxbz3_wbz3/blob/master/readme.md"
               licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+                  - {name: "MPLAB Harmony license", path: "Microchip_SLA001.md"}
 
             - name: "csp_apps_pic32cz_ca"
 #              title: "Harmony 3 Peripheral library applicaton examples for PIC32CZCA family"
@@ -179,7 +179,7 @@ catalog:
               third_party: false
               description: "https://github.com/Microchip-MPLAB-Harmony/csp_apps_pic32cz_ca/blob/master/readme.md"
               licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+                  - {name: "MPLAB Harmony license", path: "Microchip_SLA001.md"}
 
             - name: "csp_apps_pic32mk"
 #              title: "Harmony 3 Peripheral library applicaton examples for PIC32MK family"
@@ -193,7 +193,7 @@ catalog:
               third_party: false
               description: "https://github.com/Microchip-MPLAB-Harmony/csp_apps_pic32mk/blob/master/readme.md"
               licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+                  - {name: "MPLAB Harmony license", path: "Microchip_SLA001.md"}
 
             - name: "csp_apps_pic32mm"
 #              title: "Harmony 3 Peripheral library applicaton examples for PIC32MM family"
@@ -207,7 +207,7 @@ catalog:
               third_party: false
               description: "https://github.com/Microchip-MPLAB-Harmony/csp_apps_pic32mm/blob/master/readme.md"
               licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+                  - {name: "MPLAB Harmony license", path: "Microchip_SLA001.md"}
 
             - name: "csp_apps_pic32mx"
 #              title: "Harmony 3 Peripheral library applicaton examples for PIC32MX family"
@@ -221,7 +221,7 @@ catalog:
               third_party: false
               description: "https://github.com/Microchip-MPLAB-Harmony/csp_apps_pic32mx/blob/master/readme.md"
               licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+                  - {name: "MPLAB Harmony license", path: "Microchip_SLA001.md"}
 
             - name: "csp_apps_pic32mz_da"
 #              title: "Harmony 3 Peripheral library applicaton examples for PIC32MZ-DA family"
@@ -235,7 +235,7 @@ catalog:
               third_party: false
               description: "https://github.com/Microchip-MPLAB-Harmony/csp_apps_pic32mz_da/blob/master/readme.md"
               licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+                  - {name: "MPLAB Harmony license", path: "Microchip_SLA001.md"}
 
             - name: "csp_apps_pic32mz_ef"
 #              title: "Harmony 3 Peripheral library applicaton examples for PIC32MZ-EF family"
@@ -249,7 +249,7 @@ catalog:
               third_party: false
               description: "https://github.com/Microchip-MPLAB-Harmony/csp_apps_pic32mz_ef/blob/master/readme.md"
               licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+                  - {name: "MPLAB Harmony license", path: "Microchip_SLA001.md"}
 
             - name: "csp_apps_pic32mz_w1"
 #              title: "Harmony 3 Peripheral library applicaton examples for PIC32MZ-W1 family"
@@ -263,7 +263,7 @@ catalog:
               third_party: false
               description: "https://github.com/Microchip-MPLAB-Harmony/csp_apps_pic32mz_w1/blob/master/readme.md"
               licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+                  - {name: "MPLAB Harmony license", path: "Microchip_SLA001.md"}
 
             - name: "csp_apps_sam_9x60"
 #              title: "Harmony 3 Peripheral library applicaton examples for SAM9X60 family"
@@ -277,7 +277,7 @@ catalog:
               third_party: false
               description: "https://github.com/Microchip-MPLAB-Harmony/csp_apps_sam_9x60/blob/master/readme.md"
               licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+                  - {name: "MPLAB Harmony license", path: "Microchip_SLA001.md"}
 
             - name: "csp_apps_sam_9x7"
 #              title: "Harmony 3 Peripheral library applicaton examples for SAM9X7 family"
@@ -291,7 +291,7 @@ catalog:
               third_party: false
               description: "https://github.com/Microchip-MPLAB-Harmony/csp_apps_sam_9x7/blob/master/readme.md"
               licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+                  - {name: "MPLAB Harmony license", path: "Microchip_SLA001.md"}
 
             - name: "csp_apps_sam_a5d2"
 #              title: "Harmony 3 Peripheral library applicaton examples for SAMA5D2 family"
@@ -305,7 +305,7 @@ catalog:
               third_party: false
               description: "https://github.com/Microchip-MPLAB-Harmony/csp_apps_sam_a5d2/blob/master/readme.md"
               licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+                  - {name: "MPLAB Harmony license", path: "Microchip_SLA001.md"}
 
             - name: "csp_apps_sam_a7g5"
 #              title: "Harmony 3 Peripheral library applicaton examples for SAMA7G5 family"
@@ -319,7 +319,7 @@ catalog:
               third_party: false
               description: "https://github.com/Microchip-MPLAB-Harmony/csp_apps_sam_a7g5/blob/master/readme.md"
               licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+                  - {name: "MPLAB Harmony license", path: "Microchip_SLA001.md"}
 
             - name: "csp_apps_sama7d65"
 #              title: "Harmony 3 Peripheral library applicaton examples for SAMA7D65 family"
@@ -347,7 +347,7 @@ catalog:
               third_party: false
               description: "https://github.com/Microchip-MPLAB-Harmony/csp_apps_sam_c20_c21/blob/master/readme.md"
               licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+                  - {name: "MPLAB Harmony license", path: "Microchip_SLA001.md"}
 
             - name: "csp_apps_sam_d10"
 #              title: "Harmony 3 Peripheral library applicaton examples for SAMD10 family"
@@ -361,7 +361,7 @@ catalog:
               third_party: false
               description: "https://github.com/Microchip-MPLAB-Harmony/csp_apps_sam_d10/blob/master/readme.md"
               licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+                  - {name: "MPLAB Harmony license", path: "Microchip_SLA001.md"}
 
             - name: "csp_apps_sam_d11"
 #              title: "Harmony 3 Peripheral library applicaton examples for SAMD11 family"
@@ -375,7 +375,7 @@ catalog:
               third_party: false
               description: "https://github.com/Microchip-MPLAB-Harmony/csp_apps_sam_d11/blob/master/readme.md"
               licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+                  - {name: "MPLAB Harmony license", path: "Microchip_SLA001.md"}
 
             - name: "csp_apps_sam_d20"
 #              title: "Harmony 3 Peripheral library applicaton examples for SAMD20 family"
@@ -389,7 +389,7 @@ catalog:
               third_party: false
               description: "https://github.com/Microchip-MPLAB-Harmony/csp_apps_sam_d20/blob/master/readme.md"
               licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+                  - {name: "MPLAB Harmony license", path: "Microchip_SLA001.md"}
 
             - name: "csp_apps_sam_d21_da1"
 #              title: "Harmony 3 Peripheral library applicaton examples for SAMD21/DA1 family"
@@ -403,7 +403,7 @@ catalog:
               third_party: false
               description: "https://github.com/Microchip-MPLAB-Harmony/csp_apps_sam_d21_da1/blob/master/readme.md"
               licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+                  - {name: "MPLAB Harmony license", path: "Microchip_SLA001.md"}
 
             - name: "csp_apps_sam_d5x_e5x"
 #              title: "Harmony 3 Peripheral library applicaton examples for SAMD5x/E5x family"
@@ -417,7 +417,7 @@ catalog:
               third_party: false
               description: "https://github.com/Microchip-MPLAB-Harmony/csp_apps_sam_d5x_e5x/blob/master/readme.md"
               licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+                  - {name: "MPLAB Harmony license", path: "Microchip_SLA001.md"}
 
             - name: "csp_apps_sam_e70_s70_v70_v71"
 #              title: "Harmony 3 Peripheral library applicaton examples for SAME70/S70/V70/V71 family"
@@ -431,7 +431,7 @@ catalog:
               third_party: false
               description: "https://github.com/Microchip-MPLAB-Harmony/csp_apps_sam_e70_s70_v70_v71/blob/master/readme.md"
               licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+                  - {name: "MPLAB Harmony license", path: "Microchip_SLA001.md"}
 
             - name: "csp_apps_sam_g55"
 #              title: "Harmony 3 Peripheral library applicaton examples for SAMG55 family"
@@ -445,7 +445,7 @@ catalog:
               third_party: false
               description: "https://github.com/Microchip-MPLAB-Harmony/csp_apps_sam_g55/blob/master/readme.md"
               licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+                  - {name: "MPLAB Harmony license", path: "Microchip_SLA001.md"}
 
             - name: "csp_apps_sam_ha1"
 #              title: "Harmony 3 Peripheral library applicaton examples for SAMHA1 family"
@@ -459,7 +459,7 @@ catalog:
               third_party: false
               description: "https://github.com/Microchip-MPLAB-Harmony/csp_apps_sam_ha1/blob/master/readme.md"
               licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+                  - {name: "MPLAB Harmony license", path: "Microchip_SLA001.md"}
 
             - name: "csp_apps_sam_l10_l11"
 #              title: "Harmony 3 Peripheral library applicaton examples for SAML10/L11 family"
@@ -473,7 +473,7 @@ catalog:
               third_party: false
               description: "https://github.com/Microchip-MPLAB-Harmony/csp_apps_sam_l10_l11/blob/master/readme.md"
               licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+                  - {name: "MPLAB Harmony license", path: "Microchip_SLA001.md"}
 
             - name: "csp_apps_sam_l21"
 #              title: "Harmony 3 Peripheral library applicaton examples for SAML21 family"
@@ -487,7 +487,7 @@ catalog:
               third_party: false"
               description: "https://github.com/Microchip-MPLAB-Harmony/csp_apps_sam_l21/blob/master/readme.md"
               licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+                  - {name: "MPLAB Harmony license", path: "Microchip_SLA001.md"}
 
             - name: "csp_apps_sam_l22"
 #              title: "Harmony 3 Peripheral library applicaton examples for SAML22 family"
@@ -501,7 +501,7 @@ catalog:
               third_party: false
               description: "https://github.com/Microchip-MPLAB-Harmony/csp_apps_sam_l22/blob/master/readme.md"
               licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+                  - {name: "MPLAB Harmony license", path: "Microchip_SLA001.md"}
 
             - name: "csp_apps_sam_rh707"
 #              title: "Harmony 3 Peripheral library applicaton examples for SAMRH707 family"
@@ -515,7 +515,7 @@ catalog:
               third_party: false
               description: "https://github.com/Microchip-MPLAB-Harmony/csp_apps_sam_rh707/blob/master/readme.md"
               licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+                  - {name: "MPLAB Harmony license", path: "Microchip_SLA001.md"}
 
             - name: "csp_apps_sam_rh71"
 #              title: "Harmony 3 Peripheral library applicaton examples for SAMRH71 family"
@@ -529,4 +529,4 @@ catalog:
               third_party: false
               description: "https://github.com/Microchip-MPLAB-Harmony/csp_apps_sam_rh71/blob/master/readme.md"
               licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+                  - {name: "MPLAB Harmony license", path: "Microchip_SLA001.md"}
