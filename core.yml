@@ -154,8 +154,8 @@ catalog:
               licenses:
                   - {name: "MPLAB Harmony license", path: "Microchip_SLA001.md"}
 
-            - name: "core_apps_pic32cz_ca"
-#             title: "Harmony 3 driver and system service application examples for PIC32CZCA family"
+            - name: "core_apps_pic32cz_ca8x_ca9x"
+#             title: "Harmony 3 driver and system service application examples for PIC32CZ CA8x/CA9x family"
               parent: "core"
               package_group: "Harmony 3 Core"
               type: "application"
@@ -164,7 +164,7 @@ catalog:
               tag-check: true
               package-check: true
               third_party: false
-              description: "https://github.com/Microchip-MPLAB-Harmony/core_apps_pic32cz_ca/blob/master/readme.md"
+              description: "https://github.com/Microchip-MPLAB-Harmony/core_apps_pic32cz_ca8x_ca9x/blob/master/readme.md"
               licenses:
                   - {name: "MPLAB Harmony license", path: "Microchip_SLA001.md"}
 
