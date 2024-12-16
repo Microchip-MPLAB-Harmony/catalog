@@ -81,3 +81,31 @@ catalog:
               description: "https://github.com/Microchip-MPLAB-Harmony/smartenergy_metrology/blob/master/readme.md"
               licenses:
                   - {name: "Microchip Software License Agreement", path: "Microchip_SLA001.md"}
+
+            - name: "smartenergy_metersandmore"
+#              title: "Harmony 3 - Smart Energy Meters And More solutions - Meters And More Stack"
+              parent: "smartenergy"
+              package_group: "Harmony 3 Smart Energy solutions"
+              type: "api"
+              category: "smartenergy"
+              required: "false"
+              tag-check: true
+              package-check: true
+              third_party: false
+              description: "https://github.com/Microchip-MPLAB-Harmony/smartenergy_metersandmore/blob/master/readme.md"
+              licenses:
+                  - {name: "Microchip Software License Agreement", path: "Microchip_SLA001.md"}
+
+            - name: "smartenergy_metersandmore_apps"
+#              title: "Harmony 3 - Smart Energy Meters And More applications"
+              parent: "smartenergy"
+              package_group: "Harmony 3 Smart Energy solutions"
+              type: "application"
+              category: "smartenergy"
+              required: "false"
+              tag-check: true
+              package-check: true
+              third_party: false
+              description: "https://github.com/Microchip-MPLAB-Harmony/smartenergy_metersandmore_apps/blob/master/readme.md"
+              licenses:
+                  - {name: "Microchip Software License Agreement", path: "Microchip_SLA001.md"}
