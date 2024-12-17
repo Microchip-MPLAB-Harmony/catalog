@@ -152,6 +152,20 @@ catalog:
               licenses:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
 
+            - name: "net_apps_pic32cz_ca70"
+#              title: "Harmony 3 - Networking Application Examples for PIC32CZ CA70 Family"
+              parent: "net"
+              package_group: "Harmony 3 Networking Stack"
+              type: "application"
+              category: "network"
+              required: "false"
+              tag-check: true
+              package-check: true
+              third_party: false
+              description: "https://github.com/Microchip-MPLAB-Harmony/net_apps_pic32cz_ca70/blob/master/readme.md"
+              licenses:
+                  - {name: "Microchip Software License Agreement", path: "Microchip_SLA001.md"}
+
             - name: "net_apps_sam_rh71"
 #              title: "Harmony 3 - Networking Application Examples for SAM RH71 family"
               parent: "net"
