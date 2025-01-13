@@ -26,35 +26,35 @@ catalog:
 #              licenses:
 #                  - { name: "Apache-2.0 License", path: "LICENSE-apache-2.0.txt"}
 
-#            - name: "helix_mp3"
-##              title: "Helix MP3 codec"
-#              parent: "audio"
-#              package_group: "Harmony 3 Audio solutions"
-#              type: "api"
-#              category: "audio"
-#              required: "false"
-#              tag-check: false
-#              package-check: false
-#              third_party: true
-#              description: "https://github.com/Microchip-MPLAB-Harmony/helix_mp3/blob/master/README.md"
-#              licenses:
-#                  - {name: "RealNetworks Community Source license", path: "fixpnt/RCSL.txt"}
-#                  - {name: "RealNetworks Public Source license", path: "fixpnt/RPSL.txt"}
+            - name: "helix_mp3"
+#              title: "Helix MP3 codec"
+              parent: "audio"
+              package_group: "Harmony 3 Audio solutions"
+              type: "api"
+              category: "audio"
+              required: "false"
+              tag-check: false
+              package-check: false
+              third_party: true
+              description: "https://github.com/Microchip-MPLAB-Harmony/helix_mp3/blob/master/README.md"
+              licenses:
+                  - {name: "RealNetworks Community Source license", path: "fixpnt/RCSL.txt"}
+                  - {name: "RealNetworks Public Source license", path: "fixpnt/RPSL.txt"}
 
-#            - name: "xiph_flac"
-##              title: "Xiph Flac codec"
-#              parent: "audio"
-#              package_group: "Harmony 3 Audio solutions"
-#              type: "api"
-#              category: "audio"
-#              required: "false"
-#              tag-check: false
-#              package-check: false
-#              third_party: true
-#              description: "https://github.com/Microchip-MPLAB-Harmony/xiph_flac/blob/master/README.md"
-#              licenses:
-#                  - {name: "GPL license", path: "COPYING.GPL"}
-#                  - {name: "Xiph license", path: "COPYING.Xiph"}
+            - name: "xiph_flac"
+#              title: "Xiph Flac codec"
+              parent: "audio"
+              package_group: "Harmony 3 Audio solutions"
+              type: "api"
+              category: "audio"
+              required: "false"
+              tag-check: false
+              package-check: false
+              third_party: true
+              description: "https://github.com/Microchip-MPLAB-Harmony/xiph_flac/blob/master/README.md"
+              licenses:
+                  - {name: "GPL license", path: "COPYING.GPL"}
+                  - {name: "Xiph license", path: "COPYING.Xiph"}
 
 #            - name: "tflite-micro"
 ##              title: "Harmony 3 - TensorFlow Lite for Microcontroller (TFLM) Solutions"
