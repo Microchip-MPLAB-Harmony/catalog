@@ -16,7 +16,7 @@ catalog:
         - { name: "Microchip MPLAB Harmony 3 - Motor Control", url: "file:///motorcontrol.yml"}
 #        - { name: "Microchip MPLAB Harmony 3 - RTOS Support", url: "file:///rtos.yml"}
         - { name: "Microchip MPLAB Harmony 3 - Smart Energy", url: "file:///smart_energy.yml"}
-        - { name: "Microchip MPLAB Harmony 3 - Audio", url: "file:///audio.yml"}	
+        - { name: "Microchip MPLAB Harmony 3 - Audio", url: "file:///audio.yml"}
         - { name: "Microchip Graphics Suite Harmony", url: "file:///graphics.yml"}
         - { name: "Microchip MPLAB Harmony 3 - Vision", url: "file:///vision.yml"}
         - { name: "Microchip MPLAB Harmony 3 - Network", url: "file:///net.yml"}
@@ -30,7 +30,7 @@ catalog:
         - { name: "Microchip MPLAB Harmony 3 - Azure RTOS FileX", url: "file:///azure_rtos.yml"}
         - { name: "Microchip MPLAB Harmony 3 - Eclipse ThreadX", url: "file:///eclipse_threadx.yml"}
         - { name: "Microchip MPLAB Harmony 3 - littlefs", url: "file:///littlefs.yml"}
-        - { name: "Microchip MPLAB Harmony 3 - Third Parties", url: "file:///third_parties.yml"}	
+        - { name: "Microchip MPLAB Harmony 3 - Third Parties", url: "file:///third_parties.yml"}
         - { name: "Microchip MPLAB Harmony 3 - Complementary content", url: "file:///microchiptech.yml"}
 #        - { name: "Microchip MPLAB Harmony 3 - Community", url: "https://raw.githubusercontent.com/Microchip-MPLAB-Harmony/community_catalog/master/catalog.yml"}
         - { name: "Microchip MPLAB Harmony 3 - Reference Apps and Quick Docs", url: "file:///ra_qd.yml"}
