@@ -14,7 +14,7 @@ catalog:
 
         packages:
             - name: "shd"
-              title: "Harmony 3 - System Hardware Definitions (SHD)"
+              title: "Harmony 3 - System Hardware Definitions"
               package_group: "Harmony 3 System Hardware Definitions"
               type: "api"
               category: "shd"
