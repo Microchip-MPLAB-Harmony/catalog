@@ -492,7 +492,7 @@ catalog:
 
             - name: "core_apps_pic32cm_sg00_gc00"
 #              title: "Harmony 3 driver and system service application examples for PIC32CM-GC/SG family"
-              parent: "csp"
+              parent: "core"
               package_group: "Harmony 3 Chip Support Package"
               type: "application"
               category: "foundations"
@@ -504,9 +504,9 @@ catalog:
               licenses:
                   - {name: "MPLAB Harmony license", path: "Microchip_SLA001.md"}
 
-            - name: "core_apps_pic32cxbz6_wbz6"
-#              title: "Harmony 3 driver and system service application examples for PIC32CXBZ6/WBZ653 family"
-              parent: "csp"
+            - name: "core_apps_pic32cxbz6_wmbz6"
+#              title: "Harmony 3 driver and system service application examples for PIC32CXBZ6/PIC32WM_BZ6204 family"
+              parent: "core"
               package_group: "Harmony 3 Chip Support Package"
               type: "application"
               category: "foundations"
@@ -514,13 +514,13 @@ catalog:
               tag-check: true
               package-check: true
               third_party: false
-              description: "https://github.com/Microchip-MPLAB-Harmony/core_apps_pic32cxbz6_wbz6/blob/master/readme.md"
+              description: "https://github.com/Microchip-MPLAB-Harmony/core_apps_pic32cxbz6_wmbz6/blob/master/readme.md"
               licenses:
                   - {name: "MPLAB Harmony license", path: "Microchip_SLA001.md"}
 
             - name: "core_apps_pic32cz_ca70"
 #              title: "Harmony 3 driver and system service application examples for PIC32CZCA70 family"
-              parent: "csp"
+              parent: "core"
               package_group: "Harmony 3 Chip Support Package"
               type: "application"
               category: "foundations"
