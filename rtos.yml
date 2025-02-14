@@ -13,17 +13,17 @@ catalog:
         raw_file_url_pattern: "https://raw.githubusercontent.com/Microchip-MPLAB-Harmony/{REPO_NAME}/{BRANCH-NAME/TAG-NAME}/{FILE-NAME}"
 
         packages:
-            - name: "azure_rtos"
-              title: "Harmony 3 - Azure RTOS solutions"
-              package_group: "Harmony 3 Azure RTOS"
+            - name: "eclipse_threadx"
+              title: "Harmony 3 - Eclipse Threadx port"
+              package_group: "Harmony 3 Eclipse Threadx port"
               type: "api"
               category: "rtos"
               required: "false"
               tag-check: true
               package-check: true
               third_party: false
-              description: "https://github.com/Microchip-MPLAB-Harmony/azure_rtos/blob/master/readme.md"
+              description: "https://github.com/Microchip-MPLAB-Harmony/eclipse_threadx/blob/master/readme.md"
               licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+                  - {name: "Microchip Software License Agreement", path: "Microchip_SLA001.md"}
 
 
