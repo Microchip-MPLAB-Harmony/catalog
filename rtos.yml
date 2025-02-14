@@ -26,4 +26,16 @@ catalog:
               licenses:
                   - {name: "Microchip Software License Agreement", path: "Microchip_SLA001.md"}
 
+            - name: "eclipse_threadx_apps"
+#              title: "Harmony 3 - Eclipse Threadx application examples"
+              package_group: "Harmony 3 Eclipse Threadx port"
+              type: "application"
+              category: "rtos"
+              required: "false"
+              tag-check: true
+              package-check: true
+              third_party: false
+              description: "https://github.com/Microchip-MPLAB-Harmony/eclipse_threadx_apps/blob/master/readme.md"
+              licenses:
+                  - {name: "Microchip Software License Agreement", path: "Microchip_SLA001.md"}
 
