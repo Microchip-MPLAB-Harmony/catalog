@@ -26,6 +26,32 @@ catalog:
               licenses:
                   - {name: "Microchip Software License Agreement", path: "Microchip_SLA001.md"}
 
+            - name: "crypto_hsm"
+              parent: "crypto_v4"
+              package_group: "Harmony 3 Crypto solutions"
+              type: "application"
+              category: "cryptography"
+              required: "false"
+              tag-check: true
+              package-check: true
+              third_party: false
+              description: "https://github.com/Microchip-MPLAB-Harmony/crypto_hsm/blob/master/readme.md"
+              licenses:
+                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+
+            - name: "crypto_apps_pic32ck_sg"
+              parent: "crypto_v4"
+              package_group: "Harmony 3 Crypto solutions"
+              type: "application"
+              category: "cryptography"
+              required: "false"
+              tag-check: true
+              package-check: true
+              third_party: false
+              description: "https://github.com/Microchip-MPLAB-Harmony/crypto_apps_pic32ck_sg/blob/master/readme.md"
+              licenses:
+                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+
             - name: "crypto_apps_pic32cx_mtg"
               parent: "crypto_v4"
               package_group: "Harmony 3 Crypto solutions"
@@ -52,16 +78,16 @@ catalog:
               licenses:
                   - {name: "MPLAB Harmony license", path: "Microchip_SLA001.md"}
 
-#            - name: "crypto_apps_pic32cz_ca9x"
-#              parent: "crypto_v4"
-#              package_group: "Harmony 3 Crypto solutions"
-#              type: "application"
-#              category: "cryptography"
-#              required: "false"
-#              tag-check: false
-#              package-check: true
-#              third_party: false
-#              description: "https://github.com/Microchip-MPLAB-Harmony/crypto_apps_pic32cz_ca9x/blob/master/readme.md"
-#              licenses:
-#                  - {name: "MPLAB Harmony license", path: "Microchip_SLA001.md"}
+            - name: "crypto_apps_pic32cz_ca9x"
+              parent: "crypto_v4"
+              package_group: "Harmony 3 Crypto solutions"
+              type: "application"
+              category: "cryptography"
+              required: "false"
+              tag-check: false
+              package-check: true
+              third_party: false
+              description: "https://github.com/Microchip-MPLAB-Harmony/crypto_apps_pic32cz_ca9x/blob/master/readme.md"
+              licenses:
+                  - {name: "MPLAB Harmony license", path: "Microchip_SLA001.md"}
 
