@@ -18,7 +18,7 @@ catalog:
               package_group: "Harmony 3 System Hardware Definitions"
               type: "api"
               category: "shd"
-              required: "true"
+              required: "false"
               tag-check: true
               package-check: true
               third_party: false
