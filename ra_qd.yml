@@ -26,6 +26,75 @@ catalog:
               licenses:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
 
+            - name: "reference_apps_pic32ck"
+              title: "Harmony 3 - Reference Apps for PIC32CK MCUs"
+              package_group: "Harmony 3 Reference Apps and Quick Docs"
+              type: "application"
+              category: "foundations"
+              required: "false"
+              tag-check: true
+              package-check: true
+              third_party: false
+              description: "https://github.com/Microchip-MPLAB-Harmony/reference_apps_pic32ck/blob/master/readme.md"
+              licenses:
+                  - {name: "MPLAB Harmony license", path: "Microchip_SLA001.md"}
+
+
+            - name: "reference_apps_pic32cm"
+              title: "Harmony 3 - Reference Apps for PIC32CM MCUs"
+              package_group: "Harmony 3 Reference Apps and Quick Docs"
+              type: "application"
+              category: "foundations"
+              required: "false"
+              tag-check: true
+              package-check: true
+              third_party: false
+              description: "https://github.com/Microchip-MPLAB-Harmony/reference_apps_pic32cm/blob/master/readme.md"
+              licenses:
+                  - {name: "MPLAB Harmony license", path: "Microchip_SLA001.md"}
+
+
+            - name: "reference_apps_pic32cx"
+              title: "Harmony 3 - Reference Apps for PIC32CX MCUs"
+              package_group: "Harmony 3 Reference Apps and Quick Docs"
+              type: "application"
+              category: "foundations"
+              required: "false"
+              tag-check: true
+              package-check: true
+              third_party: false
+              description: "https://github.com/Microchip-MPLAB-Harmony/reference_apps_pic32cx/blob/master/readme.md"
+              licenses:
+                  - {name: "MPLAB Harmony license", path: "Microchip_SLA001.md"}
+
+            - name: "reference_apps_pic32cz"
+              title: "Harmony 3 - Reference Apps for PIC32CZ MCUs"
+              package_group: "Harmony 3 Reference Apps and Quick Docs"
+              type: "application"
+              category: "foundations"
+              required: "false"
+              tag-check: true
+              package-check: true
+              third_party: false
+              description: "https://github.com/Microchip-MPLAB-Harmony/reference_apps_pic32cz/blob/master/readme.md"
+              licenses:
+                  - {name: "MPLAB Harmony license", path: "Microchip_SLA001.md"}
+
+
+            - name: "reference_apps_sam_mpu"
+              title: "Harmony 3 - Reference Apps for SAM MPUs"
+              package_group: "Harmony 3 Reference Apps and Quick Docs"
+              type: "application"
+              category: "foundations"
+              required: "false"
+              tag-check: true
+              package-check: true
+              third_party: false
+              description: "https://github.com/Microchip-MPLAB-Harmony/reference_apps_sam_mpu/blob/master/readme.md"
+              licenses:
+                  - {name: "MPLAB Harmony license", path: "Microchip_SLA001.md"}
+
+
             - name: "quick_docs"
 #              title: "Harmony 3 - Quick Docs"
               parent: "reference_apps"
