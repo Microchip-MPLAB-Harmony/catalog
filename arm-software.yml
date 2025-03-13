@@ -25,20 +25,6 @@ catalog:
               licenses:
                   - {name: "Apache License 2.0", path: "LICENSE.txt"}
 
-            - name: "CMSIS-DSP"
-#              title: "CMSIS-DSP"
-              parent: "CMSIS_5"
-              package_group: "arm CMSIS"
-              type: external
-              category: "foundations"
-              required: "false"
-              tag-check: false
-              package-check: false
-              third_party: true
-              description: "https://github.com/ARM-software/CMSIS-DSP/blob/main/README.md"
-              licenses:
-                  - {name: "Apache License 2.0", path: "LICENSE.txt"}
-
             - name: "CMSIS-FreeRTOS"
 #              title: "CMSIS FreeRTOS"
               parent: "CMSIS_5"
@@ -52,20 +38,6 @@ catalog:
               description: "https://github.com/ARM-software/CMSIS-FreeRTOS/blob/main/README.md"
               licenses:
                   - {name: "MIT license", path: "License/license.txt"}
-
-            - name: "CMSIS-NN"
-#              title: "CMSIS-NN"
-              parent: "CMSIS_5"
-              package_group: "arm CMSIS"
-              type: external
-              category: "AI/ML"
-              required: "false"
-              tag-check: false
-              package-check: false
-              third_party: true
-              description: "https://github.com/ARM-software/CMSIS-NN/blob/main/README.md"
-              licenses:
-                  - {name: "Apache License 2.0", path: "LICENSE.txt"}
 
             - name: "CMSIS-View"
 #              title: "CMSIS-View"
@@ -81,3 +53,44 @@ catalog:
               licenses:
                   - {name: "Apache License 2.0", path: "LICENSE"}
 
+#            - name: "CMSIS_6"
+##              title: "CMSIS_6"
+#              parent: "CMSIS_6"
+#              package_group: "arm CMSIS"
+#              type: external
+#              category: "foundations"
+#              required: "false"
+#              tag-check: false
+#              package-check: false
+#              third_party: true
+#              description: "https://github.com/ARM-software/CMSIS_6/blob/main/README.md"
+#              licenses:
+#                  - {name: "Apache License 2.0", path: "LICENSE.txt"}
+
+#            - name: "CMSIS-DSP"
+##              title: "CMSIS-DSP"
+#              parent: "CMSIS_6"
+#              package_group: "arm CMSIS"
+#              type: external
+#              category: "foundations"
+#              required: "false"
+#              tag-check: false
+#              package-check: false
+#              third_party: true
+#              description: "https://github.com/ARM-software/CMSIS-DSP/blob/main/README.md"
+#              licenses:
+#                  - {name: "Apache License 2.0", path: "LICENSE.txt"}
+
+#            - name: "CMSIS-NN"
+##              title: "CMSIS-NN"
+#              parent: "CMSIS_6"
+#              package_group: "arm CMSIS"
+#              type: external
+#              category: "AI/ML"
+#              required: "false"
+#              tag-check: false
+#              package-check: false
+#              third_party: true
+#              description: "https://github.com/ARM-software/CMSIS-NN/blob/main/README.md"
+#              licenses:
+#                  - {name: "Apache License 2.0", path: "LICENSE.txt"}
