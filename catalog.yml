@@ -21,8 +21,6 @@ catalog:
         - { name: "Microchip MPLAB Harmony 3 - Vision", url: "file:///vision.yml"}
         - { name: "Microchip MPLAB Harmony 3 - Network", url: "file:///net.yml"}
         - { name: "Microchip MPLAB Harmony 3 - Wireless", url: "file:///wireless.yml"}
-#        - { name: "Microchip MPLAB Harmony 3 - PMCI", url: "file:///pmci.yml"}
-        - { name: "Microchip MPLAB Harmony 3 - Soteria secureboot solution", url: "file:///cec173x_soteria.yml"}
         - { name: "Microchip MPLAB Harmony 3 - Crypto", url: "file:///crypto.yml"}
         - { name: "Microchip MPLAB Harmony 3 - Crypto v4", url: "file:///crypto_v4.yml"}
         - { name: "Microchip MPLAB Harmony 3 - Class B", url: "file:///classb.yml"}
