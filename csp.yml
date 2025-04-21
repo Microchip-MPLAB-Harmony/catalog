@@ -53,7 +53,7 @@ catalog:
               third_party: false
               description: "https://github.com/Microchip-MPLAB-Harmony/csp_apps_pic32ck_sg_gc/blob/master/readme.md"
               licenses:
-                  - {name: "MPLAB Harmony license", path: "Microchip_SLA001.md"}
+                  - {name: "License", path: "License.md"}
 
             - name: "csp_apps_pic32cm_jh00_jh01"
 #              title: "Harmony 3 Peripheral library applicaton examples for PIC32CMJH00/JH01 family"
@@ -572,3 +572,17 @@ catalog:
               description: "https://github.com/Microchip-MPLAB-Harmony/csp_apps_pic32ak_gc/blob/master/readme.md"
               licenses:
                   - {name: "MPLAB Harmony license", path: "Microchip_SLA001.md"}
+
+            - name: "csp_apps_pic32wm_bw1"
+#              title: "Harmony 3 Peripheral library applicaton examples for PIC32WM-BW1 family"
+              parent: "csp"
+              package_group: "Harmony 3 Chip Support Package"
+              type: "application"
+              category: "foundations"
+              required: "false"
+              tag-check: true
+              package-check: true
+              third_party: false
+              description: "https://github.com/Microchip-MPLAB-Harmony/csp_apps_pic32wm_bw1/blob/master/readme.md"
+              licenses:
+                  - {name: "License", path: "License.md"}
