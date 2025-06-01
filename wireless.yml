@@ -255,3 +255,16 @@ catalog:
               description: "https://github.com/Microchip-MPLAB-Harmony/wireless_services/blob/master/readme.md"
               licenses:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+            
+            - name: "wireless_apps_pic32_wbz6"
+              title: "Harmony 3 - Wireless BLE and Zigbee applications for PIC32CX BZ6"
+              package_group: "Harmony 3 Wireless solutions"
+              type: "application"
+              category: "wireless"
+              required: "false"
+              tag-check: true
+              package-check: true
+              third_party: false
+              description: "https://github.com/Microchip-MPLAB-Harmony/wireless_apps_pic32_wbz6/blob/master/readme.md"
+              licenses:
+                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
