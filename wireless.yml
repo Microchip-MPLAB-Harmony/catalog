@@ -257,7 +257,7 @@ catalog:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
             
             - name: "wireless_apps_pic32_wbz6"
-              title: "Harmony 3 - Wireless BLE and Zigbee applications for PIC32CX BZ6"
+              title: "Harmony 3 - Wireless BLE applications for PIC32WM_BZ6204"
               package_group: "Harmony 3 Wireless solutions"
               type: "application"
               category: "wireless"
