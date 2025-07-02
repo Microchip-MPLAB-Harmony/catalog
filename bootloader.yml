@@ -24,7 +24,7 @@ catalog:
               third_party: false
               description: "https://github.com/Microchip-MPLAB-Harmony/bootloader/blob/master/readme.md"
               licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+                  - {name: "Microchip Software License Agreement", path: "Microchip_SLA001.md"}
 
             - name: "bootloader_apps_can"
 #              title: "Harmony 3 CAN Bootloader Application Examples"
@@ -38,7 +38,7 @@ catalog:
               third_party: false
               description: "https://github.com/Microchip-MPLAB-Harmony/bootloader_apps_can/blob/master/readme.md"
               licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+                  - {name: "Microchip Software License Agreement", path: "Microchip_SLA001.md"}
 
             - name: "bootloader_apps_uart"
 #              title: "Harmony 3 UART Bootloader Application Examples"
@@ -52,7 +52,7 @@ catalog:
               third_party: false
               description: "https://github.com/Microchip-MPLAB-Harmony/bootloader_apps_uart/blob/master/readme.md"
               licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+                  - {name: "Microchip Software License Agreement", path: "Microchip_SLA001.md"}
 
             - name: "bootloader_apps_i2c"
 #              title: "Harmony 3 I2C Bootloader Application Examples"
@@ -66,7 +66,7 @@ catalog:
               third_party: false
               description: "https://github.com/Microchip-MPLAB-Harmony/bootloader_apps_i2c/blob/master/readme.md"
               licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+                  - {name: "Microchip Software License Agreement", path: "Microchip_SLA001.md"}
 
             - name: "bootloader_apps_usb"
 #              title: "Harmony 3 USB Bootloader Application Examples"
@@ -80,7 +80,7 @@ catalog:
               third_party: false
               description: "https://github.com/Microchip-MPLAB-Harmony/bootloader_apps_usb/blob/master/readme.md"
               licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+                  - {name: "Microchip Software License Agreement", path: "Microchip_SLA001.md"}
 
             - name: "bootloader_apps_ethernet"
 #              title: "Harmony 3 Ethernet Bootloader Application Examples"
@@ -94,7 +94,7 @@ catalog:
               third_party: false
               description: "https://github.com/Microchip-MPLAB-Harmony/bootloader_apps_ethernet/blob/master/readme.md"
               licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+                  - {name: "Microchip Software License Agreement", path: "Microchip_SLA001.md"}
 
             - name: "bootloader_apps_sdcard"
 #              title: "Harmony 3 SD Card Bootloader Application Examples"
@@ -108,7 +108,7 @@ catalog:
               third_party: false
               description: "https://github.com/Microchip-MPLAB-Harmony/bootloader_apps_sdcard/blob/master/readme.md"
               licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+                  - {name: "Microchip Software License Agreement", path: "Microchip_SLA001.md"}
 
             - name: "bootloader_apps_pic32cm_le_ls"
 #              title: "Harmony 3 Factory programmed bootloader application examples for PIC32CMLE/LS family"
@@ -122,7 +122,7 @@ catalog:
               third_party: false
               description: "https://github.com/Microchip-MPLAB-Harmony/bootloader_apps_pic32cm_le_ls/blob/master/readme.md"
               licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+                  - {name: "Microchip Software License Agreement", path: "Microchip_SLA001.md"}
 
             - name: "bootloader_apps_serial_memory"
 #              title: "Harmony 3 Serial Memory Bootloader Application Examples"
@@ -136,7 +136,7 @@ catalog:
               third_party: false
               description: "https://github.com/Microchip-MPLAB-Harmony/bootloader_apps_serial_memory/blob/master/readme.md"
               licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+                  - {name: "Microchip Software License Agreement", path: "Microchip_SLA001.md"}
 
             - name: "bootloader_apps_pic32cm_jh00_jh01"
 #              title: "Harmony 3 Factory programmed bootloader application examples for PIC32CMJH00/JH01 family"
@@ -150,7 +150,7 @@ catalog:
               third_party: false
               description: "https://github.com/Microchip-MPLAB-Harmony/bootloader_apps_pic32cm_jh00_jh01/blob/master/readme.md"
               licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+                  - {name: "Microchip Software License Agreement", path: "Microchip_SLA001.md"}
 
             - name: "bootloader_apps_spi"
 #              title: "Harmony 3 SPI Bootloader Application Examples"
@@ -164,7 +164,7 @@ catalog:
               third_party: false
               description: "https://github.com/Microchip-MPLAB-Harmony/bootloader_apps_spi/blob/master/readme.md"
               licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+                  - {name: "Microchip Software License Agreement", path: "Microchip_SLA001.md"}
                   
             - name: "bootloader_apps_sam_d20"
 #              title: "Harmony 3 SPI Bootloader Application Examples"
@@ -178,7 +178,7 @@ catalog:
               third_party: false
               description: "https://github.com/Microchip-MPLAB-Harmony/bootloader_apps_sam_d20/blob/master/readme.md"
               licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+                  - {name: "Microchip Software License Agreement", path: "Microchip_SLA001.md"}
 
             - name: "bootloader_apps_ota"
 #              title: "Harmony 3 OTA Bootloader Application Examples"
@@ -192,10 +192,10 @@ catalog:
               third_party: false
               description: "https://github.com/Microchip-MPLAB-Harmony/bootloader_apps_ota/blob/master/readme.md"
               licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+                  - {name: "Microchip Software License Agreement", path: "Microchip_SLA001.md"}
 
-            - name: "bootloader_apps_pic32cz_ca"
-#              title: "Harmony 3 Factory programmed bootloader application examples for PIC32CZ-CA family"
+            - name: "bootloader_apps_pic32cz_ca70"
+#              title: "Harmony 3 Factory programmed bootloader application examples for PIC32CZ-CA70 family"
               parent: "bootloader"
               package_group: "Harmony 3 Bootloader"
               type: "application"
@@ -204,7 +204,7 @@ catalog:
               tag-check: true
               package-check: true
               third_party: false
-              description: "https://github.com/Microchip-MPLAB-Harmony/bootloader_apps_pic32cz_ca/blob/master/readme.md"
+              description: "https://github.com/Microchip-MPLAB-Harmony/bootloader_apps_pic32cz_ca70/blob/master/readme.md"
               licenses:
                   - {name: "Microchip Software License Agreement", path: "Microchip_SLA001.md"}
 
