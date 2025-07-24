@@ -230,6 +230,33 @@ catalog:
               licenses:
                   - {name: "Microchip SLA", path: "Microchip_SLA001.md"}
 
+            - name: "wireless_apps_ata851x"
+              title: "Harmony 3 - Wireless ATA851x Application solutions"
+              parent: "wireless_system_ata851x"
+              package_group: "Harmony 3 Wireless solutions"
+              type: "application"
+              category: "wireless"
+              required: "false"
+              tag-check: true
+              package-check: true
+              third_party: false
+              description: "https://github.com/Microchip-MPLAB-Harmony/wireless_apps_ata851x/blob/master/readme.md"
+              licenses:
+                  - {name: "License", path: "License.md"}
+
+            - name: "wireless_system_ata851x"
+              title: "Harmony 3 - Wireless ATA851x Service solution"
+              package_group: "Harmony 3 Wireless solutions"
+              type: "api"
+              category: "wireless"
+              required: "false"
+              tag-check: true
+              package-check: true
+              third_party: false
+              description: "https://github.com/Microchip-MPLAB-Harmony/wireless_system_ata851x/blob/master/readme.md"
+              licenses:
+                  - {name: "License", path: "License.md"}
+
             - name: "wireless_apps_pic32cxbz3_wbz35"
               title: "Harmony 3 - Wireless BLE and Zigbee applications for PIC32CX BZ3 and WBZ35"
               package_group: "Harmony 3 Wireless solutions"
