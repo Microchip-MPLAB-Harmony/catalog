@@ -52,7 +52,7 @@ catalog:
               third_party: false
               description: "https://github.com/Microchip-MPLAB-Harmony/wireless_apps_winc3400/blob/master/readme.md"
               licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+                  - {name: "License", path: "License.md"}
 
             - name: "wireless_system_pic32mzw1_wfi32e01"
 #              title: "Harmony 3 - Wireless applications for PIC32MZ W1 and WFI32E01"
