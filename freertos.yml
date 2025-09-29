@@ -25,3 +25,68 @@ catalog:
               description: "https://github.com/FreeRTOS/FreeRTOS-Kernel/blob/main/README.md"
               licenses:
                   - {name: "MIT License", path: "LICENSE.md"}
+                  
+            - name: "FreeRTOS-Plus-TCP"
+              title: "FreeRTOS FreeRTOS-Plus-TCP"
+              package_group: "FreeRTOS"
+              type: external
+              category: "iot"
+              required: "false"
+              tag-check: false
+              package-check: false
+              third_party: true
+              description: "https://github.com/FreeRTOS/FreeRTOS-Plus-TCP/blob/main/README.md"
+              licenses:
+                  - {name: "MIT License", path: "LICENSE.md"}
+                  
+            - name: "coreMQTT"
+              title: "FreeRTOS coreMQTT"
+              package_group: "FreeRTOS"
+              type: external
+              category: "iot"
+              required: "false"
+              tag-check: false
+              package-check: false
+              third_party: true
+              description: "https://github.com/FreeRTOS/coreMQTT/blob/main/README.md"
+              licenses:
+                  - {name: "MIT License", path: "LICENSE"}
+                  
+            - name: "coreJSON"
+              title: "FreeRTOS coreJSON"
+              package_group: "FreeRTOS"
+              type: external
+              category: "iot"
+              required: "false"
+              tag-check: false
+              package-check: false
+              third_party: true
+              description: "https://github.com/FreeRTOS/coreJSON/blob/main/README.md"
+              licenses:
+                  - {name: "MIT License", path: "LICENSE"}
+                  
+            - name: "backoffAlgorithm"
+              title: "FreeRTOS backoffAlgorithm"
+              package_group: "FreeRTOS"
+              type: external
+              category: "iot"
+              required: "false"
+              tag-check: false
+              package-check: false
+              third_party: true
+              description: "https://github.com/FreeRTOS/backoffAlgorithm/blob/main/README.md"
+              licenses:
+                  - {name: "MIT License", path: "LICENSE"}
+                  
+            - name: "coreMQTT-Agent"
+              title: "FreeRTOS coreMQTT-Agent"
+              package_group: "FreeRTOS"
+              type: external
+              category: "iot"
+              required: "false"
+              tag-check: false
+              package-check: false
+              third_party: true
+              description: "https://github.com/FreeRTOS/coreMQTT-Agent/blob/main/README.md"
+              licenses:
+                  - {name: "MIT License", path: "LICENSE"}

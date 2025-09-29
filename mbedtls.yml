@@ -1,0 +1,28 @@
+# yaml-language-server: $schema=./harmony-catalog.schema.json
+
+#
+# This file must be updated only by Microchip employees
+#
+catalog:
+    format-version: "3.0.0"
+    name: "Microchip MPLAB Harmony 3 - Mbed TLS"
+
+    host:
+        url: "github.com"
+        path: "/Mbed-TLS/"
+        raw_file_url_pattern: "https://raw.githubusercontent.com/Mbed-TLS/{REPO_NAME}/{BRANCH-NAME/TAG-NAME}/{FILE-NAME}"
+    
+        packages:  
+            - name: "mbedtls"
+              title: "Mbed-TLS mbedtls"
+              package_group: "Mbed-TLS"
+              type: external
+              category: "iot"
+              required: "false"
+              tag-check: false
+              package-check: false
+              third_party: true
+              description: "https://github.com/Mbed-TLS/mbedtls/blob/main/README.md"
+              licenses:
+                  - {name: "Apache License", path: "LICENSE"}
+                  - {name: "GNU GENERAL PUBLIC LICENSE", path: "LICENSE"}

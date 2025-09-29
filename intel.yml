@@ -1,0 +1,27 @@
+# yaml-language-server: $schema=./harmony-catalog.schema.json
+
+#
+# This file must be updated only by Microchip employees
+#
+catalog:
+    format-version: "3.0.0"
+    name: "Microchip MPLAB Harmony 3 - Intel"
+
+    host:
+        url: "github.com"
+        path: "/intel/"
+        raw_file_url_pattern: "https://raw.githubusercontent.com/intel/{REPO_NAME}/{BRANCH-NAME/TAG-NAME}/{FILE-NAME}"
+    
+        packages:  
+            - name: "tinycbor"
+              title: "intel tinycbor"
+              package_group: "intel"
+              type: external
+              category: "iot"
+              required: "false"
+              tag-check: false
+              package-check: false
+              third_party: true
+              description: "https://github.com/intel/tinycbor/blob/main/README"
+              licenses:
+                  - {name: "MIT License", path: "LICENSE"}

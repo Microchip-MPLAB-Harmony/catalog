@@ -1,0 +1,40 @@
+# yaml-language-server: $schema=./harmony-catalog.schema.json
+
+#
+# This file must be updated only by Microchip employees
+#
+catalog:
+    format-version: "3.0.0"
+    name: "Microchip MPLAB Harmony 3 - AWS"
+
+    host:
+        url: "github.com"
+        path: "/aws/"
+        raw_file_url_pattern: "https://raw.githubusercontent.com/aws/{REPO_NAME}/{BRANCH-NAME/TAG-NAME}/{FILE-NAME}"
+    
+        packages:  
+            - name: "Device-Shadow-for-AWS-IoT-embedded-sdk"
+              title: "aws Device-Shadow-for-AWS-IoT-embedded-sdk"
+              package_group: "aws"
+              type: external
+              category: "iot"
+              required: "false"
+              tag-check: false
+              package-check: false
+              third_party: true
+              description: "https://github.com/aws/Device-Shadow-for-AWS-IoT-embedded-sdk/blob/main/README.md"
+              licenses:
+                  - {name: "MIT License", path: "LICENSE"}
+                  
+            - name: "ota-for-aws-iot-embedded-sdk"
+              title: "aws ota-for-aws-iot-embedded-sdk"
+              package_group: "aws"
+              type: external
+              category: "iot"
+              required: "false"
+              tag-check: false
+              package-check: false
+              third_party: true
+              description: "https://github.com/aws/ota-for-aws-iot-embedded-sdk/blob/main/README.md"
+              licenses:
+                  - {name: "MIT License", path: "LICENSE"}
