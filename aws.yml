@@ -25,16 +25,3 @@ catalog:
               description: "https://github.com/aws/Device-Shadow-for-AWS-IoT-embedded-sdk/blob/main/README.md"
               licenses:
                   - {name: "MIT License", path: "LICENSE"}
-                  
-            - name: "ota-for-aws-iot-embedded-sdk"
-              title: "aws ota-for-aws-iot-embedded-sdk"
-              package_group: "aws"
-              type: external
-              category: "iot"
-              required: "false"
-              tag-check: false
-              package-check: false
-              third_party: true
-              description: "https://github.com/aws/ota-for-aws-iot-embedded-sdk/blob/main/README.md"
-              licenses:
-                  - {name: "MIT License", path: "LICENSE"}

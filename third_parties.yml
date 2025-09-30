@@ -69,3 +69,16 @@ catalog:
 #              licenses:
 #                  - { name: "Apache-2.0 License", path: "LICENSE.txt"}
 
+            - name: "ota-for-aws-iot-embedded-sdk"
+              title: "aws ota-for-aws-iot-embedded-sdk"
+              package_group: "aws"
+              type: external
+              category: "iot"
+              required: "false"
+              tag-check: false
+              package-check: false
+              third_party: true
+              description: "https://github.com/Microchip-MPLAB-Harmony/ota-for-aws-iot-embedded-sdk/blob/main/README.md"
+              licenses:
+                  - {name: "MIT License", path: "LICENSE"}
+
