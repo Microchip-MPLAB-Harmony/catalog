@@ -43,7 +43,7 @@ catalog:
         - { name: "Microchip MPLAB Harmony 3 - Kudelski", url: "file:///kudelski.yml"}
         - { name: "Microchip MPLAB Harmony 3 - FreeRTOS", url: "file:///freertos.yml"}
         - { name: "Microchip MPLAB Harmony 3 - SHD", url: "file:///shd.yml"}
-#        - { name: "Microchip MPLAB Harmony 3 - AWS IoT", url: "file:///aws_iot.yml"}
+        - { name: "Microchip MPLAB Harmony 3 - AWS IoT", url: "file:///aws_iot.yml"}
         - { name: "Microchip MPLAB Harmony 3 - AWS", url: "file:///aws.yml"}
         - { name: "Microchip MPLAB Harmony 3 - Mbed TLS", url: "file:///mbedtls.yml"}
         - { name: "Microchip MPLAB Harmony 3 - Intel", url: "file:///intel.yml"}
