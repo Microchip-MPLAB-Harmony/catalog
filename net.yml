@@ -123,7 +123,7 @@ catalog:
               description: "https://github.com/Microchip-MPLAB-Harmony/net_apps_sama7d6/blob/master/readme.md"
               licenses:
                   - {name: "Microchip Software License Agreement", path: "Microchip_SLA001.md"}
-                  
+
             - name: "net_apps_sam_9x7"
 #              title: "Harmony 3 - Networking Application Examples for SAM 9X7 family"
               parent: "net"
@@ -247,20 +247,6 @@ catalog:
               package-check: true
               third_party: false
               description: "https://github.com/Microchip-MPLAB-Harmony/net_apps_pic32_bz6/blob/master/readme.md"
-              licenses:
-                  - {name: "Microchip Software License Agreement", path: "Microchip_SLA001.md"}
-
-            - name: "net_apps_pic32cxbz6_wbz6"
-#              title: "Harmony 3 - Networking Application Examples for PIC32CX-BZ6 / WBZ653 Family"
-              parent: "net"
-              package_group: "Harmony 3 Networking Stack"
-              type: "application"
-              category: "network"
-              required: "false"
-              tag-check: true
-              package-check: true
-              third_party: false
-              description: "https://github.com/Microchip-MPLAB-Harmony/net_apps_pic32cxbz6_wbz6/blob/master/readme.md"
               licenses:
                   - {name: "Microchip Software License Agreement", path: "Microchip_SLA001.md"}
 
