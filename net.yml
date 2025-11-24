@@ -208,7 +208,7 @@ catalog:
               licenses:
                   - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
 
-            - name: "net_apps_pic32cz_ca"
+            - name: "net_apps_pic32cz_ca8x_ca9x"
 #              title: "Harmony 3 - Networking Application Examples for PIC32CZ_CA family"
               parent: "net"
               package_group: "Harmony 3 Networking Stack"
@@ -218,9 +218,9 @@ catalog:
               tag-check: true
               package-check: true
               third_party: false
-              description: "https://github.com/Microchip-MPLAB-Harmony/net_apps_pic32cz_ca/blob/master/readme.md"
+              description: "https://github.com/Microchip-MPLAB-Harmony/net_apps_pic32cz_ca8x_ca9x/blob/master/readme.md"
               licenses:
-                  - {name: "MPLAB Harmony license", path: "mplab_harmony_license.md"}
+                  - {name: "MPLAB Harmony license", path: "License.md"}
 
             - name: "net_apps_pic32cx_sg41"
 #              title: "Harmony 3 - Networking Application Examples for PIC32CX_SG41 family"
